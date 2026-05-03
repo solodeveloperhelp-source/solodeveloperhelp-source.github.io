@@ -27,7 +27,7 @@
 </head>
 <body>
   <h1>AIBass Privacy Policy</h1>
-  <p class="muted">Last updated: 2026-05-02</p>
+  <p class="muted">Last updated: 2026-05-03</p>
 
   <p>
     AIBass is an offline music player for local playback of music and supported media files stored on the user's device.
@@ -39,10 +39,16 @@
     AIBass does not require a user account and does not upload the user's local music files to developer-owned servers.
   </p>
   <p>
-    To provide music playback and library features, the app may access local audio files, supported media files and related metadata available through Android media storage, such as file name, artist, album, duration and file location on the device.
+    To provide music playback and library features, the app may access local audio files, supported media files and related metadata available through Android media storage, such as file name, title, artist, album, duration, artwork and file location on the device.
   </p>
   <p>
-    The app may also store local app data on the device, including playlists, favorites, equalizer settings, playback settings, sleep timer settings and other preferences needed for the player to work.
+    If supported video or MP4 playback features are enabled by the user, the app may access selected local video or media files needed for playback.
+  </p>
+  <p>
+    The app may also store local app data on the device, including playlists, favorites, folder selections, equalizer settings, playback settings, sleep timer settings, theme settings, language settings and other preferences needed for the player to work.
+  </p>
+  <p>
+    The app may create local diagnostic information, such as a local crash or error file, to help identify app problems. This diagnostic information is not automatically uploaded to developer-owned servers.
   </p>
 
   <h2>2. What the App Does Not Do</h2>
@@ -51,6 +57,9 @@
   </p>
   <p>
     AIBass does not intentionally upload the user's local music library to developer-owned servers and does not use cloud synchronization for the user's music files.
+  </p>
+  <p>
+    AIBass does not require registration, does not require a user account and does not request access to contacts, messages, call logs or precise GPS location.
   </p>
 
   <h2>3. Android Permissions</h2>
@@ -61,30 +70,39 @@
     <strong>READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE</strong> may be used to find and play local music files stored on the device.
   </p>
   <p>
+    <strong>READ_MEDIA_VIDEO / READ_MEDIA_VISUAL_USER_SELECTED</strong> may be used only if the user enables supported video or MP4 playback features. This permission is used to find, display and play selected local video or media files.
+  </p>
+  <p>
     <strong>FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PLAYBACK</strong> may be used to keep music playback active in the background and show media playback controls.
   </p>
   <p>
     <strong>MODIFY_AUDIO_SETTINGS</strong> may be used for audio output, equalizer and playback-related audio control.
   </p>
   <p>
-    <strong>INTERNET / ACCESS_NETWORK_STATE</strong> may be used by advertising, consent, billing or related SDK services.
+    <strong>INTERNET / ACCESS_NETWORK_STATE</strong> may be used by advertising, billing, support links or related SDK services.
   </p>
   <p>
-    <strong>Advertising ID permission</strong> may be used by advertising SDKs if available on the device and allowed by the user and Google Play services.
+    <strong>AD_ID</strong> may be used by advertising SDKs if Advertising ID is available on the device and allowed by the user and Google Play services.
+  </p>
+  <p>
+    <strong>BILLING</strong> may be used to purchase and verify the optional “Remove ads” subscription through Google Play.
   </p>
 
   <h2>4. Advertising and Consent</h2>
   <p>
-    AIBass may contain advertising. The app may use Google AdMob, Google User Messaging Platform and AppLovin MAX advertising technologies.
+    AIBass may contain advertising. The app uses Start.io advertising technology to load, show, measure and protect ads.
   </p>
   <p>
-    Advertising SDKs may process data needed to load, show, measure and protect ads, including device identifiers, Advertising ID when available, IP address, app interactions, approximate location derived from network information, diagnostics and other technical data.
+    Start.io and its advertising partners may process data needed for advertising, including device identifiers, Advertising ID when available, IP address, app interactions, approximate location derived from network or IP information, diagnostics and other technical data.
+  </p>
+  <p>
+    Ads may be personalized or non-personalized depending on the user's region, device settings, consent status and advertising platform requirements.
   </p>
   <p>
     In regions where consent is required, the user may be shown a consent request before personalized advertising is used. The availability and content of the consent request may depend on the user's region and applicable requirements.
   </p>
   <p>
-    The user can manage advertising-related choices through the consent dialog where available, Google settings, device settings or other privacy controls provided by the operating system and advertising services.
+    The user can manage advertising-related choices through device settings, Google settings or other privacy controls provided by the operating system and advertising services.
   </p>
 
   <h2>5. In-App Purchases and Subscriptions</h2>
@@ -92,7 +110,7 @@
     AIBass may offer an optional subscription that disables advertising blocks while the subscription is active.
   </p>
   <p>
-    Payments and subscription management are processed by Google Play. AIBass does not receive or store the user's full payment card number or bank details.
+    Payments and subscription management are processed by Google Play. AIBass does not receive or store the user's full payment card number, bank card details or bank account information.
   </p>
   <p>
     The app may receive purchase status information from Google Play Billing to verify whether the subscription is active and to enable or disable advertising-related features accordingly.
@@ -103,7 +121,10 @@
     AIBass does not sell the user's personal data.
   </p>
   <p>
-    Some data may be processed by third-party service providers used in the app, including advertising, consent, billing and platform services. These providers process data according to their own privacy policies and applicable requirements.
+    Some data may be processed by third-party service providers used in the app, including advertising, billing and platform services. These providers process data according to their own privacy policies and applicable requirements.
+  </p>
+  <p>
+    Third-party services used by the app may include Start.io for advertising and Google Play / Google Play Billing for purchases and subscription verification.
   </p>
   <p>
     The user may also choose to share information manually, for example by using the Android system share function or by contacting support through an email app. In that case, the selected external app or service processes the shared data under its own terms and privacy policy.
@@ -111,10 +132,13 @@
 
   <h2>7. Data Storage and Deletion</h2>
   <p>
-    AIBass stores app settings and local library-related data on the user's device.
+    AIBass stores app settings, playlists, favorites, folder selections, playback preferences and local library-related data on the user's device.
   </p>
   <p>
-    The user can delete local app data through Android app settings, by clearing the app data, or by uninstalling the app. Local music files are controlled by the user and are not intentionally deleted by AIBass unless the user uses a system or app function that explicitly removes files.
+    The user can delete local app data through Android app settings, by clearing the app data, or by uninstalling the app.
+  </p>
+  <p>
+    Local music files are controlled by the user and are not intentionally deleted by AIBass unless the user uses a system or app function that explicitly removes files.
   </p>
 
   <h2>8. Children's Privacy</h2>
@@ -133,4 +157,4 @@
     <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>
   </p>
 </body>
-</html> 
+</html>
