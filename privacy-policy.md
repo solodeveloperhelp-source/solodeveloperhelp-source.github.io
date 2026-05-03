@@ -134,5 +134,5 @@ FastFile не предназначен специально для детей м
 ## 16. Контакты
 
 Разработчик: SoloDeveloperHelp  
-Email: solo.developer.help@gmail.com 
+Email: solo.developer.help@gmail.com  
 URL политики: https://solodeveloperhelp-source.github.io/privacy-policy.md
