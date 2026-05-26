@@ -27,59 +27,70 @@
 </head>
 <body>
   <h1>AIBass Privacy Policy</h1>
-  <p class="muted">Last updated: 2026-05-03</p>
+  <p class="muted">Last updated: 2026-05-26</p>
 
   <p>
-    AIBass is an offline music player for local playback of music and supported media files stored on the user's device.
-    The main playback, equalizer, playlists, favorites, sleep timer and app settings work locally on the device.
+    AIBass is a music player for local playback of audio files stored on the user's device.
+    The main playback, equalizer, playlists, favorites, sleep timer, language settings, theme settings and other player settings work on the device.
   </p>
 
-  <h2>1. Information the App Uses</h2>
+  <h2>1. Information the App Accesses or Stores Locally</h2>
   <p>
     AIBass does not require a user account and does not upload the user's local music files to developer-owned servers.
   </p>
   <p>
-    To provide music playback and library features, the app may access local audio files, supported media files and related metadata available through Android media storage, such as file name, title, artist, album, duration, artwork and file location on the device.
+    To provide music playback and library features, the app may access local audio files and related metadata available through Android media storage, such as file name, title, artist, album, duration, artwork and file location on the device.
   </p>
   <p>
-    If supported video or MP4 playback features are enabled by the user, the app may access selected local video or media files needed for playback.
+    The app may store local app data on the device, including playlists, favorites, playback queue data, custom song order, equalizer settings, playback settings, sleep timer settings, theme settings, language settings, subscription status cache and other preferences needed for the player to work.
   </p>
   <p>
-    The app may also store local app data on the device, including playlists, favorites, folder selections, equalizer settings, playback settings, sleep timer settings, theme settings, language settings and other preferences needed for the player to work.
-  </p>
-  <p>
-    The app may create local diagnostic information, such as a local crash or error file, to help identify app problems. This diagnostic information is not automatically uploaded to developer-owned servers.
+    Local music files remain controlled by the user. AIBass does not claim ownership of the user's local audio files.
   </p>
 
-  <h2>2. What the App Does Not Do</h2>
+  <h2>2. Usage and Diagnostics</h2>
   <p>
-    AIBass does not provide a music catalog, does not distribute music content and does not claim ownership of the user's local audio files.
+    AIBass includes an optional setting called "Usage and diagnostics". This setting may be enabled by default and can be turned off in the app settings or in the bug report screen where available.
   </p>
   <p>
-    AIBass does not intentionally upload the user's local music library to developer-owned servers and does not use cloud synchronization for the user's music files.
+    When usage and diagnostics are enabled, the app may use Firebase services to collect app diagnostics and usage information, including app interactions, app version, device and operating system information, performance information, crash reports, non-fatal error reports and technical logs needed to identify and fix problems.
   </p>
   <p>
-    AIBass does not require registration, does not require a user account and does not request access to contacts, messages, call logs or precise GPS location.
+    Firebase Analytics may be used to understand how app features are used and to improve the app. Firebase Crashlytics may be used to collect crash and error reports. Firebase Performance Monitoring may be used to measure app performance. Firebase Remote Config may be used to download configuration values, such as whether certain app warnings or experimental features are enabled.
+  </p>
+  <p>
+    If usage and diagnostics are turned off, the app disables collection for Firebase Analytics, Crashlytics and Performance Monitoring where supported by the SDK and app configuration. Firebase Remote Config may still be used to fetch basic app configuration values that do not require the user to create an account.
   </p>
 
-  <h2>3. Android Permissions</h2>
+  <h2>3. Bug Reports and Support Requests</h2>
+  <p>
+    The app may allow the user to create a bug report. A bug report may include information entered by the user, app version, Android version, device model, selected diagnostic logs and other technical details needed to investigate the issue.
+  </p>
+  <p>
+    The user may also manually attach files, screenshots, images or videos to a support message using Android system selection or sharing tools. These attachments are selected by the user and are sent only when the user chooses to send the support message through an external email or sharing app.
+  </p>
+  <p>
+    External email, sharing or support apps process the shared information according to their own terms and privacy policies.
+  </p>
+
+  <h2>4. Android Permissions</h2>
   <p>
     Depending on the Android version and device, AIBass may request permissions required for normal player operation.
   </p>
   <p>
-    <strong>READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE</strong> may be used to find and play local music files stored on the device.
+    <strong>READ_MEDIA_AUDIO / READ_EXTERNAL_STORAGE</strong> may be used to find and play local audio files stored on the device. READ_EXTERNAL_STORAGE is used only on older Android versions where it is required.
   </p>
   <p>
-    <strong>READ_MEDIA_VIDEO / READ_MEDIA_VISUAL_USER_SELECTED</strong> may be used only if the user enables supported video or MP4 playback features. This permission is used to find, display and play selected local video or media files.
-  </p>
-  <p>
-    <strong>FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PLAYBACK</strong> may be used to keep music playback active in the background and show media playback controls.
+    <strong>FOREGROUND_SERVICE / FOREGROUND_SERVICE_MEDIA_PLAYBACK</strong> may be used to keep music playback active in the background and to show media playback controls in Android notifications.
   </p>
   <p>
     <strong>MODIFY_AUDIO_SETTINGS</strong> may be used for audio output, equalizer and playback-related audio control.
   </p>
   <p>
-    <strong>INTERNET / ACCESS_NETWORK_STATE</strong> may be used by advertising, billing, support links or related SDK services.
+    <strong>POST_NOTIFICATIONS</strong> may be used on supported Android versions to show playback notifications, media controls and other app notifications.
+  </p>
+  <p>
+    <strong>INTERNET / ACCESS_NETWORK_STATE</strong> may be used by advertising, Firebase services, billing, support links or related SDK services.
   </p>
   <p>
     <strong>AD_ID</strong> may be used by advertising SDKs if Advertising ID is available on the device and allowed by the user and Google Play services.
@@ -87,8 +98,11 @@
   <p>
     <strong>BILLING</strong> may be used to purchase and verify the optional “Remove ads” subscription through Google Play.
   </p>
+  <p>
+    AIBass does not request broad access to the user's photo or video library for music playback.
+  </p>
 
-  <h2>4. Advertising and Consent</h2>
+  <h2>5. Advertising and Consent</h2>
   <p>
     AIBass may contain advertising. The app uses Start.io advertising technology to load, show, measure and protect ads.
   </p>
@@ -105,7 +119,7 @@
     The user can manage advertising-related choices through device settings, Google settings or other privacy controls provided by the operating system and advertising services.
   </p>
 
-  <h2>5. In-App Purchases and Subscriptions</h2>
+  <h2>6. In-App Purchases and Subscriptions</h2>
   <p>
     AIBass may offer an optional subscription that disables advertising blocks while the subscription is active.
   </p>
@@ -116,23 +130,39 @@
     The app may receive purchase status information from Google Play Billing to verify whether the subscription is active and to enable or disable advertising-related features accordingly.
   </p>
 
-  <h2>6. Data Sharing</h2>
+  <h2>7. Third-Party Services</h2>
+  <p>
+    AIBass may use third-party services and SDKs to provide app functionality, advertising, diagnostics, performance monitoring, remote configuration, purchases and platform services.
+  </p>
+  <p>
+    Third-party services used by the app may include:
+  </p>
+  <ul>
+    <li>Google Play services and Google Play Billing for app platform features and subscription processing.</li>
+    <li>Firebase Analytics for usage analytics when usage and diagnostics are enabled.</li>
+    <li>Firebase Crashlytics for crash and error reporting when usage and diagnostics are enabled.</li>
+    <li>Firebase Performance Monitoring for performance diagnostics when usage and diagnostics are enabled.</li>
+    <li>Firebase Remote Config for remote app configuration values.</li>
+    <li>Start.io for advertising and ad measurement.</li>
+  </ul>
+  <p>
+    These third-party services may process data according to their own privacy policies and applicable legal requirements.
+  </p>
+
+  <h2>8. Data Sharing</h2>
   <p>
     AIBass does not sell the user's personal data.
   </p>
   <p>
-    Some data may be processed by third-party service providers used in the app, including advertising, billing and platform services. These providers process data according to their own privacy policies and applicable requirements.
+    Some data may be processed by third-party service providers used in the app, including advertising, billing, Firebase and platform services. These providers process data according to their own privacy policies and applicable requirements.
   </p>
   <p>
-    Third-party services used by the app may include Start.io for advertising and Google Play / Google Play Billing for purchases and subscription verification.
-  </p>
-  <p>
-    The user may also choose to share information manually, for example by using the Android system share function or by contacting support through an email app. In that case, the selected external app or service processes the shared data under its own terms and privacy policy.
+    The user may also choose to share information manually, for example by using the Android system share function, by attaching files to a bug report, or by contacting support through an email app. In that case, the selected external app or service processes the shared data under its own terms and privacy policy.
   </p>
 
-  <h2>7. Data Storage and Deletion</h2>
+  <h2>9. Data Storage and Deletion</h2>
   <p>
-    AIBass stores app settings, playlists, favorites, folder selections, playback preferences and local library-related data on the user's device.
+    AIBass stores app settings, playlists, favorites, playback preferences and local library-related data on the user's device.
   </p>
   <p>
     The user can delete local app data through Android app settings, by clearing the app data, or by uninstalling the app.
@@ -140,18 +170,32 @@
   <p>
     Local music files are controlled by the user and are not intentionally deleted by AIBass unless the user uses a system or app function that explicitly removes files.
   </p>
+  <p>
+    Data processed by third-party services may be retained according to the retention rules of those services and applicable legal requirements.
+  </p>
 
-  <h2>8. Children's Privacy</h2>
+  <h2>10. What the App Does Not Do</h2>
+  <p>
+    AIBass does not provide a music catalog, does not distribute music content and does not claim ownership of the user's local audio files.
+  </p>
+  <p>
+    AIBass does not intentionally upload the user's local music library to developer-owned servers and does not use cloud synchronization for the user's music files.
+  </p>
+  <p>
+    AIBass does not require registration, does not require a user account and does not request access to contacts, messages, call logs or precise GPS location.
+  </p>
+
+  <h2>11. Children's Privacy</h2>
   <p>
     AIBass is not designed to knowingly collect personal information from children. If a parent or guardian believes that a child has provided personal information through the app, they can contact us using the email address below.
   </p>
 
-  <h2>9. Changes to This Policy</h2>
+  <h2>12. Changes to This Policy</h2>
   <p>
-    This Privacy Policy may be updated when the app functionality, data practices, advertising integrations, billing features or legal requirements change. The updated version will be posted on this page.
+    This Privacy Policy may be updated when the app functionality, data practices, advertising integrations, Firebase integrations, billing features or legal requirements change. The updated version will be posted on this page.
   </p>
 
-  <h2>10. Contact</h2>
+  <h2>13. Contact</h2>
   <p>
     For privacy questions, support requests or app-related inquiries, contact:
     <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>
