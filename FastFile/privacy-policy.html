@@ -1,77 +1,732 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Политика конфиденциальности FastFile</title>
-<style>
-:root { color-scheme: light; }
-* { box-sizing: border-box; }
-body { margin:0; padding:0; background:#fff; color:#1a1a1a; font-family:Arial,Helvetica,sans-serif; line-height:1.65; }
-main { max-width:860px; margin:0 auto; padding:40px 24px 64px; }
-h1 { font-size:38px; line-height:1.2; margin:0 0 28px; }
-h2 { font-size:27px; line-height:1.3; margin:36px 0 14px; }
-h3 { font-size:21px; margin:28px 0 12px; }
-p, li { font-size:18px; }
-p { margin:0 0 18px; }
-ul,ol { margin:0 0 22px 26px; padding:0; }
-li { margin:8px 0; }
-a { color:#075fc5; overflow-wrap:anywhere; }
-code { overflow-wrap:anywhere; }
-@media(max-width:600px) { main { padding:30px 19px 48px; } h1 {font-size:32px;} h2 {font-size:24px;} p,li {font-size:17px;} }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>FastFile — Privacy policy</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #f4f5f7; color: #202124; }
+    header, main { max-width: 880px; margin: auto; padding: 24px 20px; }
+    header { position: relative; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px 16px; }
+    a { color: #1468c5; overflow-wrap: anywhere; }
+    article { background: #fff; border-radius: 18px; padding: 24px; margin-bottom: 28px; scroll-margin-top: 18px; }
+    h1 { line-height: 1.3; margin-top: 0; }
+    h2 { font-size: 1.15rem; line-height: 1.4; margin-top: 26px; }
+    p { overflow-wrap: anywhere; }
+    .date { color: #5f6368; }
+    .language { font-size: 0.95rem; font-weight: 600; margin-bottom: 12px; }
+    @media (max-width: 480px) { header, main { padding: 16px 12px; } article { padding: 18px; } }
+    @media (prefers-color-scheme: dark) {
+      body { background: #101216; color: #eceff4; }
+      article { background: #1b1e24; }
+      a { color: #83b8ff; }
+      .date { color: #a8afb9; }
+    }
+  </style>
 </head>
 <body>
-<main>
-<h1 id="политика-конфиденциальности-fastfile">Политика конфиденциальности FastFile</h1>
-<p>Дата редакции: 2026-11-08</p>
-<h2 id="о-приложении">О приложении</h2>
-<p>FastFile — файловый менеджер для локального просмотра и управления файлами на устройстве. Приложение может выполнять конвертацию, архивирование, распаковку, просмотр медиа, работу с APK-файлами и локальный обмен файлами по Wi-Fi. Для основных функций приложению не нужен аккаунт, регистрация или постоянное подключение к интернету.</p>
-<h2 id="какие-данные-использует-приложение">Какие данные использует приложение</h2>
-<p>• локальные файлы, папки и метаданные Android; • сведения об установленных приложениях, когда пользователь открывает соответствующий раздел; • локальные настройки FastFile: язык, тема, интерфейс, безопасность, корзина и другие параметры; • данные отчёта об ошибке, если пользователь сам отправляет его разработчику; • технические данные использования и диагностики Firebase, если эта настройка включена.</p>
-<p>Файлы, их содержимое и метаданные, список приложений, настройки, сведения корзины и история работы обрабатываются на устройстве. Отдельный очищенный журнал текущего сеанса хранится во внутреннем каталоге приложения для добровольного отчёта. Он ведётся и при выключенной автоматической диагностике, исключён из системного резервного копирования и не отправляется сам по себе.</p>
-<h2 id="что-приложение-не-делает">Что приложение не делает</h2>
-<p>FastFile не требует аккаунта и не использует собственную облачную синхронизацию. Приложение не загружает пользовательские файлы на сервер разработчика автоматически. Передача файлов происходит по действию пользователя: «Поделиться», «Открыть в другом приложении», установка APK, локальный HTTPS-доступ, трансляция на TV или добровольный отчёт с вложениями. Это не исключает передачу технических данных Firebase при включённой диагностике.</p>
-<h2 id="разрешения">Разрешения</h2>
-<p>FastFile может запрашивать доступ к файлам и папкам, управление всеми файлами, уведомления для фоновых операций, вибрацию, сведения о сети и Wi‑Fi, установку пакетов и просмотр списка установленных приложений. Разрешения нужны для выбранных пользователем функций и технической диагностики Firebase.</p>
-<p>Доступ к файлам предоставляется механизмами Android, включая выбор документов и папок и разрешение управления всеми файлами. Пользователь может выдавать и отзывать разрешения в настройках Android. Отзыв может ограничить соответствующие функции; файловые разрешения не дают Firebase самостоятельный доступ к файлам.</p>
-<p>При использовании существующих функций Root или Shizuku доступ выполняется через отдельно предоставленные пользователем полномочия. Для SAF, SD-карт и USB могут потребоваться выбор каталога или системное разрешение доступа к устройству. Разрешения можно отозвать в Android или Shizuku; после отзыва соответствующие операции могут быть недоступны.</p>
-<h2 id="корзина-и-удаление">Корзина и удаление</h2>
-<p>Если корзина включена, удаленные файлы могут перемещаться в FastFileTrash. Если пользователь выбирает окончательное удаление или очищает корзину, восстановление средствами приложения может быть невозможно.</p>
-<h2 id="медиа-pdf-и-файловые-инструменты">Медиа, PDF и файловые инструменты</h2>
-<p>Фото, видео, аудио, PDF-инструменты, конвертация, архивирование, распаковка и просмотр файлов обрабатываются локально на устройстве, кроме случаев, когда пользователь сам отправляет файл через системное действие Android или запускает защищённый локальный HTTPS-доступ.</p>
-<p>При запуске «Трансляция на TV» выбранное видео или его сетевой адрес передаётся выбранному устройству Google Cast. Локальное видео может передаваться временным HTTP-потоком в локальной сети; это отдельная функция от локального HTTPS-доступа. Пользователь сам выбирает устройство и прекращает трансляцию.</p>
-<h2 id="блокировка-запуска-и-биометрия">Блокировка запуска и биометрия</h2>
-<p>Блокировка запуска хранит настройки локально. Биометрическая проверка выполняется системным компонентом Android; FastFile не получает и не хранит отпечатки пальцев, данные лица или другие биометрические шаблоны.</p>
-<h2 id="использование-и-диагностика">Использование и диагностика</h2>
-<p>Использование и диагностика включены по умолчанию. Настройка на экране «Отчёт об ошибке» управляет Firebase Analytics, Crashlytics и Performance Monitoring. При её выключении FastFile останавливает их сбор, сбрасывает локальные данные Analytics и удаляет ещё не отправленные отчёты Crashlytics. Это не удаляет уже переданные данные.</p>
-<p>Crashlytics может получать версию приложения и Android, модель устройства, идентификаторы установки и отчёта, состояние приложения, сообщения исключений и трассировки ошибок. FastFile также задаёт технические ключи версии Android API и модели устройства.</p>
-<p>Performance Monitoring может собирать длительность запуска, время работы на переднем и заднем плане, показатели медленных и зависших кадров при поддерживаемой отрисовке, сведения о версии приложения, ОС и устройстве. Набор автоматических показателей зависит от SDK и устройства. FastFile добавляет технические измерения длительности открытия разделов, поиска и проверки дубликатов, чтения каталогов и подсчёта элементов, копирования, перемещения, удаления, переименования, создания папок, получения свойств, создания и распаковки архивов и выборочного извлечения. Измерения могут включать количество обработанных элементов и байтов, признаки использования кеша, категорию хранилища и формат архива, сбои, отмены, тайм-ауты, повторные попытки и длительные операции. Для сетевых операций измеряются длительность, задержка соединения, объём и скорость передачи. Автоматический HTTP/S-мониторинг работает для поддерживаемых клиентов; локальный файловый доступ и медиапотоки, URL которых могут содержать имена или пути пользовательских файлов, исключены из этой инструментации и не передают свои URL в Performance Monitoring. Собственные измерения не содержат имён, путей или содержимого файлов, поисковых запросов, адресов устройств, паролей или контактных данных. Сбор подчиняется существующей настройке использования и диагностики.</p>
-<p>Analytics может получать технические события сеанса и событие открытия раздела section_open с названием раздела, а также идентификаторы и сведения об использовании, создаваемые SDK.</p>
-<p>Remote Config загружает параметры при включённой диагностике: usage_diagnostics_enabled_default (значение диагностики по умолчанию), show_storage_warning (предупреждение о хранилище) и disable_experimental_features (отключение экспериментальных функций). Полученные значения сохраняются SDK; сохранённый выбор пользователя они не переопределяют. Код FastFile не запускает новую загрузку при выключенной диагностике. Запросы Firebase могут включать идентификатор установки, версию приложения, язык и технические сетевые сведения, включая IP-адрес.</p>
-<p>FastFile не добавляет содержимое пользовательских файлов, их имена, полные локальные пути или адресную книгу в собственные Firebase-события и ключи. Однако автоматические сообщения исключений и сведения SDK могут содержать дополнительные данные, если они попали в ошибку или запрос.</p>
-<h2 id="цели-обработки">Цели обработки</h2>
-<p>Техническая диагностика помогает определить причины сбоев; анализ производительности — выявить медленный запуск и отрисовку; сведения об ошибках — подготовить исправления. Remote Config предназначен для получения удалённой конфигурации приложения. Добровольные отчёты используются для рассмотрения описанной проблемы или предложения и ответа на указанный email. Технические события использования помогают понять, в каком разделе возникла проблема.</p>
-<h2 id="сторонние-технические-сервисы">Сторонние технические сервисы</h2>
-<p>Google Firebase — сторонний поставщик Analytics, Crashlytics, Performance Monitoring и Remote Config. Google обрабатывает технические данные по своим правилам. При выбранной пользователем трансляции на TV используется Google Cast. Официальные документы: Firebase Privacy and Security: https://firebase.google.com/support/privacy Google Privacy Policy: https://policies.google.com/privacy</p>
-<h2 id="добровольные-отчёты-об-ошибках">Добровольные отчёты об ошибках</h2>
-<p>Отчёт включает обязательные описание, дату и время; тип отчёта; категорию и email для обратной связи, если они указаны; версию и пакет FastFile, версию Android, производителя, модель устройства, сведения платы и время создания отчёта. По выбору пользователя добавляются очищенный диагностический журнал и выбранные скриншоты или файлы с исходными данными и названиями. Перед отправкой показывается проверка отчёта, затем открывается Gmail или системный выбор приложения; отправку подтверждает пользователь в выбранном приложении. Разработчик получает эти сведения и данные письма, включая адрес отправителя. Не добавляйте ненужные личные данные; очищение журнала не гарантирует удаления всех чувствительных сведений из произвольного текста и вложений.</p>
-<h2 id="хранение-и-защита">Хранение и защита</h2>
-<p>Локальные данные приложения хранятся на устройстве. Архивные операции и конвертация выполняются локально с файлами, выбранными пользователем. Защищённый локальный HTTPS-доступ работает только после запуска пользователем и только в пределах доступной сети. Технические диагностические данные Firebase передаются в зашифрованном виде. Блокировка запуска защищает вход в интерфейс FastFile, но не заменяет системную блокировку Android, шифрование устройства и резервное копирование важных файлов.</p>
-<p>Локальные настройки, внутренний диагностический журнал и временные файлы находятся в каталоге приложения. При удалении FastFile Android удаляет его внутренние данные; пользовательские файлы и корзина в общем хранилище не удаляются автоматически. Некоторые настройки могут сохраняться и восстанавливаться системным резервным копированием Android, если оно включено. Диагностические журналы, защищённые настройки и скрытое хранилище исключены правилами резервного копирования приложения.</p>
-<p>Переданные технические сведения могут храниться Firebase, а добровольные отчёты — у разработчика и почтовых сервисов. Сроки определяются правилами Firebase, настройками сервисов и обработкой отчёта; фиксированный срок здесь не устанавливается. Удаление приложения или выключение диагностики не удаляет уже переданные данные. По вопросам обработки и удаления можно написать на solo.developer.help@gmail.com; доступные действия зависят от сервиса и возможности найти соответствующие данные.</p>
-<p>FastFile использует системные механизмы Android для доступа к файлам; пользователь сам управляет разрешениями. Механизмы защиты уменьшают риски, но не обеспечивают абсолютной безопасности.</p>
-<p>HiddenVault хранит зашифрованные файлы и зашифрованный индекс во внутреннем каталоге приложения. При просмотре и восстановлении создаются временные расшифрованные копии в кеше; при прерванных операциях могут сохраняться резервные зашифрованные копии и записи восстановления. Очистка служебного кеша не должна удалять зашифрованные данные при ошибке индекса. Пароль хранилища не отправляется разработчику. Удаление приложения удаляет внутреннее хранилище; системное резервное копирование HiddenVault отключено. Сохраните важные файлы вне хранилища до удаления приложения. Разработчик не может восстановить забытый пароль.</p>
-<h2 id="выбор-пользователя-и-вопросы-конфиденциальности">Выбор пользователя и вопросы конфиденциальности</h2>
-<p>Можно отказаться от необязательной автоматической диагностики на экране «Отчёт об ошибке», отдельно выбрать включение журнала и вложений в добровольный отчёт, управлять разрешениями Android и прекратить сетевой доступ или трансляцию. В приложении нет функции удаления уже переданных Firebase данных. Запросы по конфиденциальности, обработке или удалению данных направляются на solo.developer.help@gmail.com.</p>
-<h2 id="дети">Дети</h2>
-<p>FastFile не предназначен специально для сбора персональных данных детей. Не следует включать ненужные сведения о детях в добровольные отчёты или вложения. По вопросам обработки таких данных можно обратиться к разработчику по указанному email.</p>
-<h2 id="изменения-политики">Изменения политики</h2>
-<p>Текст политики может обновляться при изменении функций, разрешений, диагностики Firebase, файловых инструментов или требований Google Play. Актуальная версия политики отображается в FastFile и может быть опубликована на сайте разработчика.</p>
-<h2 id="контакты">Контакты</h2>
-<p>Разработчик: SoloDeveloperHelp</p>
-<p>Email: solo.developer.help@gmail.com</p>
-  
-</main>
+  <header>
+    <strong>FastFile</strong>
+    <nav aria-label="Language">
+      <a href="#en" hreflang="en">English</a>
+      <a href="#uk" hreflang="uk">Українська</a>
+      <a href="#ru" hreflang="ru">Русский</a>
+      <a href="#de" hreflang="de">Deutsch</a>
+      <a href="#es" hreflang="es">Español</a>
+      <a href="#fr" hreflang="fr">Français</a>
+      <a href="#pl" hreflang="pl">Polski</a>
+    </nav>
+  </header>
+  <main>
+    <article id="en" lang="en">
+      <div class="language">English</div>
+      <h1>Privacy policy</h1>
+      <p class="date">Revision date: 2026-11-13</p>
+      <section>
+        <h2>About the app</h2>
+        <p>FastFile is a file manager for local viewing and management of files on the device. The app can perform conversion, archiving, extraction, media viewing, APK file handling, and file exchange on the local network. The main functions do not require an account, registration, or a permanent internet connection.</p>
+      </section>
+      <section>
+        <h2>What data the app uses</h2>
+        <p>• Local files, folders, and Android metadata;<br>
+          • Installed-app information when the user opens the apps section;<br>
+          • Local FastFile settings such as language, theme, interface, security, trash, and other preferences;<br>
+          • Bug report information if the user chooses to send a report to the developer;<br>
+          • Firebase usage and diagnostic information when that setting is enabled;<br>
+          • Local plugin identities, signing information, granted capabilities and enabled or blocked states;<br>
+          • Local app integrity results and security events when local logging is enabled.</p>
+        <p>Files, their contents and metadata, the app list, settings, trash information, and activity history are processed on the device. When local logging is enabled, a separate sanitized session log is saved in private app storage for voluntary reports. Local logging is independent of automatic Firebase diagnostics; private logs are excluded from Android backup and are not sent automatically. Manual APK installations may also save a sanitized copy in shared storage.</p>
+      </section>
+      <section>
+        <h2>What the app does not do</h2>
+        <p>FastFile does not require an account or provide its own cloud sync. It does not automatically upload user files to a developer server. Files are transferred through a user action: Share, Open in another app, APK installation, local HTTPS access, casting to TV, or a voluntary report with attachments. This does not exclude Firebase technical data sharing when diagnostics are enabled.</p>
+        <p>Optional plugin processing also requires the user to select a file and confirm its transfer. The recipient plugin’s handling of delivered data follows its own permissions and privacy policy.</p>
+      </section>
+      <section>
+        <h2>Permissions</h2>
+        <p>FastFile may request file and folder access, All files access, notifications for background operations, vibration, network and Wi‑Fi information, package installation, and installed-app list access. Permissions support user-selected features and Firebase technical diagnostics.</p>
+        <p>File access uses Android mechanisms, including document and folder selection and All files access. Users can grant or revoke permissions in Android settings. Revoking access may limit related features; file permissions do not give Firebase independent access to files.</p>
+        <p>Existing Root and Shizuku functions use privileges separately granted by the user. SAF, SD cards and USB may require selecting a directory or a system device access grant. Grants can be revoked in Android or Shizuku; the corresponding operations may then be unavailable.</p>
+        <p>Optional plugins require explicit confirmation before FastFile grants capabilities and before each selected-file transfer. The confirmation shows the package name, declared developer, version, SHA-256 signing certificate hashes, requested Android permissions and FastFile capabilities. A valid APK signature does not establish the developer’s honesty or the safety of its processing. Unknown plugins are not official and have restricted FastFile capabilities. A plugin’s Android permissions are independent of its FastFile access.</p>
+      </section>
+      <section>
+        <h2>Trash and deletion</h2>
+        <p>When trash is enabled, deleted files may be moved to .fastfile_trash. If the user chooses permanent deletion or empties the trash, recovery through the app may be impossible.</p>
+      </section>
+      <section>
+        <h2>Media, PDF tools and plugins</h2>
+        <p>Photos, video, audio, PDF tools, conversion, archiving, extraction, and file viewing are processed locally on the device. Transfers to other apps, devices or optional plugins require a user action.</p>
+        <p>When Cast to TV is started, the selected video or its network address is passed to the chosen Google Cast device. Local video may use a temporary HTTP stream on the local network; this is separate from local HTTPS access. Users select the receiver and stop casting themselves.</p>
+        <p>Plugins are separate Android apps. For a confirmed operation, FastFile exposes a read-only snapshot of the selected file for at most two minutes. Plugin API does not expose FastFile’s private directories or unrestricted file browsing. OCR images are re-encoded without the original EXIF metadata. A plugin may retain delivered data or transfer it using its own Android permissions and services. Review its developer’s privacy policy. Revoking access ends new Plugin API access and transfers controlled by FastFile; it cannot erase data already delivered to the plugin.</p>
+        <p>For faster previews, FastFile may extract archive files to its internal cache and keep thumbnails in memory or a local cache. Previews of hidden images and videos are created after the vault is unlocked; the hidden file list uses separate temporary decrypted copies that are deleted after processing. Thumbnails for this list are kept only in memory during the unlocked session. If the process crashes, temporary copies may remain until cache cleanup. These operations do not send files or thumbnails to the developer’s server.</p>
+        <p>Unused cached files have a shared budget of 20 MiB and are cleaned automatically. Active working copies, files handed to other apps, and data needed for recovery may temporarily use more space. They are protected while in use; unnecessary temporary files are removed after release, and recovery copies are kept until recovery can safely finish.</p>
+      </section>
+      <section>
+        <h2>Launch lock and biometrics</h2>
+        <p>Launch lock stores its settings locally. Biometric verification is performed by the Android system component; FastFile does not receive or store fingerprints, face data or other biometric templates.</p>
+      </section>
+      <section>
+        <h2>Usage and diagnostics</h2>
+        <p>Usage and diagnostics are off by default and enabled only when you choose. The setting on the Bug report screen controls Firebase Analytics, Crashlytics, and Performance Monitoring. Turning it off stops their collection, resets local Analytics data, and deletes unsent Crashlytics reports. It does not delete data already sent.</p>
+        <p>Crashlytics may receive the app and Android versions, device model, installation and report identifiers, app state, exception messages, and stack traces. FastFile also sets technical keys for Android API version and device model.</p>
+        <p>Performance Monitoring may collect startup duration, foreground and background time, slow and frozen frame metrics where rendering is supported, and information about the app version, OS and device. Automatic metrics depend on the SDK and device. FastFile adds technical timing measurements for opening sections, search and duplicate scans, directory reading and item counting, copying, moving, deleting, renaming, folder creation, properties retrieval, archive creation and extraction, and selected-entry extraction. Measurements may include processed item and byte counts, cache use, storage category and archive format, failures, cancellations, timeouts, retries and long operations. Network operations are measured by duration, connection latency, transferred bytes and transfer rate. Automatic HTTP/S monitoring applies to supported clients; local file access and media streams whose URLs may contain user filenames or paths are excluded from this instrumentation and do not send their URLs to Performance Monitoring. Custom measurements contain no filenames, file paths or contents, search queries, device addresses, passwords or contact details. Collection follows the existing usage and diagnostics setting.</p>
+        <p>Analytics may receive technical session events and the section_open event with the opened section name, as well as SDK-generated identifiers and usage information.</p>
+        <p>Remote Config fetches parameters when diagnostics are enabled: usage_diagnostics_enabled_default (diagnostics default), show_storage_warning (storage warning), and disable_experimental_features (disable experimental features). The SDK stores fetched values; they do not override the saved user choice. FastFile does not start a new fetch when diagnostics are off. Firebase requests may include an installation identifier, app version, language, and technical network information, including an IP address.</p>
+        <p>FastFile does not add user file contents, filenames, full local paths, or the address book to its own Firebase events and keys. However, automatic exception messages and SDK information may contain additional data if it occurs in an error or request.</p>
+      </section>
+      <section>
+        <h2>Purposes of processing</h2>
+        <p>Technical diagnostics help identify crash causes; performance analysis helps find slow startup and rendering; error information supports fixes. Remote Config is used to receive remote app configuration. Voluntary reports are used to review the described problem or suggestion and reply to the supplied email. Technical usage events help identify the section where an issue occurred.</p>
+      </section>
+      <section>
+        <h2>Third-party technical services</h2>
+        <p>Google Firebase is a third-party provider of Analytics, Crashlytics, Performance Monitoring, and Remote Config. Google processes technical data under its own policies. User-selected casting to TV uses Google Cast. Official documents:<br>
+          Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a><br>
+          Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      </section>
+      <section>
+        <h2>Voluntary bug reports</h2>
+        <p>A report contains the required description, date and time; report type; category and reply email if supplied; FastFile version and package, Android version, manufacturer, device model, board information, and report creation time. The user can include a sanitized diagnostic log and selected screenshots or files with their original data and filenames. A review appears first, then Gmail or the system app chooser opens; the user confirms sending in the selected app. The developer receives this information and email details, including the sender address. Avoid unnecessary personal data; log sanitization cannot guarantee removal of every sensitive detail from arbitrary text and attachments.</p>
+      </section>
+      <section>
+        <h2>Storage and protection</h2>
+        <p>Local app data is stored on the device. Archive operations and conversion run locally with files selected by the user. Protected local HTTPS access works only after the user starts it and only within the available network. Firebase technical diagnostic data is transmitted in encrypted form. Launch lock protects access to the FastFile interface but does not replace Android screen lock, device encryption, or backups of important files.</p>
+        <p>Local settings, the private diagnostic log, and temporary files are in app storage. Uninstalling FastFile removes its private Android app data; user files and trash in shared storage are not automatically removed. Some settings may be backed up and restored by Android if system backup is enabled. App backup rules exclude diagnostic logs, protected settings, and the hidden vault.</p>
+        <p>Transferred technical information may be stored by Firebase, and voluntary reports by the developer and email providers. Retention depends on Firebase policies, service settings, and report handling; no fixed period is specified here. Uninstalling the app or disabling diagnostics does not delete data already sent. Processing or deletion questions can be sent to <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>; available actions depend on the service and the ability to locate the relevant data.</p>
+        <p>FastFile uses Android system mechanisms for file access; users control permissions. Protective measures reduce risks but cannot provide absolute security.</p>
+        <p>HiddenVault stores encrypted files and an encrypted index in the internal app directory. Viewing and restoring create temporary decrypted copies in the cache; interrupted operations may retain encrypted backups and recovery records. Service cache cleanup must preserve encrypted data when the index fails. The vault password is not sent to the developer. Uninstalling the app removes its internal vault; system backup of HiddenVault is disabled. Save important files outside the vault before uninstalling. The developer cannot recover a forgotten password.</p>
+        <p>FastFile verifies its installed package and signatures locally, without a developer server. Check results and local security events are not sent automatically. A confirmed modification can block regular app functions; an incomplete check may require retrying. Root access alone is not proof that FastFile was modified. Plugin identities and granted capabilities are stored locally in encrypted app storage excluded from Android backup. Local logs contain technical event labels and sanitized error traces; file contents, passwords, tokens and arbitrary action details are omitted.</p>
+      </section>
+      <section>
+        <h2>User choices and privacy questions</h2>
+        <p>Users can opt out of optional automatic diagnostics on the Bug report screen, separately choose logs and attachments for a voluntary report, manage Android permissions, and stop network access or casting. The app has no function for deleting data already sent to Firebase. Privacy, processing, or deletion requests can be sent to <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>.</p>
+        <p>Local logging can be disabled in Settings, independently of Firebase diagnostics. Disabling it stops local recording and log export, but does not automatically erase existing files. Plugin access can be revoked, disabled or locally blocked in the plugin screen; this does not revoke the plugin’s separate Android permissions or delete copies already received. Android settings control those permissions and uninstalling the plugin.</p>
+      </section>
+      <section>
+        <h2>Children</h2>
+        <p>FastFile is not specifically intended to collect personal data from children. Do not include unnecessary information about children in voluntary reports or attachments. Questions about such data can be sent to the developer at the listed email.</p>
+      </section>
+      <section>
+        <h2>Policy changes</h2>
+        <p>This policy may be updated when app features, permissions, Firebase diagnostics, file tools, or Google Play requirements change. The current version is shown inside FastFile and may also be published on the developer website.</p>
+      </section>
+      <section>
+        <h2>Contacts</h2>
+        <p>Developer: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="uk" lang="uk">
+      <div class="language">Українська</div>
+      <h1>Політика конфіденційності</h1>
+      <p class="date">Дата редакції: 2026-11-13</p>
+      <section>
+        <h2>Про застосунок</h2>
+        <p>FastFile — файловий менеджер для локального перегляду та керування файлами на пристрої. Застосунок може виконувати конвертацію, архівування, розпакування, перегляд медіа, роботу з APK-файлами та обмін файлами в локальній мережі. Для основних функцій застосунку не потрібен акаунт, реєстрація або постійне підключення до інтернету.</p>
+      </section>
+      <section>
+        <h2>Які дані використовує застосунок</h2>
+        <p>• локальні файли, папки та метадані, доступні через Android;<br>
+          • відомості про встановлені застосунки, коли користувач відкриває відповідний розділ;<br>
+          • локальні налаштування FastFile: мова, тема, інтерфейс, безпека, кошик та інші параметри;<br>
+          • дані звіту про помилку, якщо користувач сам надсилає його розробнику;<br>
+          • технічні дані використання та діагностики Firebase, якщо це налаштування увімкнено;<br>
+          • локальні відомості про плагіни, їхні підписи, дозволені операції та стан увімкнення або блокування;<br>
+          • результати локальної перевірки цілісності застосунку й події безпеки, якщо локальні журнали увімкнено.</p>
+        <p>Файли, їхній вміст і метадані, список застосунків, налаштування, відомості кошика та історія роботи обробляються на пристрої. Якщо локальні журнали увімкнено, окремий очищений журнал сеансу зберігається у внутрішньому каталозі застосунку для добровільного звіту. Локальні журнали не залежать від автоматичної діагностики Firebase; внутрішні журнали виключено із системного резервного копіювання, і вони не надсилаються автоматично. У разі ручного встановлення APK очищена копія також може зберігатися у спільному сховищі.</p>
+      </section>
+      <section>
+        <h2>Що застосунок не робить</h2>
+        <p>FastFile не вимагає облікового запису й не використовує власну хмарну синхронізацію. Застосунок не завантажує файли користувача на сервер розробника автоматично. Передавання файлів відбувається за дією користувача: «Поділитися», «Відкрити в іншому застосунку», встановлення APK, локальний HTTPS-доступ, трансляція на TV або добровільний звіт із вкладеннями. Це не виключає передавання технічних даних Firebase при ввімкненій діагностиці.</p>
+        <p>Обробка додатковим плагіном також потребує вибору файла й підтвердження його передавання. Подальша обробка отриманих даних плагіном залежить від його дозволів і політики конфіденційності.</p>
+      </section>
+      <section>
+        <h2>Дозволи</h2>
+        <p>FastFile може запитувати доступ до файлів і папок, керування всіма файлами, сповіщення для фонових операцій, вібрацію, відомості про мережу та Wi‑Fi, установку пакетів і перегляд списку встановлених застосунків. Дозволи потрібні для вибраних користувачем функцій і технічної діагностики Firebase.</p>
+        <p>Доступ до файлів надається механізмами Android, зокрема вибором документів і папок та дозволом керування всіма файлами. Користувач може надавати й відкликати дозволи в налаштуваннях Android. Відкликання може обмежити відповідні функції; файлові дозволи не надають Firebase самостійного доступу до файлів.</p>
+        <p>Наявні функції Root і Shizuku використовують повноваження, окремо надані користувачем. SAF, SD-карти та USB можуть потребувати вибору каталогу або системного дозволу доступу до пристрою. Дозволи можна відкликати в Android або Shizuku; відповідні операції тоді можуть бути недоступні.</p>
+        <p>Перш ніж надати операції додатковому плагіну та перед кожним передаванням вибраного файла, потрібне явне підтвердження. У вікні показано назву пакета, заявленого розробника, версію, SHA-256 сертифікатів підпису, запитані дозволи Android та операції FastFile. Коректний підпис APK не підтверджує добросовісність розробника або безпечність обробки. Невідомі плагіни не вважаються офіційними, і їхній доступ до операцій FastFile обмежено. Дозволи Android плагіна не залежать від доступу, наданого FastFile.</p>
+      </section>
+      <section>
+        <h2>Кошик і видалення</h2>
+        <p>Якщо кошик увімкнено, видалені файли можуть переміщуватися до .fastfile_trash. Якщо користувач обирає остаточне видалення або очищує кошик, відновлення засобами застосунку може бути неможливим.</p>
+      </section>
+      <section>
+        <h2>Медіа, PDF і плагіни</h2>
+        <p>Фото, відео, аудіо, PDF-інструменти, конвертація, архівування, розпакування та перегляд файлів обробляються локально на пристрої. Передавання іншим програмам, пристроям або додатковим плагінам відбувається лише за дією користувача.</p>
+        <p>Під час запуску «Трансляція на TV» вибране відео або його мережева адреса передається вибраному пристрою Google Cast. Локальне відео може передаватися тимчасовим HTTP-потоком у локальній мережі; це окрема функція від локального HTTPS-доступу. Користувач сам вибирає пристрій і припиняє трансляцію.</p>
+        <p>Плагіни — окремі програми Android. Для підтвердженої операції FastFile надає доступ лише для читання до копії вибраного файла щонайбільше на дві хвилини. Plugin API не відкриває внутрішні каталоги FastFile або необмежений перегляд файлів. Для розпізнавання тексту зображення перекодовується без початкових метаданих EXIF. Плагін може зберегти отримані дані або передати їх через свої служби, використовуючи власні дозволи Android. Ознайомтеся з політикою конфіденційності його розробника. Відкликання доступу припиняє новий доступ через Plugin API та передавання, кероване FastFile; уже отримані плагіном дані видалити таким способом не можна.</p>
+        <p>Для швидшого прев’ю FastFile може витягувати файли з архівів у внутрішній кеш і зберігати мініатюри в пам’яті або локальному кеші. Прев’ю прихованих зображень і відео створюються після розблокування сховища; для списку прихованих використовуються окремі тимчасові розшифровані копії, які видаляються після обробки. Мініатюри цього списку зберігаються лише в пам’яті розблокованого сеансу. Після збою процесу тимчасові копії можуть залишатися до очищення кешу. Ці операції не надсилають файли чи мініатюри на сервер розробника.</p>
+        <p>Для невикористовуваного кешу діє спільний бюджет 20 МіБ та автоматичне очищення. Активні робочі копії, файли, передані іншим застосункам, і дані для відновлення можуть тимчасово займати більше місця. Вони захищені під час використання; непотрібні тимчасові файли видаляються після звільнення, а резервні копії зберігаються до безпечного завершення відновлення.</p>
+      </section>
+      <section>
+        <h2>Блокування запуску та біометрія</h2>
+        <p>Блокування запуску зберігає налаштування локально. Біометрична перевірка виконується системним компонентом Android; FastFile не отримує та не зберігає відбитки пальців, дані обличчя або інші біометричні шаблони.</p>
+      </section>
+      <section>
+        <h2>Використання та діагностика</h2>
+        <p>Використання й діагностика вимкнені за замовчуванням і вмикаються лише за вашим вибором. Налаштування на екрані «Звіт про помилку» керує Firebase Analytics, Crashlytics і Performance Monitoring. Вимкнення зупиняє їхній збір, скидає локальні дані Analytics і видаляє ще не надіслані звіти Crashlytics. Це не видаляє вже передані дані.</p>
+        <p>Crashlytics може отримувати версію застосунку й Android, модель пристрою, ідентифікатори встановлення та звіту, стан застосунку, повідомлення винятків і трасування помилок. FastFile також задає технічні ключі версії Android API та моделі пристрою.</p>
+        <p>Performance Monitoring може збирати тривалість запуску, час роботи на передньому й задньому плані, показники повільних і завислих кадрів за підтримуваного відображення, відомості про версію застосунку, ОС і пристрій. Набір автоматичних показників залежить від SDK та пристрою. FastFile додає технічні вимірювання тривалості відкриття розділів, пошуку й перевірки дублікатів, читання каталогів і підрахунку елементів, копіювання, переміщення, видалення, перейменування, створення папок, отримання властивостей, створення та розпакування архівів і вибіркового витягування. Вимірювання можуть містити кількість оброблених елементів і байтів, ознаки використання кешу, категорію сховища та формат архіву, збої, скасування, тайм-аути, повторні спроби й тривалі операції. Для мережевих операцій вимірюються тривалість, затримка з’єднання, обсяг і швидкість передавання. Автоматичний HTTP/S-моніторинг працює для підтримуваних клієнтів; локальний файловий доступ і медіапотоки, URL яких можуть містити назви або шляхи користувацьких файлів, виключені з цієї інструментації й не передають свої URL у Performance Monitoring. Власні вимірювання не містять назв, шляхів або вмісту файлів, пошукових запитів, адрес пристроїв, паролів чи контактних даних. Збір підпорядковується наявному налаштуванню використання й діагностики.</p>
+        <p>Analytics може отримувати технічні події сеансу й подію відкриття розділу section_open з назвою розділу, а також ідентифікатори й відомості використання, створені SDK.</p>
+        <p>Remote Config завантажує параметри при ввімкненій діагностиці: usage_diagnostics_enabled_default (діагностика за замовчуванням), show_storage_warning (попередження про сховище) і disable_experimental_features (вимкнення експериментальних функцій). Отримані значення зберігаються SDK; збережений вибір користувача вони не перевизначають. Код FastFile не запускає нове завантаження при вимкненій діагностиці. Запити Firebase можуть містити ідентифікатор встановлення, версію застосунку, мову й технічні мережеві відомості, зокрема IP-адресу.</p>
+        <p>FastFile не додає вміст файлів користувача, їхні назви, повні локальні шляхи або адресну книгу до власних подій і ключів Firebase. Проте автоматичні повідомлення винятків і відомості SDK можуть містити додаткові дані, якщо вони потрапили в помилку або запит.</p>
+      </section>
+      <section>
+        <h2>Цілі обробки</h2>
+        <p>Технічна діагностика допомагає визначити причини збоїв; аналіз продуктивності — виявити повільний запуск і відображення; відомості про помилки — підготувати виправлення. Remote Config призначений для отримання віддаленої конфігурації застосунку. Добровільні звіти використовуються для розгляду описаної проблеми або пропозиції та відповіді на вказаний email. Технічні події використання допомагають визначити розділ, де виникла проблема.</p>
+      </section>
+      <section>
+        <h2>Сторонні технічні сервіси</h2>
+        <p>Google Firebase — сторонній постачальник Analytics, Crashlytics, Performance Monitoring і Remote Config. Google обробляє технічні дані за власними правилами. Вибрана користувачем трансляція на TV використовує Google Cast. Офіційні документи:<br>
+          Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a><br>
+          Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      </section>
+      <section>
+        <h2>Добровільні звіти про помилки</h2>
+        <p>Звіт містить обов’язкові опис, дату й час; тип звіту; категорію та email для відповіді, якщо вказані; версію й пакет FastFile, версію Android, виробника, модель пристрою, відомості плати та час створення звіту. За вибором користувача додаються очищений діагностичний журнал і вибрані скриншоти чи файли з оригінальними даними й назвами. Спочатку показується перевірка звіту, потім відкривається Gmail або системний вибір застосунку; надсилання підтверджує користувач у вибраному застосунку. Розробник отримує ці відомості й дані листа, зокрема адресу відправника. Не додавайте зайві особисті дані; очищення журналу не гарантує видалення всіх чутливих відомостей із довільного тексту та вкладень.</p>
+      </section>
+      <section>
+        <h2>Зберігання та захист</h2>
+        <p>Локальні дані застосунку зберігаються на пристрої. Архівні операції та конвертація виконуються локально з файлами, вибраними користувачем. Захищений локальний HTTPS-доступ працює лише після запуску користувачем і тільки в межах доступної мережі. Технічні діагностичні дані Firebase передаються в зашифрованому вигляді. Блокування запуску захищає вхід в інтерфейс FastFile, але не замінює системне блокування Android, шифрування пристрою та резервне копіювання важливих файлів.</p>
+        <p>Локальні налаштування, внутрішній діагностичний журнал і тимчасові файли розміщені в каталозі застосунку. Після видалення FastFile Android видаляє його внутрішні дані; файли користувача й кошик у спільному сховищі не видаляються автоматично. Деякі налаштування можуть зберігатися й відновлюватися системним резервним копіюванням Android, якщо воно ввімкнене. Діагностичні журнали, захищені налаштування та приховане сховище виключені правилами резервного копіювання застосунку.</p>
+        <p>Передані технічні відомості можуть зберігатися Firebase, а добровільні звіти — у розробника та поштових сервісів. Строки визначаються правилами Firebase, налаштуваннями сервісів та обробкою звіту; фіксований строк тут не встановлюється. Видалення застосунку чи вимкнення діагностики не видаляє вже передані дані. З питань обробки та видалення можна написати на <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>; доступні дії залежать від сервісу та можливості знайти відповідні дані.</p>
+        <p>FastFile використовує системні механізми Android для доступу до файлів; користувач сам керує дозволами. Механізми захисту зменшують ризики, але не забезпечують абсолютної безпеки.</p>
+        <p>HiddenVault зберігає зашифровані файли та зашифрований індекс у внутрішньому каталозі застосунку. Перегляд і відновлення створюють тимчасові розшифровані копії в кеші; після перерваних операцій можуть залишатися резервні зашифровані копії та записи відновлення. Очищення службового кешу має зберігати зашифровані дані за помилки індексу. Пароль сховища не надсилається розробнику. Видалення застосунку видаляє внутрішнє сховище; системне резервне копіювання HiddenVault вимкнено. Збережіть важливі файли поза сховищем перед видаленням. Розробник не може відновити забутий пароль.</p>
+        <p>FastFile перевіряє свій встановлений пакет і підписи локально, без сервера розробника. Результати перевірок і локальні події безпеки не надсилаються автоматично. Підтверджена модифікація може блокувати звичайні функції; незавершена перевірка може потребувати повторної спроби. Сама наявність Root не доводить модифікацію FastFile. Ідентифікатори плагінів і дозволені операції зберігаються локально в зашифрованому каталозі застосунку, виключеному з резервного копіювання Android. Локальні журнали містять технічні назви подій та очищені трасування помилок; вміст файлів, паролі, токени й довільні подробиці дій не записуються.</p>
+      </section>
+      <section>
+        <h2>Вибір користувача й питання конфіденційності</h2>
+        <p>Можна відмовитися від необов’язкової автоматичної діагностики на екрані «Звіт про помилку», окремо вибрати додавання журналу та вкладень до добровільного звіту, керувати дозволами Android і припинити мережевий доступ чи трансляцію. У застосунку немає функції видалення вже переданих Firebase даних. Запити щодо конфіденційності, обробки чи видалення даних надсилаються на <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>.</p>
+        <p>Локальні журнали можна вимкнути в налаштуваннях незалежно від діагностики Firebase. Вимкнення припиняє локальний запис та експорт журналів, але не видаляє наявні файли автоматично. На екрані плагіна можна відкликати доступ, вимкнути або локально заблокувати його. Це не відкликає власні дозволи Android плагіна й не видаляє вже отримані копії. Керувати такими дозволами та видаляти плагін можна в налаштуваннях Android.</p>
+      </section>
+      <section>
+        <h2>Діти</h2>
+        <p>FastFile не призначений спеціально для збору персональних даних дітей. Не слід додавати зайві відомості про дітей до добровільних звітів або вкладень. З питань обробки таких даних можна звернутися до розробника за вказаним email.</p>
+      </section>
+      <section>
+        <h2>Зміни політики</h2>
+        <p>Текст політики може оновлюватися при зміні функцій, дозволів, діагностики Firebase, файлових інструментів або вимог Google Play. Актуальна версія політики відображається всередині FastFile і може бути опублікована на сайті розробника.</p>
+      </section>
+      <section>
+        <h2>Контакти</h2>
+        <p>Розробник: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="ru" lang="ru">
+      <div class="language">Русский</div>
+      <h1>Политика конфиденциальности</h1>
+      <p class="date">Дата редакции: 2026-11-13</p>
+      <section>
+        <h2>О приложении</h2>
+        <p>FastFile — файловый менеджер для локального просмотра и управления файлами на устройстве. Приложение может выполнять конвертацию, архивирование, распаковку, просмотр медиа, работу с APK-файлами и обмен файлами в локальной сети. Для основных функций приложению не нужен аккаунт, регистрация или постоянное подключение к интернету.</p>
+      </section>
+      <section>
+        <h2>Какие данные использует приложение</h2>
+        <p>• локальные файлы, папки и метаданные Android;<br>
+          • сведения об установленных приложениях, когда пользователь открывает соответствующий раздел;<br>
+          • локальные настройки FastFile: язык, тема, интерфейс, безопасность, корзина и другие параметры;<br>
+          • данные отчёта об ошибке, если пользователь сам отправляет его разработчику;<br>
+          • технические данные использования и диагностики Firebase, если эта настройка включена;<br>
+          • локальные сведения о плагинах, их подписях, предоставленных операциях и состоянии включения или блокировки;<br>
+          • результаты локальной проверки целостности приложения и события безопасности при включённом локальном журналировании.</p>
+        <p>Файлы, их содержимое и метаданные, список приложений, настройки, сведения корзины и история работы обрабатываются на устройстве. При включённом локальном журналировании отдельный очищенный журнал сеанса хранится во внутреннем каталоге приложения для добровольного отчёта. Локальные журналы не зависят от автоматической диагностики Firebase; внутренние журналы исключены из системного резервного копирования и не отправляются автоматически. При ручной установке APK очищенная копия также может сохраняться в общем хранилище.</p>
+      </section>
+      <section>
+        <h2>Что приложение не делает</h2>
+        <p>FastFile не требует аккаунта и не использует собственную облачную синхронизацию. Приложение не загружает пользовательские файлы на сервер разработчика автоматически. Передача файлов происходит по действию пользователя: «Поделиться», «Открыть в другом приложении», установка APK, локальный HTTPS-доступ, трансляция на TV или добровольный отчёт с вложениями. Это не исключает передачу технических данных Firebase при включённой диагностике.</p>
+        <p>Обработка дополнительным плагином также требует выбора файла и подтверждения его передачи. Дальнейшая обработка полученных данных плагином зависит от его разрешений и политики конфиденциальности.</p>
+      </section>
+      <section>
+        <h2>Разрешения</h2>
+        <p>FastFile может запрашивать доступ к файлам и папкам, управление всеми файлами, уведомления для фоновых операций, вибрацию, сведения о сети и Wi‑Fi, установку пакетов и просмотр списка установленных приложений. Разрешения нужны для выбранных пользователем функций и технической диагностики Firebase.</p>
+        <p>Доступ к файлам предоставляется механизмами Android, включая выбор документов и папок и разрешение управления всеми файлами. Пользователь может выдавать и отзывать разрешения в настройках Android. Отзыв может ограничить соответствующие функции; файловые разрешения не дают Firebase самостоятельный доступ к файлам.</p>
+        <p>При использовании существующих функций Root или Shizuku доступ выполняется через отдельно предоставленные пользователем полномочия. Для SAF, SD-карт и USB могут потребоваться выбор каталога или системное разрешение доступа к устройству. Разрешения можно отозвать в Android или Shizuku; после отзыва соответствующие операции могут быть недоступны.</p>
+        <p>Перед предоставлением операций дополнительному плагину и каждой передачей выбранного файла требуется явное подтверждение. В окне показаны имя пакета, заявленный разработчик, версия, SHA-256 сертификатов подписи, запрошенные разрешения Android и операции FastFile. Корректная подпись APK не подтверждает добросовестность разработчика или безопасность обработки. Неизвестные плагины не считаются официальными, и их доступ к операциям FastFile ограничен. Разрешения Android у плагина не зависят от доступа, выданного FastFile.</p>
+      </section>
+      <section>
+        <h2>Корзина и удаление</h2>
+        <p>Если корзина включена, удаленные файлы могут перемещаться в .fastfile_trash. Если пользователь выбирает окончательное удаление или очищает корзину, восстановление средствами приложения может быть невозможно.</p>
+      </section>
+      <section>
+        <h2>Медиа, PDF и плагины</h2>
+        <p>Фото, видео, аудио, PDF-инструменты, конвертация, архивирование, распаковка и просмотр файлов обрабатываются локально на устройстве. Передача другим приложениям, устройствам или дополнительным плагинам происходит только по действию пользователя.</p>
+        <p>При запуске «Трансляция на TV» выбранное видео или его сетевой адрес передаётся выбранному устройству Google Cast. Локальное видео может передаваться временным HTTP-потоком в локальной сети; это отдельная функция от локального HTTPS-доступа. Пользователь сам выбирает устройство и прекращает трансляцию.</p>
+        <p>Плагины — отдельные приложения Android. Для подтверждённой операции FastFile предоставляет доступ только для чтения к копии выбранного файла не более чем на две минуты. Plugin API не открывает внутренние каталоги FastFile или неограниченный просмотр файлов. Для распознавания текста изображение перекодируется без исходных метаданных EXIF. Плагин может сохранить полученные данные или передать их через свои службы, используя собственные разрешения Android. Ознакомьтесь с политикой конфиденциальности его разработчика. Отзыв доступа прекращает новый доступ через Plugin API и передачу, управляемую FastFile; уже полученные плагином данные удалить таким способом нельзя.</p>
+        <p>Для ускорения превью FastFile может извлекать файлы из архивов во внутренний кеш и хранить миниатюры в памяти или локальном кеше. Превью скрытых изображений и видео создаются после разблокировки хранилища; для списка скрытых используются отдельные временные расшифрованные копии, которые удаляются после обработки. Миниатюры этого списка хранятся только в памяти разблокированного сеанса. После сбоя процесса временные копии могут оставаться до очистки кеша. Эти операции не отправляют файлы или миниатюры на сервер разработчика.</p>
+        <p>Для неиспользуемого кеша действует общий бюджет 20 МиБ и автоматическая очистка. Активные рабочие копии, файлы, переданные другим приложениям, и данные для восстановления могут временно занимать больше места. Они защищены во время использования; ненужные временные файлы удаляются после освобождения, а резервные копии сохраняются до безопасного завершения восстановления.</p>
+      </section>
+      <section>
+        <h2>Блокировка запуска и биометрия</h2>
+        <p>Блокировка запуска хранит настройки локально. Биометрическая проверка выполняется системным компонентом Android; FastFile не получает и не хранит отпечатки пальцев, данные лица или другие биометрические шаблоны.</p>
+      </section>
+      <section>
+        <h2>Использование и диагностика</h2>
+        <p>Использование и диагностика выключены по умолчанию и включаются только по вашему выбору. Настройка на экране «Отчёт об ошибке» управляет Firebase Analytics, Crashlytics и Performance Monitoring. При её выключении FastFile останавливает их сбор, сбрасывает локальные данные Analytics и удаляет ещё не отправленные отчёты Crashlytics. Это не удаляет уже переданные данные.</p>
+        <p>Crashlytics может получать версию приложения и Android, модель устройства, идентификаторы установки и отчёта, состояние приложения, сообщения исключений и трассировки ошибок. FastFile также задаёт технические ключи версии Android API и модели устройства.</p>
+        <p>Performance Monitoring может собирать длительность запуска, время работы на переднем и заднем плане, показатели медленных и зависших кадров при поддерживаемой отрисовке, сведения о версии приложения, ОС и устройстве. Набор автоматических показателей зависит от SDK и устройства. FastFile добавляет технические измерения длительности открытия разделов, поиска и проверки дубликатов, чтения каталогов и подсчёта элементов, копирования, перемещения, удаления, переименования, создания папок, получения свойств, создания и распаковки архивов и выборочного извлечения. Измерения могут включать количество обработанных элементов и байтов, признаки использования кеша, категорию хранилища и формат архива, сбои, отмены, тайм-ауты, повторные попытки и длительные операции. Для сетевых операций измеряются длительность, задержка соединения, объём и скорость передачи. Автоматический HTTP/S-мониторинг работает для поддерживаемых клиентов; локальный файловый доступ и медиапотоки, URL которых могут содержать имена или пути пользовательских файлов, исключены из этой инструментации и не передают свои URL в Performance Monitoring. Собственные измерения не содержат имён, путей или содержимого файлов, поисковых запросов, адресов устройств, паролей или контактных данных. Сбор подчиняется существующей настройке использования и диагностики.</p>
+        <p>Analytics может получать технические события сеанса и событие открытия раздела section_open с названием раздела, а также идентификаторы и сведения об использовании, создаваемые SDK.</p>
+        <p>Remote Config загружает параметры при включённой диагностике: usage_diagnostics_enabled_default (значение диагностики по умолчанию), show_storage_warning (предупреждение о хранилище) и disable_experimental_features (отключение экспериментальных функций). Полученные значения сохраняются SDK; сохранённый выбор пользователя они не переопределяют. Код FastFile не запускает новую загрузку при выключенной диагностике. Запросы Firebase могут включать идентификатор установки, версию приложения, язык и технические сетевые сведения, включая IP-адрес.</p>
+        <p>FastFile не добавляет содержимое пользовательских файлов, их имена, полные локальные пути или адресную книгу в собственные Firebase-события и ключи. Однако автоматические сообщения исключений и сведения SDK могут содержать дополнительные данные, если они попали в ошибку или запрос.</p>
+      </section>
+      <section>
+        <h2>Цели обработки</h2>
+        <p>Техническая диагностика помогает определить причины сбоев; анализ производительности — выявить медленный запуск и отрисовку; сведения об ошибках — подготовить исправления. Remote Config предназначен для получения удалённой конфигурации приложения. Добровольные отчёты используются для рассмотрения описанной проблемы или предложения и ответа на указанный email. Технические события использования помогают понять, в каком разделе возникла проблема.</p>
+      </section>
+      <section>
+        <h2>Сторонние технические сервисы</h2>
+        <p>Google Firebase — сторонний поставщик Analytics, Crashlytics, Performance Monitoring и Remote Config. Google обрабатывает технические данные по своим правилам. При выбранной пользователем трансляции на TV используется Google Cast. Официальные документы:<br>
+          Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a><br>
+          Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      </section>
+      <section>
+        <h2>Добровольные отчёты об ошибках</h2>
+        <p>Отчёт включает обязательные описание, дату и время; тип отчёта; категорию и email для обратной связи, если они указаны; версию и пакет FastFile, версию Android, производителя, модель устройства, сведения платы и время создания отчёта. По выбору пользователя добавляются очищенный диагностический журнал и выбранные скриншоты или файлы с исходными данными и названиями. Перед отправкой показывается проверка отчёта, затем открывается Gmail или системный выбор приложения; отправку подтверждает пользователь в выбранном приложении. Разработчик получает эти сведения и данные письма, включая адрес отправителя. Не добавляйте ненужные личные данные; очищение журнала не гарантирует удаления всех чувствительных сведений из произвольного текста и вложений.</p>
+      </section>
+      <section>
+        <h2>Хранение и защита</h2>
+        <p>Локальные данные приложения хранятся на устройстве. Архивные операции и конвертация выполняются локально с файлами, выбранными пользователем. Защищённый локальный HTTPS-доступ работает только после запуска пользователем и только в пределах доступной сети. Технические диагностические данные Firebase передаются в зашифрованном виде. Блокировка запуска защищает вход в интерфейс FastFile, но не заменяет системную блокировку Android, шифрование устройства и резервное копирование важных файлов.</p>
+        <p>Локальные настройки, внутренний диагностический журнал и временные файлы находятся в каталоге приложения. При удалении FastFile Android удаляет его внутренние данные; пользовательские файлы и корзина в общем хранилище не удаляются автоматически. Некоторые настройки могут сохраняться и восстанавливаться системным резервным копированием Android, если оно включено. Диагностические журналы, защищённые настройки и скрытое хранилище исключены правилами резервного копирования приложения.</p>
+        <p>Переданные технические сведения могут храниться Firebase, а добровольные отчёты — у разработчика и почтовых сервисов. Сроки определяются правилами Firebase, настройками сервисов и обработкой отчёта; фиксированный срок здесь не устанавливается. Удаление приложения или выключение диагностики не удаляет уже переданные данные. По вопросам обработки и удаления можно написать на <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>; доступные действия зависят от сервиса и возможности найти соответствующие данные.</p>
+        <p>FastFile использует системные механизмы Android для доступа к файлам; пользователь сам управляет разрешениями. Механизмы защиты уменьшают риски, но не обеспечивают абсолютной безопасности.</p>
+        <p>HiddenVault хранит зашифрованные файлы и зашифрованный индекс во внутреннем каталоге приложения. При просмотре и восстановлении создаются временные расшифрованные копии в кеше; при прерванных операциях могут сохраняться резервные зашифрованные копии и записи восстановления. Очистка служебного кеша не должна удалять зашифрованные данные при ошибке индекса. Пароль хранилища не отправляется разработчику. Удаление приложения удаляет внутреннее хранилище; системное резервное копирование HiddenVault отключено. Сохраните важные файлы вне хранилища до удаления приложения. Разработчик не может восстановить забытый пароль.</p>
+        <p>FastFile проверяет свой установленный пакет и подписи локально, без сервера разработчика. Результаты проверок и локальные события безопасности не отправляются автоматически. Подтверждённая модификация может блокировать обычные функции; незавершённая проверка может потребовать повторной попытки. Само наличие Root не доказывает модификацию FastFile. Идентификаторы плагинов и предоставленные операции хранятся локально в зашифрованном каталоге приложения, исключённом из резервного копирования Android. Локальные журналы содержат технические названия событий и очищенные трассировки ошибок; содержимое файлов, пароли, токены и произвольные подробности действий не записываются.</p>
+      </section>
+      <section>
+        <h2>Выбор пользователя и вопросы конфиденциальности</h2>
+        <p>Можно отказаться от необязательной автоматической диагностики на экране «Отчёт об ошибке», отдельно выбрать включение журнала и вложений в добровольный отчёт, управлять разрешениями Android и прекратить сетевой доступ или трансляцию. В приложении нет функции удаления уже переданных Firebase данных. Запросы по конфиденциальности, обработке или удалению данных направляются на <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>.</p>
+        <p>Локальные журналы можно отключить в настройках независимо от диагностики Firebase. Отключение прекращает локальную запись и экспорт журналов, но не удаляет существующие файлы автоматически. На экране плагина можно отозвать доступ, отключить или локально заблокировать его. Это не отзывает собственные разрешения Android плагина и не удаляет уже полученные копии. Управлять такими разрешениями и удалять плагин можно в настройках Android.</p>
+      </section>
+      <section>
+        <h2>Дети</h2>
+        <p>FastFile не предназначен специально для сбора персональных данных детей. Не следует включать ненужные сведения о детях в добровольные отчёты или вложения. По вопросам обработки таких данных можно обратиться к разработчику по указанному email.</p>
+      </section>
+      <section>
+        <h2>Изменения политики</h2>
+        <p>Текст политики может обновляться при изменении функций, разрешений, диагностики Firebase, файловых инструментов или требований Google Play. Актуальная версия политики отображается в FastFile и может быть опубликована на сайте разработчика.</p>
+      </section>
+      <section>
+        <h2>Контакты</h2>
+        <p>Разработчик: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="de" lang="de">
+      <div class="language">Deutsch</div>
+      <h1>Datenschutzrichtlinie</h1>
+      <p class="date">Stand: 2026-11-13</p>
+      <section>
+        <h2>Über die App</h2>
+        <p>FastFile ist ein Dateimanager zur lokalen Anzeige und Verwaltung von Dateien auf dem Gerät. Die App kann Konvertierung, Archivierung, Extraktion, Medienanzeige, APK-Dateiverwaltung und Dateiaustausch im lokalen Netzwerk durchführen. Die Hauptfunktionen benötigen kein Konto, keine Registrierung und keine dauerhafte Internetverbindung.</p>
+      </section>
+      <section>
+        <h2>Welche Daten die App verwendet</h2>
+        <p>• Lokale Dateien, Ordner und Android-Metadaten;<br>
+          • Informationen über installierte Apps beim Öffnen des Bereichs Apps;<br>
+          • Lokale FastFile-Einstellungen wie Sprache, Design, Oberfläche, Sicherheit, Papierkorb und andere Optionen;<br>
+          • Angaben im Fehlerbericht, wenn der Benutzer ihn an den Entwickler sendet;<br>
+          • Technische Nutzungs- und Diagnosedaten von Firebase, wenn diese Einstellung aktiviert ist;<br>
+          • Lokale Plugin-Identitäten, Signaturinformationen, erlaubte Aktionen sowie Aktivierungs- und Sperrzustände;<br>
+          • Ergebnisse lokaler Integritätsprüfungen und Sicherheitsereignisse bei aktivierten lokalen Protokollen.</p>
+        <p>Dateien, Inhalte und Metadaten, die App-Liste, Einstellungen, Papierkorbinformationen und der Aktivitätsverlauf werden auf dem Gerät verarbeitet. Bei aktivierten lokalen Protokollen wird ein bereinigtes Sitzungsprotokoll für freiwillige Berichte im privaten App-Speicher gespeichert. Lokale Protokolle sind unabhängig von der automatischen Firebase-Diagnose; private Protokolle sind vom Android-Backup ausgeschlossen und werden nicht automatisch gesendet. Bei manueller APK-Installation kann zusätzlich eine bereinigte Kopie im gemeinsamen Speicher gespeichert werden.</p>
+      </section>
+      <section>
+        <h2>Was die App nicht macht</h2>
+        <p>FastFile erfordert kein Konto und bietet keine eigene Cloud-Synchronisierung. Benutzerdateien werden nicht automatisch auf einen Entwicklerserver hochgeladen. Die Übertragung erfolgt auf Benutzeraktion: Teilen, Öffnen in einer anderen App, APK-Installation, lokaler HTTPS-Zugriff, Übertragung auf TV oder ein freiwilliger Bericht mit Anhängen. Technische Firebase-Daten können bei eingeschalteter Diagnose dennoch übertragen werden.</p>
+        <p>Auch die Verarbeitung durch ein optionales Plugin erfordert die Auswahl einer Datei und die Bestätigung ihrer Übergabe. Die weitere Verarbeitung empfangener Daten richtet sich nach den Berechtigungen und der Datenschutzerklärung des Plugins.</p>
+      </section>
+      <section>
+        <h2>Berechtigungen</h2>
+        <p>FastFile kann Datei- und Ordnerzugriff, Zugriff auf alle Dateien, Benachrichtigungen für Hintergrundvorgänge, Vibration, Netzwerk- und WLAN-Informationen, Paketinstallation und Zugriff auf die Liste installierter Apps anfordern. Berechtigungen unterstützen ausgewählte Funktionen und technische Firebase-Diagnosen.</p>
+        <p>Der Dateizugriff verwendet Android-Mechanismen, darunter Dokument- und Ordnerauswahl sowie Zugriff auf alle Dateien. Benutzer können Berechtigungen in Android erteilen und widerrufen. Ein Widerruf kann zugehörige Funktionen einschränken; Dateiberechtigungen geben Firebase keinen eigenständigen Dateizugriff.</p>
+        <p>Die vorhandenen Root- und Shizuku-Funktionen nutzen vom Nutzer gesondert erteilte Rechte. SAF, SD-Karten und USB können eine Verzeichnisauswahl oder eine Systemberechtigung für das Gerät benötigen. Rechte lassen sich in Android oder Shizuku widerrufen; entsprechende Vorgänge können dann nicht verfügbar sein.</p>
+        <p>Optionale Plugins erfordern eine ausdrückliche Bestätigung vor der Freigabe von FastFile-Aktionen und vor jeder Übergabe der ausgewählten Datei. Die Bestätigung zeigt Paketname, angegebenen Entwickler, Version, SHA-256-Fingerabdrücke der Signaturzertifikate, angeforderte Android-Berechtigungen und FastFile-Aktionen. Eine gültige APK-Signatur belegt weder die Ehrlichkeit des Entwicklers noch eine sichere Verarbeitung. Unbekannte Plugins sind nicht offiziell und erhalten nur eingeschränkte FastFile-Aktionen. Android-Berechtigungen des Plugins sind unabhängig von seinem FastFile-Zugriff.</p>
+      </section>
+      <section>
+        <h2>Papierkorb und Löschung</h2>
+        <p>Wenn der Papierkorb aktiviert ist, werden gelöschte Dateien möglicherweise in den .fastfile_trash verschoben. Wenn der Benutzer die dauerhafte Löschung wählt oder den Papierkorb leert, ist eine Wiederherstellung über die App möglicherweise nicht möglich.</p>
+      </section>
+      <section>
+        <h2>Medien, PDF-Werkzeuge und Plugins</h2>
+        <p>Fotos, Video, Audio, PDF-Tools, Konvertierung, Archivierung, Extraktion und Dateianzeige werden lokal auf dem Gerät verarbeitet. Die Weitergabe an andere Apps, Geräte oder optionale Plugins erfordert eine Benutzeraktion.</p>
+        <p>Bei Übertragung auf TV wird das gewählte Video oder seine Netzwerkadresse an das ausgewählte Google-Cast-Gerät übergeben. Lokales Video kann einen temporären HTTP-Stream im lokalen Netzwerk verwenden; dies ist vom lokalen HTTPS-Zugriff getrennt. Benutzer wählen den Empfänger und beenden die Übertragung selbst.</p>
+        <p>Plugins sind separate Android-Apps. Für eine bestätigte Aktion stellt FastFile eine schreibgeschützte Kopie der ausgewählten Datei höchstens zwei Minuten lang bereit. Plugin API bietet keinen Zugriff auf private FastFile-Verzeichnisse oder uneingeschränktes Durchsuchen von Dateien. Bilder für die Texterkennung werden ohne die ursprünglichen EXIF-Metadaten neu kodiert. Ein Plugin kann empfangene Daten speichern oder über eigene Dienste und Android-Berechtigungen übertragen. Lesen Sie die Datenschutzerklärung des Entwicklers. Ein Widerruf beendet neue Zugriffe über Plugin API und von FastFile kontrollierte Übertragungen; bereits beim Plugin eingegangene Daten werden dadurch nicht gelöscht.</p>
+        <p>Für schnellere Vorschauen kann FastFile Dateien aus Archiven in seinen internen Cache entpacken und Vorschaubilder im Arbeitsspeicher oder lokalen Cache speichern. Vorschauen versteckter Bilder und Videos werden nach dem Entsperren des Tresors erstellt; für die Liste versteckter Dateien werden separate temporäre entschlüsselte Kopien verwendet und nach der Verarbeitung gelöscht. Vorschaubilder dieser Liste bleiben nur während der entsperrten Sitzung im Arbeitsspeicher. Nach einem Prozessabsturz können temporäre Kopien bis zur Cache-Bereinigung verbleiben. Diese Vorgänge senden keine Dateien oder Vorschaubilder an den Server des Entwicklers.</p>
+        <p>Nicht verwendete Cache-Dateien werden automatisch bereinigt und unterliegen einem gemeinsamen Budget von 20 MiB. Aktive Arbeitskopien, an andere Apps übergebene Dateien und für die Wiederherstellung benötigte Daten können vorübergehend mehr Speicherplatz beanspruchen. Sie sind während der Nutzung vor der Bereinigung geschützt. Nicht mehr benötigte temporäre Dateien werden nach ihrer Freigabe entfernt; Wiederherstellungskopien bleiben bis zum sicheren Abschluss der Wiederherstellung erhalten.</p>
+      </section>
+      <section>
+        <h2>Startsperre und Biometrie</h2>
+        <p>Die Startsperre speichert seine Einstellungen lokal. Die biometrische Überprüfung wird von der Android-Systemkomponente durchgeführt; FastFile empfängt oder speichert keine Fingerabdrücke, Gesichtsdaten oder andere biometrische Vorlagen.</p>
+      </section>
+      <section>
+        <h2>Verwendung und Diagnose</h2>
+        <p>Nutzung und Diagnose sind standardmäßig ausgeschaltet und werden nur auf Ihren Wunsch aktiviert. Die Einstellung im Fehlerbericht steuert Firebase Analytics, Crashlytics und Performance Monitoring. Das Ausschalten beendet deren Datenerfassung, setzt lokale Analytics-Daten zurück und löscht noch nicht gesendete Crashlytics-Berichte. Bereits übertragene Daten werden dadurch nicht gelöscht.</p>
+        <p>Crashlytics kann App- und Android-Version, Gerätemodell, Installations- und Berichtskennungen, App-Zustand, Ausnahmemeldungen und Stacktraces erhalten. FastFile setzt außerdem technische Schlüssel für Android-API-Version und Gerätemodell.</p>
+        <p>Performance Monitoring kann die Startdauer, Zeiten im Vorder- und Hintergrund, langsame und eingefrorene Frames bei unterstützter Darstellung sowie Informationen zur App-Version, zum Betriebssystem und zum Gerät erfassen. Automatische Messwerte hängen vom SDK und Gerät ab. FastFile ergänzt technische Zeitmessungen für das Öffnen von Bereichen, die Suche und Duplikatprüfung, das Lesen von Verzeichnissen und Zählen von Einträgen, Kopieren, Verschieben, Löschen, Umbenennen, Erstellen von Ordnern, Abrufen von Eigenschaften, Erstellen und Entpacken von Archiven sowie das gezielte Extrahieren einzelner Einträge. Messungen können Anzahlen verarbeiteter Einträge und Bytes, Cache-Nutzung, Speicherkategorie und Archivformat, Fehler, Abbrüche, Zeitüberschreitungen, Wiederholungsversuche und lange Vorgänge enthalten. Bei Netzwerkvorgängen werden Dauer, Verbindungsverzögerung, übertragene Bytes und Übertragungsrate gemessen. Die automatische HTTP/S-Überwachung gilt für unterstützte Clients; lokaler Dateizugriff und Medienstreams, deren URLs Dateinamen oder Pfade des Nutzers enthalten können, sind von dieser Instrumentierung ausgeschlossen und senden ihre URLs nicht an Performance Monitoring. Eigene Messungen enthalten keine Dateinamen, Dateipfade oder Dateiinhalte, Suchanfragen, Geräteadressen, Passwörter oder Kontaktdaten. Die Erfassung folgt der bestehenden Einstellung für Nutzung und Diagnose.</p>
+        <p>Analytics kann technische Sitzungsereignisse und section_open mit dem Namen des geöffneten Bereichs sowie vom SDK erzeugte Kennungen und Nutzungsinformationen erhalten.</p>
+        <p>Remote Config lädt bei eingeschalteter Diagnose usage_diagnostics_enabled_default (Diagnose-Standardwert), show_storage_warning (Speicherwarnung) und disable_experimental_features (experimentelle Funktionen deaktivieren). Das SDK speichert geladene Werte; die gespeicherte Benutzerentscheidung wird nicht überschrieben. FastFile startet bei ausgeschalteter Diagnose keinen neuen Abruf. Firebase-Anfragen können eine Installationskennung, App-Version, Sprache und technische Netzwerkangaben einschließlich IP-Adresse enthalten.</p>
+        <p>FastFile fügt eigenen Firebase-Ereignissen und Schlüsseln keine Benutzerdateiinhalte, Dateinamen, vollständigen lokalen Pfade oder Adressbuchdaten hinzu. Automatische Ausnahmemeldungen und SDK-Angaben können jedoch zusätzliche Daten enthalten, wenn diese in einem Fehler oder einer Anfrage vorkommen.</p>
+      </section>
+      <section>
+        <h2>Zwecke der Verarbeitung</h2>
+        <p>Technische Diagnose hilft, Absturzursachen zu erkennen; Leistungsanalyse findet langsame Starts und Darstellung; Fehlerangaben unterstützen Korrekturen. Remote Config dient dem Empfang einer entfernten App-Konfiguration. Freiwillige Berichte dienen der Prüfung eines Problems oder Vorschlags und der Antwort an die angegebene E-Mail-Adresse. Technische Nutzungsereignisse helfen, den betroffenen Bereich zu erkennen.</p>
+      </section>
+      <section>
+        <h2>Technische Dienste Dritter</h2>
+        <p>Google Firebase ist Drittanbieter für Analytics, Crashlytics, Performance Monitoring und Remote Config. Google verarbeitet technische Daten nach eigenen Regeln. Die vom Benutzer gewählte Übertragung auf TV nutzt Google Cast. Offizielle Dokumente:<br>
+          Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a><br>
+          Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      </section>
+      <section>
+        <h2>Freiwillige Fehlerberichte</h2>
+        <p>Ein Bericht enthält die erforderliche Beschreibung sowie Datum und Uhrzeit; Berichtstyp; Kategorie und E-Mail für Rückfragen, falls angegeben; FastFile-Version und Paket, Android-Version, Hersteller, Gerätemodell, Board-Angaben und Erstellungszeit. Optional werden ein bereinigtes Diagnoseprotokoll und gewählte Screenshots oder Dateien mit ursprünglichen Daten und Dateinamen beigefügt. Zuerst erscheint die Prüfung, danach Gmail oder die Android-App-Auswahl; der Benutzer bestätigt das Senden in der gewählten App. Der Entwickler erhält diese Angaben und E-Mail-Daten einschließlich Absenderadresse. Fügen Sie keine unnötigen personenbezogenen Daten bei; die Protokollbereinigung garantiert nicht, alle sensiblen Angaben aus beliebigem Text und Anhängen zu entfernen.</p>
+      </section>
+      <section>
+        <h2>Speicherung und Schutz</h2>
+        <p>Lokale App-Daten werden auf dem Gerät gespeichert. Archivierungsvorgänge und Konvertierungen werden lokal mit vom Benutzer ausgewählten Dateien ausgeführt. Der geschützte lokale HTTPS-Zugriff funktioniert erst, nachdem der Benutzer ihn gestartet hat, und nur innerhalb des verfügbaren Netzwerks. Die technischen Diagnosedaten von Firebase werden verschlüsselt übertragen. Die Startsperre schützt den Zugriff auf die FastFile-Schnittstelle, ersetzt jedoch nicht die Android-Bildschirmsperre, die Geräteverschlüsselung oder die Sicherung wichtiger Dateien.</p>
+        <p>Lokale Einstellungen, das private Diagnoseprotokoll und temporäre Dateien liegen im App-Speicher. Beim Deinstallieren löscht Android die privaten App-Daten; Benutzerdateien und Papierkorb im gemeinsamen Speicher werden nicht automatisch entfernt. Manche Einstellungen können bei aktiviertem Android-Backup gesichert und wiederhergestellt werden. Die Backup-Regeln schließen Diagnoseprotokolle, geschützte Einstellungen und den verborgenen Speicher aus.</p>
+        <p>Übertragene technische Daten können bei Firebase, freiwillige Berichte beim Entwickler und bei E-Mail-Anbietern gespeichert werden. Die Dauer hängt von Firebase-Regeln, Diensteinstellungen und der Bearbeitung des Berichts ab; hier wird keine feste Frist genannt. Deinstallation oder Ausschalten der Diagnose löscht bereits übertragene Daten nicht. Fragen zur Verarbeitung oder Löschung können an <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a> gesendet werden; mögliche Schritte hängen vom Dienst und der Auffindbarkeit der betreffenden Daten ab.</p>
+        <p>FastFile verwendet Android-Systemmechanismen für den Dateizugriff; Benutzer verwalten die Berechtigungen selbst. Schutzmaßnahmen verringern Risiken, bieten aber keine absolute Sicherheit.</p>
+        <p>HiddenVault speichert verschlüsselte Dateien und einen verschlüsselten Index im internen App-Verzeichnis. Beim Anzeigen und Wiederherstellen entstehen vorübergehend entschlüsselte Kopien im Cache; nach unterbrochenen Vorgängen können verschlüsselte Sicherungen und Wiederherstellungsprotokolle verbleiben. Bei Indexfehlern muss die Cache-Bereinigung verschlüsselte Daten erhalten. Das Tresorpasswort wird nicht an den Entwickler gesendet. Die Deinstallation entfernt den internen Tresor; die Systemsicherung von HiddenVault ist deaktiviert. Speichern Sie wichtige Dateien vor der Deinstallation außerhalb des Tresors. Der Entwickler kann ein vergessenes Passwort nicht wiederherstellen.</p>
+        <p>FastFile prüft das installierte Paket und seine Signaturen lokal, ohne Entwicklerserver. Ergebnisse und lokale Sicherheitsereignisse werden nicht automatisch gesendet. Eine bestätigte Änderung kann reguläre Funktionen blockieren; eine unvollständige Prüfung kann einen erneuten Versuch erfordern. Root-Zugriff allein beweist keine Änderung von FastFile. Plugin-Identitäten und erlaubte Aktionen werden lokal im verschlüsselten App-Speicher abgelegt und sind vom Android-Backup ausgeschlossen. Lokale Protokolle enthalten technische Ereignisbezeichnungen und bereinigte Fehlertraces; Dateiinhalte, Passwörter, Tokens und beliebige Aktionsdetails werden ausgelassen.</p>
+      </section>
+      <section>
+        <h2>Benutzerentscheidungen und Datenschutzfragen</h2>
+        <p>Benutzer können die optionale automatische Diagnose im Fehlerbericht ausschalten, Protokoll und Anhänge für einen freiwilligen Bericht separat wählen, Android-Berechtigungen verwalten und Netzwerkzugriff oder Übertragung beenden. Die App bietet keine Funktion zum Löschen bereits an Firebase übertragener Daten. Datenschutz-, Verarbeitungs- oder Löschanfragen können an <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a> gerichtet werden.</p>
+        <p>Lokale Protokolle lassen sich in den Einstellungen unabhängig von Firebase-Diagnosen ausschalten. Dies beendet die lokale Aufzeichnung und den Protokollexport, löscht aber vorhandene Dateien nicht automatisch. Im Plugin-Bildschirm lässt sich der Zugriff widerrufen oder das Plugin deaktivieren oder lokal sperren. Seine eigenen Android-Berechtigungen werden dadurch nicht widerrufen und bereits empfangene Kopien nicht gelöscht. Diese Berechtigungen und die Deinstallation werden in den Android-Einstellungen verwaltet.</p>
+      </section>
+      <section>
+        <h2>Kinder</h2>
+        <p>FastFile ist nicht speziell zum Sammeln personenbezogener Daten von Kindern bestimmt. Freiwillige Berichte und Anhänge sollten keine unnötigen Angaben über Kinder enthalten. Fragen zu solchen Daten können an die angegebene E-Mail-Adresse des Entwicklers gerichtet werden.</p>
+      </section>
+      <section>
+        <h2>Richtlinienänderungen</h2>
+        <p>Diese Richtlinie kann aktualisiert werden, wenn sich App-Funktionen, Berechtigungen, Firebase-Diagnosen, Dateiwerkzeuge oder Google Play-Anforderungen ändern. Die aktuelle Version wird in FastFile angezeigt und kann auf der Entwickler-Website veröffentlicht werden.</p>
+      </section>
+      <section>
+        <h2>Kontakte</h2>
+        <p>Entwickler: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="es" lang="es">
+      <div class="language">Español</div>
+      <h1>Política de privacidad</h1>
+      <p class="date">Fecha de revisión: 2026-11-13</p>
+      <section>
+        <h2>Acerca de la aplicación</h2>
+        <p>FastFile es un administrador de archivos para visualización y administración local de archivos en el dispositivo. La aplicación puede realizar conversión, archivado, extracción, visualización de medios, manejo de archivos APK e intercambio de archivos en la red local. Las funciones principales no requieren una cuenta, registro ni una conexión permanente a Internet.</p>
+      </section>
+      <section>
+        <h2>Qué datos utiliza la aplicación</h2>
+        <p>• Archivos locales, carpetas y metadatos de Android;<br>
+          • Información sobre las aplicaciones instaladas al abrir la sección Aplicaciones;<br>
+          • Ajustes locales de FastFile: idioma, tema, interfaz, seguridad, papelera y otras preferencias;<br>
+          • Datos del informe de errores si el usuario decide enviarlo al desarrollador;<br>
+          • Datos técnicos de uso y diagnóstico de Firebase si esa opción está activada;<br>
+          • Identidades locales de plugins, datos de firma, operaciones permitidas y estado de activación o bloqueo;<br>
+          • Resultados de las comprobaciones locales de integridad y eventos de seguridad si los registros locales están activados.</p>
+        <p>Los archivos, su contenido y metadatos, la lista de aplicaciones, los ajustes, la información de la papelera y el historial de actividad se procesan en el dispositivo. Si se activan los registros locales, se guarda un registro de sesión depurado en el almacenamiento privado para informes voluntarios. Los registros locales son independientes del diagnóstico automático de Firebase; los registros privados se excluyen de las copias de seguridad de Android y no se envían automáticamente. Las instalaciones manuales de APK también pueden guardar una copia depurada en el almacenamiento compartido.</p>
+      </section>
+      <section>
+        <h2>Lo que no hace la aplicación</h2>
+        <p>FastFile no requiere una cuenta ni ofrece sincronización propia en la nube. No sube automáticamente archivos del usuario a un servidor del desarrollador. Se transfieren por una acción del usuario: Compartir, Abrir en otra aplicación, instalar APK, acceso HTTPS local, transmisión a TV o un informe voluntario con adjuntos. Esto no excluye el envío de datos técnicos a Firebase cuando el diagnóstico está activado.</p>
+        <p>El procesamiento mediante un plugin opcional también requiere seleccionar un archivo y confirmar su transferencia. El tratamiento posterior de los datos recibidos depende de los permisos y de la política de privacidad del plugin.</p>
+      </section>
+      <section>
+        <h2>Permisos</h2>
+        <p>FastFile puede solicitar acceso a archivos y carpetas, acceso a todos los archivos, notificaciones para operaciones en segundo plano, vibración, información de red y Wi‑Fi, instalación de paquetes y acceso a la lista de aplicaciones instaladas. Los permisos permiten funciones elegidas por el usuario y diagnósticos técnicos de Firebase.</p>
+        <p>El acceso a archivos usa mecanismos de Android, como la selección de documentos y carpetas y el permiso de acceso a todos los archivos. El usuario puede conceder o revocar permisos en Android. Revocarlos puede limitar las funciones relacionadas; los permisos de archivos no dan a Firebase acceso independiente a ellos.</p>
+        <p>Las funciones existentes de Root y Shizuku usan permisos otorgados por separado por el usuario. SAF, las tarjetas SD y USB pueden requerir seleccionar una carpeta o un permiso del sistema para el dispositivo. Los permisos se pueden revocar en Android o Shizuku; las operaciones correspondientes pueden quedar indisponibles.</p>
+        <p>Los plugins opcionales requieren una confirmación explícita antes de concederles operaciones de FastFile y antes de cada transferencia del archivo elegido. La confirmación muestra el nombre del paquete, el desarrollador declarado, la versión, los hashes SHA-256 de los certificados de firma, los permisos Android solicitados y las operaciones de FastFile. Una firma APK válida no confirma la honestidad del desarrollador ni la seguridad del procesamiento. Los plugins desconocidos no son oficiales y tienen acceso limitado a las operaciones de FastFile. Los permisos Android del plugin son independientes de su acceso a FastFile.</p>
+      </section>
+      <section>
+        <h2>Papelera y eliminación</h2>
+        <p>Cuando la papelera está habilitada, los archivos eliminados se pueden mover a .fastfile_trash. Si el usuario elige la eliminación permanente o vacía la papelera, la recuperación a través de la aplicación puede resultar imposible.</p>
+      </section>
+      <section>
+        <h2>Multimedia, PDF y plugins</h2>
+        <p>Las fotos, videos, audio, herramientas PDF, conversión, archivado, extracción y visualización de archivos se procesan localmente en el dispositivo. Las transferencias a otras aplicaciones, dispositivos o plugins opcionales requieren una acción del usuario.</p>
+        <p>Al iniciar Transmitir a TV, el vídeo seleccionado o su dirección de red se pasa al dispositivo Google Cast elegido. El vídeo local puede usar un flujo HTTP temporal en la red local; es una función distinta del acceso HTTPS local. El usuario elige el receptor y detiene la transmisión.</p>
+        <p>Los plugins son aplicaciones Android independientes. Para una operación confirmada, FastFile permite acceder a una copia de solo lectura del archivo elegido durante un máximo de dos minutos. Plugin API no expone los directorios privados de FastFile ni permite explorar archivos sin restricciones. Las imágenes para reconocimiento de texto se recodifican sin los metadatos EXIF originales. Un plugin puede guardar los datos recibidos o enviarlos mediante sus propios servicios y permisos de Android. Consulta la política de privacidad de su desarrollador. Revocar el acceso impide nuevos accesos mediante Plugin API y detiene las transferencias controladas por FastFile; no borra los datos ya recibidos por el plugin.</p>
+        <p>Para acelerar las vistas previas, FastFile puede extraer archivos de los archivos comprimidos a su caché interna y guardar miniaturas en la memoria o en una caché local. Las vistas previas de imágenes y vídeos ocultos se crean tras desbloquear la bóveda; la lista de archivos ocultos utiliza copias descifradas temporales independientes que se eliminan después de procesarlas. Las miniaturas de esta lista se conservan solo en la memoria durante la sesión desbloqueada. Si el proceso falla, las copias temporales pueden permanecer hasta que se limpie la caché. Estas operaciones no envían archivos ni miniaturas al servidor del desarrollador.</p>
+        <p>Los archivos de caché que no están en uso tienen un presupuesto total de 20 MiB y se limpian automáticamente. Las copias de trabajo activas, los archivos entregados a otras aplicaciones y los datos necesarios para la recuperación pueden ocupar temporalmente más espacio. Se protegen mientras están en uso; los archivos temporales innecesarios se eliminan al dejar de utilizarse y las copias de recuperación se conservan hasta que la recuperación pueda finalizar de forma segura.</p>
+      </section>
+      <section>
+        <h2>Bloqueo de lanzamiento y biometría</h2>
+        <p>El bloqueo de inicio almacena su configuración localmente. La verificación biométrica la realiza el componente del sistema Android; FastFile no recibe ni almacena huellas dactilares, datos faciales u otras plantillas biométricas.</p>
+      </section>
+      <section>
+        <h2>Uso y diagnóstico</h2>
+        <p>Uso y diagnóstico están desactivados de forma predeterminada y solo se activan cuando usted lo elige. El ajuste en Informe de errores controla Firebase Analytics, Crashlytics y Performance Monitoring. Al desactivarlo se detiene su recopilación, se restablecen los datos locales de Analytics y se eliminan los informes de Crashlytics aún no enviados. Los datos ya enviados no se eliminan.</p>
+        <p>Crashlytics puede recibir las versiones de la aplicación y Android, el modelo del dispositivo, identificadores de instalación e informe, estado de la aplicación, mensajes de excepción y trazas de errores. FastFile también establece claves técnicas de la versión de la API de Android y del modelo.</p>
+        <p>Performance Monitoring puede recopilar la duración del inicio, el tiempo en primer y segundo plano, métricas de fotogramas lentos y bloqueados cuando la representación es compatible, e información sobre la versión de la aplicación, el sistema operativo y el dispositivo. Las métricas automáticas dependen del SDK y del dispositivo. FastFile añade mediciones técnicas de tiempo para abrir secciones, buscar archivos y duplicados, leer directorios y contar elementos, copiar, mover, eliminar, renombrar, crear carpetas, obtener propiedades, crear y descomprimir archivos comprimidos y extraer entradas seleccionadas. Las mediciones pueden incluir cantidades de elementos y bytes procesados, uso de caché, categoría de almacenamiento y formato de archivo comprimido, fallos, cancelaciones, tiempos de espera agotados, reintentos y operaciones prolongadas. En las operaciones de red se miden la duración, la latencia de conexión, los bytes transferidos y la velocidad de transferencia. La supervisión automática de HTTP/S se aplica a clientes compatibles; el acceso local a archivos y los flujos multimedia cuyas URL puedan contener nombres o rutas de archivos del usuario se excluyen de esta instrumentación y no envían sus URL a Performance Monitoring. Las mediciones propias no contienen nombres, rutas ni contenidos de archivos, consultas de búsqueda, direcciones de dispositivos, contraseñas ni datos de contacto. La recopilación respeta el ajuste existente de uso y diagnóstico.</p>
+        <p>Analytics puede recibir eventos técnicos de sesión y section_open con el nombre de la sección abierta, además de identificadores e información de uso generados por el SDK.</p>
+        <p>Remote Config descarga parámetros con el diagnóstico activado: usage_diagnostics_enabled_default (valor predeterminado del diagnóstico), show_storage_warning (aviso de almacenamiento) y disable_experimental_features (desactivar funciones experimentales). El SDK guarda los valores descargados; no sustituyen la elección guardada del usuario. FastFile no inicia nuevas descargas con el diagnóstico desactivado. Las solicitudes a Firebase pueden incluir un identificador de instalación, versión de la aplicación, idioma y datos técnicos de red, incluida la dirección IP.</p>
+        <p>FastFile no añade contenido de archivos, nombres, rutas locales completas ni la agenda a sus propios eventos y claves de Firebase. Sin embargo, los mensajes automáticos de excepción y los datos del SDK pueden contener información adicional si aparece en un error o solicitud.</p>
+      </section>
+      <section>
+        <h2>Finalidades del tratamiento</h2>
+        <p>El diagnóstico técnico ayuda a identificar las causas de fallos; el análisis de rendimiento detecta inicios y renderizados lentos; los datos de errores permiten preparar correcciones. Remote Config recibe la configuración remota de la aplicación. Los informes voluntarios se usan para revisar el problema o sugerencia y responder al email indicado. Los eventos técnicos de uso ayudan a localizar la sección afectada.</p>
+      </section>
+      <section>
+        <h2>Servicios técnicos de terceros</h2>
+        <p>Google Firebase es un proveedor externo de Analytics, Crashlytics, Performance Monitoring y Remote Config. Google trata los datos técnicos según sus propias políticas. La transmisión a TV elegida por el usuario usa Google Cast. Documentos oficiales:<br>
+          Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a><br>
+          Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      </section>
+      <section>
+        <h2>Informes de errores voluntarios</h2>
+        <p>El informe contiene la descripción, fecha y hora obligatorias; tipo de informe; categoría y email de respuesta, si se indican; versión y paquete de FastFile, versión de Android, fabricante, modelo, datos de la placa y hora de creación. El usuario puede incluir un registro de diagnóstico depurado y capturas o archivos seleccionados con sus datos y nombres originales. Primero aparece una revisión y luego Gmail o el selector de aplicaciones de Android; el usuario confirma el envío en la aplicación elegida. El desarrollador recibe estos datos y los del correo, incluida la dirección del remitente. Evita datos personales innecesarios; la depuración del registro no garantiza eliminar toda información sensible de texto libre y adjuntos.</p>
+      </section>
+      <section>
+        <h2>Almacenamiento y protección</h2>
+        <p>Los datos locales de la aplicación se almacenan en el dispositivo. Las operaciones con archivos comprimidos y la conversión se ejecutan localmente con archivos seleccionados por el usuario. El acceso HTTPS local protegido funciona solo después de que el usuario lo inicia y solo dentro de la red disponible. Los datos de diagnóstico técnico de Firebase se transmiten de forma cifrada. El bloqueo de inicio protege el acceso a la interfaz FastFile pero no reemplaza el bloqueo de pantalla de Android, el cifrado del dispositivo ni las copias de seguridad de archivos importantes.</p>
+        <p>Los ajustes locales, el registro privado y los archivos temporales se guardan en el almacenamiento de la aplicación. Al desinstalar FastFile, Android elimina sus datos privados; no elimina automáticamente archivos del usuario ni la papelera del almacenamiento compartido. Algunos ajustes pueden guardarse y restaurarse mediante copias de Android si están activadas. Las reglas de copia excluyen registros de diagnóstico, ajustes protegidos y la bóveda oculta.</p>
+        <p>Firebase puede almacenar los datos técnicos enviados, y el desarrollador y los servicios de correo pueden conservar informes voluntarios. Los plazos dependen de las políticas de Firebase, los ajustes de los servicios y la gestión del informe; aquí no se fija un plazo. Desinstalar o desactivar el diagnóstico no elimina datos ya enviados. Puedes consultar sobre tratamiento o eliminación en <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>; las acciones disponibles dependen del servicio y de poder localizar los datos correspondientes.</p>
+        <p>FastFile utiliza mecanismos del sistema Android para acceder a archivos; el usuario controla los permisos. Las medidas de protección reducen riesgos, pero no ofrecen seguridad absoluta.</p>
+        <p>HiddenVault guarda archivos cifrados y un índice cifrado en el directorio interno de la aplicación. La visualización y restauración crean copias descifradas temporales en la caché; las operaciones interrumpidas pueden conservar respaldos cifrados y registros de recuperación. La limpieza de la caché debe preservar los datos cifrados si falla el índice. La contraseña no se envía al desarrollador. Desinstalar elimina la bóveda interna; su copia de seguridad del sistema está desactivada. Guarde los archivos importantes fuera de la bóveda antes de desinstalar. El desarrollador no puede recuperar una contraseña olvidada.</p>
+        <p>FastFile comprueba localmente su paquete instalado y sus firmas, sin un servidor del desarrollador. Los resultados y los eventos locales de seguridad no se envían automáticamente. Una modificación confirmada puede bloquear las funciones normales; una comprobación incompleta puede requerir un nuevo intento. El acceso Root por sí solo no demuestra que FastFile haya sido modificado. Las identidades de los plugins y las operaciones permitidas se guardan localmente en almacenamiento cifrado de la aplicación, excluido de las copias de seguridad de Android. Los registros locales contienen etiquetas técnicas de eventos y trazas de errores depuradas; se omiten el contenido de archivos, contraseñas, tokens y detalles arbitrarios de las acciones.</p>
+      </section>
+      <section>
+        <h2>Opciones del usuario y consultas de privacidad</h2>
+        <p>Puedes desactivar el diagnóstico automático opcional en Informe de errores, elegir por separado registros y adjuntos de un informe voluntario, gestionar permisos de Android y detener el acceso de red o la transmisión. La aplicación no tiene una función para eliminar datos ya enviados a Firebase. Las consultas de privacidad, tratamiento o eliminación pueden enviarse a <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>.</p>
+        <p>Los registros locales se pueden desactivar en Ajustes, independientemente del diagnóstico de Firebase. Al desactivarlos se detienen la grabación local y su exportación, pero no se borran automáticamente los archivos existentes. En la pantalla del plugin se puede revocar el acceso, desactivarlo o bloquearlo localmente. Esto no revoca sus permisos Android ni borra las copias ya recibidas. Los ajustes de Android permiten gestionar esos permisos y desinstalar el plugin.</p>
+      </section>
+      <section>
+        <h2>Menores</h2>
+        <p>FastFile no está destinado específicamente a recopilar datos personales de menores. No incluyas datos innecesarios sobre menores en informes voluntarios o adjuntos. Puedes consultar sobre esos datos al desarrollador mediante el email indicado.</p>
+      </section>
+      <section>
+        <h2>Cambios de política</h2>
+        <p>Esta política puede actualizarse si cambian las funciones, los permisos, los diagnósticos de Firebase, las herramientas de archivos o los requisitos de Google Play. La versión actual se muestra en FastFile y también puede publicarse en el sitio del desarrollador.</p>
+      </section>
+      <section>
+        <h2>Contactos</h2>
+        <p>Desarrollador: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="fr" lang="fr">
+      <div class="language">Français</div>
+      <h1>Politique de confidentialité</h1>
+      <p class="date">Date de révision : 2026-11-13</p>
+      <section>
+        <h2>À propos de l&#39;application</h2>
+        <p>FastFile est un gestionnaire de fichiers pour la visualisation et la gestion locales des fichiers sur l&#39;appareil. L&#39;application peut effectuer la conversion, l&#39;archivage, l&#39;extraction, la visualisation de médias, la gestion des fichiers APK et l&#39;échange de fichiers sur le réseau local. Les fonctions principales ne nécessitent ni compte, ni inscription, ni connexion Internet permanente.</p>
+      </section>
+      <section>
+        <h2>Quelles données l&#39;application utilise</h2>
+        <p>• Fichiers locaux, dossiers et métadonnées Android ;<br>
+          • Informations sur les applications installées lorsque l’utilisateur ouvre la section Applications ;<br>
+          • Réglages locaux de FastFile : langue, thème, interface, sécurité, corbeille et autres préférences ;<br>
+          • Données du rapport de bug si l’utilisateur décide de l’envoyer au développeur ;<br>
+          • Données techniques d’utilisation et de diagnostic Firebase si ce réglage est activé;<br>
+          • Identités locales des plugins, informations de signature, opérations autorisées et état d’activation ou de blocage ;<br>
+          • Résultats des contrôles locaux d’intégrité et événements de sécurité lorsque les journaux locaux sont activés.</p>
+        <p>Les fichiers, leur contenu et leurs métadonnées, la liste des applications, les réglages, les informations de la corbeille et l’historique d’activité sont traités sur l’appareil. Si les journaux locaux sont activés, un journal de session nettoyé est conservé dans le stockage privé pour les rapports volontaires. Les journaux locaux sont indépendants des diagnostics automatiques Firebase ; les journaux privés sont exclus des sauvegardes Android et ne sont pas envoyés automatiquement. Une installation manuelle de l’APK peut aussi enregistrer une copie nettoyée dans le stockage partagé.</p>
+      </section>
+      <section>
+        <h2>Ce que l&#39;application ne fait pas</h2>
+        <p>FastFile ne demande pas de compte et ne propose pas de synchronisation dans son propre cloud. Les fichiers ne sont pas envoyés automatiquement à un serveur du développeur. Leur transfert résulte d’une action de l’utilisateur : Partager, Ouvrir dans une autre application, installer un APK, accès HTTPS local, diffusion sur TV ou rapport volontaire avec pièces jointes. Cela n’exclut pas l’envoi de données techniques à Firebase lorsque les diagnostics sont activés.</p>
+        <p>Le traitement par un plugin facultatif nécessite aussi de choisir un fichier et de confirmer son transfert. Le traitement ultérieur des données reçues dépend des autorisations et de la politique de confidentialité du plugin.</p>
+      </section>
+      <section>
+        <h2>Autorisations</h2>
+        <p>FastFile peut demander l’accès aux fichiers et dossiers, l’accès à tous les fichiers, les notifications en arrière-plan, les vibrations, les informations réseau et Wi‑Fi, l’installation de paquets et l’accès à la liste des applications installées. Ces autorisations servent aux fonctions choisies par l’utilisateur et aux diagnostics techniques Firebase.</p>
+        <p>L’accès aux fichiers repose sur les mécanismes Android, dont la sélection de documents et de dossiers et l’accès à tous les fichiers. L’utilisateur peut accorder et révoquer les autorisations dans Android. Leur révocation peut limiter les fonctions concernées ; les autorisations de fichiers ne donnent pas à Firebase un accès autonome aux fichiers.</p>
+        <p>Les fonctions Root et Shizuku existantes utilisent des droits accordés séparément par l’utilisateur. SAF, les cartes SD et USB peuvent nécessiter le choix d’un dossier ou une autorisation système d’accès au périphérique. Les droits peuvent être révoqués dans Android ou Shizuku ; les opérations correspondantes peuvent alors devenir indisponibles.</p>
+        <p>Les plugins facultatifs nécessitent une confirmation explicite avant l’octroi d’opérations FastFile et avant chaque transfert du fichier choisi. La confirmation présente le nom du paquet, le développeur déclaré, la version, les empreintes SHA-256 des certificats de signature, les autorisations Android demandées et les opérations FastFile. Une signature APK valide ne prouve ni l’honnêteté du développeur ni la sûreté du traitement. Les plugins inconnus ne sont pas officiels et disposent d’opérations FastFile limitées. Les autorisations Android du plugin sont indépendantes de son accès à FastFile.</p>
+      </section>
+      <section>
+        <h2>Corbeille et suppression</h2>
+        <p>Lorsque la corbeille est activée, les fichiers supprimés peuvent être déplacés vers .fastfile_trash. Si l&#39;utilisateur choisit la suppression définitive ou vide la corbeille, la récupération via l&#39;application peut être impossible.</p>
+      </section>
+      <section>
+        <h2>Multimédia, PDF et plugins</h2>
+        <p>Les photos, vidéos, audio, outils PDF, conversion, archivage, extraction et visualisation de fichiers sont traités localement sur l&#39;appareil. Les transferts vers d’autres applications, appareils ou plugins facultatifs nécessitent une action de l’utilisateur.</p>
+        <p>Lors de Diffuser sur TV, la vidéo choisie ou son adresse réseau est transmise à l’appareil Google Cast sélectionné. Une vidéo locale peut utiliser un flux HTTP temporaire sur le réseau local ; cette fonction est distincte de l’accès HTTPS local. L’utilisateur choisit le récepteur et arrête la diffusion.</p>
+        <p>Les plugins sont des applications Android distinctes. Pour une opération confirmée, FastFile donne accès à une copie en lecture seule du fichier choisi pendant deux minutes au maximum. Plugin API n’expose ni les répertoires privés de FastFile ni une navigation illimitée dans les fichiers. Les images destinées à la reconnaissance de texte sont réencodées sans leurs métadonnées EXIF d’origine. Un plugin peut conserver les données reçues ou les transmettre par ses propres services et autorisations Android. Consultez la politique de confidentialité de son développeur. Révoquer l’accès empêche de nouveaux accès par Plugin API et arrête les transferts contrôlés par FastFile ; cela ne supprime pas les données déjà reçues par le plugin.</p>
+        <p>Pour accélérer les aperçus, FastFile peut extraire les fichiers d’archives dans son cache interne et conserver les miniatures en mémoire ou dans un cache local. Les aperçus des images et vidéos masquées sont créés après le déverrouillage du coffre ; la liste des fichiers masqués utilise des copies déchiffrées temporaires distinctes, supprimées après le traitement. Les miniatures de cette liste restent uniquement en mémoire pendant la session déverrouillée. En cas de plantage du processus, les copies temporaires peuvent subsister jusqu’au nettoyage du cache. Ces opérations n’envoient aucun fichier ni aucune miniature au serveur du développeur.</p>
+        <p>Les fichiers de cache inutilisés sont nettoyés automatiquement avec un budget commun de 20 Mio. Les copies de travail actives, les fichiers transmis à d’autres applications et les données nécessaires à la récupération peuvent temporairement occuper plus d’espace. Ils sont protégés pendant leur utilisation ; les fichiers temporaires devenus inutiles sont supprimés après leur libération et les copies de récupération sont conservées jusqu’à la fin de la récupération en toute sécurité.</p>
+      </section>
+      <section>
+        <h2>Verrouillage de lancement et biométrie</h2>
+        <p>Le verrou de lancement stocke ses paramètres localement. La vérification biométrique est effectuée par le composant du système Android ; FastFile ne reçoit ni ne stocke les empreintes digitales, les données faciales ou autres modèles biométriques.</p>
+      </section>
+      <section>
+        <h2>Utilisation et diagnostics</h2>
+        <p>Utilisation et diagnostics sont désactivés par défaut et activés uniquement selon votre choix. Le réglage de l’écran Rapport de bug contrôle Firebase Analytics, Crashlytics et Performance Monitoring. Le désactiver arrête leur collecte, réinitialise les données Analytics locales et supprime les rapports Crashlytics non envoyés. Les données déjà transmises ne sont pas supprimées.</p>
+        <p>Crashlytics peut recevoir les versions de l’application et d’Android, le modèle de l’appareil, les identifiants d’installation et de rapport, l’état de l’application, les messages d’exception et les traces d’erreurs. FastFile définit aussi des clés techniques pour la version de l’API Android et le modèle.</p>
+        <p>Performance Monitoring peut collecter la durée du démarrage, le temps au premier plan et en arrière-plan, des mesures d’images lentes et figées lorsque le rendu est pris en charge, ainsi que des informations sur la version de l’application, le système et l’appareil. Les mesures automatiques dépendent du SDK et de l’appareil. FastFile ajoute des mesures techniques de durée pour l’ouverture des sections, la recherche et la détection des doublons, la lecture des dossiers et le comptage des éléments, la copie, le déplacement, la suppression, le renommage, la création de dossiers, la consultation des propriétés, la création et la décompression des archives et l’extraction des entrées sélectionnées. Les mesures peuvent inclure le nombre d’éléments et d’octets traités, l’utilisation du cache, la catégorie de stockage et le format d’archive, les échecs, annulations, délais dépassés, nouvelles tentatives et opérations longues. Pour les opérations réseau, la durée, le délai de connexion, les octets transférés et le débit sont mesurés. La surveillance automatique HTTP/S concerne les clients pris en charge ; l’accès local aux fichiers et les flux multimédias dont les URL peuvent contenir des noms ou chemins de fichiers de l’utilisateur sont exclus de cette instrumentation et ne transmettent pas leurs URL à Performance Monitoring. Les mesures propres ne contiennent ni noms, chemins ou contenus de fichiers, ni requêtes de recherche, adresses d’appareils, mots de passe ou coordonnées. La collecte respecte le réglage existant d’utilisation et de diagnostic.</p>
+        <p>Analytics peut recevoir des événements techniques de session et section_open avec le nom de la section ouverte, ainsi que les identifiants et informations d’utilisation produits par le SDK.</p>
+        <p>Remote Config télécharge, avec les diagnostics activés, usage_diagnostics_enabled_default (valeur par défaut des diagnostics), show_storage_warning (avertissement de stockage) et disable_experimental_features (désactivation des fonctions expérimentales). Le SDK conserve les valeurs reçues ; elles ne remplacent pas le choix enregistré de l’utilisateur. FastFile ne lance pas de nouveau téléchargement lorsque les diagnostics sont désactivés. Les requêtes Firebase peuvent inclure un identifiant d’installation, la version de l’application, la langue et des informations techniques de réseau, notamment l’adresse IP.</p>
+        <p>FastFile n’ajoute pas le contenu des fichiers, leurs noms, les chemins locaux complets ni le carnet d’adresses à ses propres événements et clés Firebase. Les messages automatiques d’exception et les informations du SDK peuvent toutefois contenir des données supplémentaires si elles figurent dans une erreur ou une requête.</p>
+      </section>
+      <section>
+        <h2>Finalités du traitement</h2>
+        <p>Les diagnostics techniques aident à déterminer les causes des plantages ; l’analyse des performances repère les démarrages et rendus lents ; les informations sur les erreurs servent aux corrections. Remote Config permet de recevoir la configuration distante de l’application. Les rapports volontaires servent à examiner le problème ou la suggestion et à répondre à l’e-mail indiqué. Les événements techniques d’utilisation aident à identifier la section concernée.</p>
+      </section>
+      <section>
+        <h2>Services techniques tiers</h2>
+        <p>Google Firebase est le fournisseur tiers d’Analytics, Crashlytics, Performance Monitoring et Remote Config. Google traite les données techniques selon ses propres règles. La diffusion sur TV choisie par l’utilisateur utilise Google Cast. Documents officiels :<br>
+          Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a><br>
+          Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      </section>
+      <section>
+        <h2>Rapports de bugs volontaires</h2>
+        <p>Un rapport contient la description, la date et l’heure obligatoires ; son type ; la catégorie et l’e-mail de réponse, si indiqués ; la version et le paquet FastFile, la version d’Android, le fabricant, le modèle, des informations sur la carte et l’heure de création. L’utilisateur peut ajouter un journal de diagnostic nettoyé et des captures ou fichiers choisis avec leurs données et noms d’origine. Une vérification apparaît, puis Gmail ou le sélecteur d’applications Android s’ouvre ; l’utilisateur confirme l’envoi dans l’application choisie. Le développeur reçoit ces informations et les données du courriel, dont l’adresse de l’expéditeur. Évitez les données personnelles inutiles ; le nettoyage du journal ne garantit pas la suppression de tout renseignement sensible dans les textes libres et les pièces jointes.</p>
+      </section>
+      <section>
+        <h2>Stockage et protection</h2>
+        <p>Les données locales de l&#39;application sont stockées sur l&#39;appareil. Les opérations d&#39;archivage et de conversion s&#39;exécutent localement avec les fichiers sélectionnés par l&#39;utilisateur. L&#39;accès HTTPS local protégé ne fonctionne qu&#39;une fois que l&#39;utilisateur l&#39;a démarré et uniquement au sein du réseau disponible. Les données de diagnostic technique Firebase sont transmises sous forme chiffrée. Le verrouillage de lancement protège l&#39;accès à l&#39;interface FastFile mais ne remplace pas le verrouillage de l&#39;écran Android, le chiffrement de l’appareil ou les sauvegardes de fichiers importants.</p>
+        <p>Les réglages locaux, le journal privé et les fichiers temporaires se trouvent dans le stockage de l’application. La désinstallation de FastFile supprime ses données privées Android ; les fichiers de l’utilisateur et la corbeille du stockage partagé ne sont pas supprimés automatiquement. Certains réglages peuvent être sauvegardés et restaurés par Android si la sauvegarde système est activée. Les règles de sauvegarde excluent les journaux de diagnostic, les réglages protégés et le coffre caché.</p>
+        <p>Les données techniques transmises peuvent être conservées par Firebase, et les rapports volontaires par le développeur et les services de messagerie. La durée dépend des règles Firebase, des réglages des services et du traitement du rapport ; aucune durée fixe n’est indiquée ici. Désinstaller l’application ou désactiver les diagnostics ne supprime pas les données déjà envoyées. Les questions sur le traitement ou la suppression peuvent être adressées à <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a> ; les actions possibles dépendent du service et de la possibilité de retrouver les données concernées.</p>
+        <p>FastFile utilise les mécanismes système Android pour accéder aux fichiers ; l’utilisateur gère les autorisations. Les protections réduisent les risques sans offrir de sécurité absolue.</p>
+        <p>HiddenVault conserve les fichiers chiffrés et un index chiffré dans le répertoire interne de l’application. La consultation et la restauration créent des copies déchiffrées temporaires dans le cache ; une interruption peut laisser des sauvegardes chiffrées et des journaux de récupération. Le nettoyage du cache doit préserver les données chiffrées en cas d’erreur de l’index. Le mot de passe du coffre n’est pas envoyé au développeur. La désinstallation supprime le coffre interne ; sa sauvegarde système est désactivée. Enregistrez les fichiers importants hors du coffre avant de désinstaller. Le développeur ne peut pas récupérer un mot de passe oublié.</p>
+        <p>FastFile vérifie localement son paquet installé et ses signatures, sans serveur du développeur. Les résultats et les événements locaux de sécurité ne sont pas envoyés automatiquement. Une modification confirmée peut bloquer les fonctions habituelles ; un contrôle incomplet peut nécessiter une nouvelle tentative. L’accès Root seul ne prouve pas que FastFile a été modifié. Les identités des plugins et les opérations autorisées sont conservées localement dans le stockage chiffré de l’application, exclu des sauvegardes Android. Les journaux locaux contiennent des libellés techniques d’événements et des traces d’erreurs nettoyées ; le contenu des fichiers, les mots de passe, les jetons et les détails arbitraires des actions sont omis.</p>
+      </section>
+      <section>
+        <h2>Choix de l’utilisateur et questions de confidentialité</h2>
+        <p>L’utilisateur peut désactiver les diagnostics automatiques facultatifs dans Rapport de bug, choisir séparément le journal et les pièces jointes d’un rapport volontaire, gérer les autorisations Android et arrêter l’accès réseau ou la diffusion. L’application ne propose pas de fonction pour supprimer les données déjà transmises à Firebase. Les demandes de confidentialité, de traitement ou de suppression peuvent être envoyées à <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>.</p>
+        <p>Les journaux locaux peuvent être désactivés dans les paramètres, indépendamment des diagnostics Firebase. Cela arrête leur enregistrement et leur exportation, sans supprimer automatiquement les fichiers existants. L’écran du plugin permet de révoquer son accès, de le désactiver ou de le bloquer localement. Cela ne révoque pas ses autorisations Android et ne supprime pas les copies déjà reçues. Les paramètres Android permettent de gérer ces autorisations et de désinstaller le plugin.</p>
+      </section>
+      <section>
+        <h2>Enfants</h2>
+        <p>FastFile n’est pas spécialement destiné à collecter des données personnelles d’enfants. Les rapports volontaires et leurs pièces jointes ne doivent pas inclure de renseignements inutiles sur des enfants. Les questions sur ces données peuvent être adressées au développeur à l’e-mail indiqué.</p>
+      </section>
+      <section>
+        <h2>Modifications de la politique</h2>
+        <p>Cette politique peut être mise à jour si les fonctions, les autorisations, les diagnostics Firebase, les outils de fichiers ou les exigences Google Play changent. La version actuelle est affichée dans FastFile et peut aussi être publiée sur le site du développeur.</p>
+      </section>
+      <section>
+        <h2>Contacts</h2>
+        <p>Développeur : SoloDeveloperHelp<br>
+          Email : <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="pl" lang="pl">
+      <div class="language">Polski</div>
+      <h1>Polityka prywatności</h1>
+      <p class="date">Data aktualizacji: 2026-11-13</p>
+      <section>
+        <h2>Informacje o aplikacji</h2>
+        <p>FastFile to menedżer plików umożliwiający lokalne przeglądanie plików i zarządzanie nimi na urządzeniu. Aplikacja może wykonywać konwersję, archiwizować, wyodrębniać, przeglądać multimedia, obsługiwać pliki APK i wymieniać pliki w sieci lokalnej. Główne funkcje nie wymagają konta, rejestracji ani stałego połączenia z Internetem.</p>
+      </section>
+      <section>
+        <h2>Z jakich danych korzysta aplikacja</h2>
+        <p>• Lokalne pliki, foldery i metadane Androida;<br>
+          • Informacje o zainstalowanych aplikacjach po otwarciu sekcji Aplikacje;<br>
+          • Lokalne ustawienia FastFile: język, motyw, interfejs, bezpieczeństwo, kosz i inne preferencje;<br>
+          • Dane zgłoszenia błędu, jeśli użytkownik zdecyduje się wysłać je do dewelopera;<br>
+          • Techniczne dane użytkowania i diagnostyki Firebase, jeśli ta opcja jest włączona;<br>
+          • Lokalne dane identyfikacyjne wtyczek, informacje o podpisie, dozwolone operacje oraz stan włączenia lub blokady;<br>
+          • Wyniki lokalnych kontroli integralności i zdarzenia bezpieczeństwa przy włączonych lokalnych dziennikach.</p>
+        <p>Pliki, ich zawartość i metadane, lista aplikacji, ustawienia, informacje o koszu i historia działań są przetwarzane na urządzeniu. Po włączeniu lokalnego zapisu dzienników oczyszczony dziennik sesji jest przechowywany w prywatnej pamięci aplikacji na potrzeby dobrowolnych raportów. Lokalne dzienniki są niezależne od automatycznej diagnostyki Firebase; prywatne dzienniki są wyłączone z kopii zapasowych Androida i nie są wysyłane automatycznie. Przy ręcznej instalacji APK oczyszczona kopia może być także zapisywana we wspólnej pamięci.</p>
+      </section>
+      <section>
+        <h2>Czego aplikacja nie robi</h2>
+        <p>FastFile nie wymaga konta i nie zapewnia własnej synchronizacji w chmurze. Nie przesyła automatycznie plików użytkownika na serwer dewelopera. Przesyłanie następuje na polecenie użytkownika: Udostępnij, Otwórz w innej aplikacji, instalacja APK, lokalny dostęp HTTPS, przesyłanie na TV lub dobrowolny raport z załącznikami. Nie wyklucza to przekazywania danych technicznych do Firebase przy włączonej diagnostyce.</p>
+        <p>Przetwarzanie przez opcjonalną wtyczkę również wymaga wybrania pliku i potwierdzenia jego przekazania. Dalsze przetwarzanie odebranych danych zależy od uprawnień i polityki prywatności wtyczki.</p>
+      </section>
+      <section>
+        <h2>Uprawnienia</h2>
+        <p>FastFile może poprosić o dostęp do plików i folderów, wszystkich plików, powiadomień dla operacji w tle, wibracji, informacji o sieci i Wi‑Fi, instalowania pakietów oraz listy zainstalowanych aplikacji. Uprawnienia obsługują funkcje wybrane przez użytkownika i diagnostykę techniczną Firebase.</p>
+        <p>Dostęp do plików wykorzystuje mechanizmy Androida, w tym wybór dokumentów i folderów oraz dostęp do wszystkich plików. Użytkownik może udzielać i cofać uprawnienia w Androidzie. Cofnięcie może ograniczyć powiązane funkcje; uprawnienia plikowe nie dają Firebase samodzielnego dostępu do plików.</p>
+        <p>Istniejące funkcje Root i Shizuku używają uprawnień przyznanych osobno przez użytkownika. SAF, karty SD i USB mogą wymagać wybrania katalogu lub systemowego zezwolenia na dostęp do urządzenia. Uprawnienia można cofnąć w Androidzie lub Shizuku; odpowiednie operacje mogą wtedy stać się niedostępne.</p>
+        <p>Opcjonalne wtyczki wymagają wyraźnego potwierdzenia przed przyznaniem im operacji FastFile oraz przed każdym przekazaniem wybranego pliku. Potwierdzenie pokazuje nazwę pakietu, zadeklarowanego twórcę, wersję, skróty SHA-256 certyfikatów podpisu, żądane uprawnienia Androida i operacje FastFile. Poprawny podpis APK nie potwierdza uczciwości twórcy ani bezpieczeństwa przetwarzania. Nieznane wtyczki nie są oficjalne i mają ograniczony dostęp do operacji FastFile. Uprawnienia Androida wtyczki są niezależne od jej dostępu do FastFile.</p>
+      </section>
+      <section>
+        <h2>Kosz i usuwanie</h2>
+        <p>Gdy kosz jest włączony, usunięte pliki mogą zostać przeniesione do .fastfile_trash. Jeśli użytkownik zdecyduje się na trwałe usunięcie lub opróżni kosz, odzyskanie danych za pomocą aplikacji może być niemożliwe.</p>
+      </section>
+      <section>
+        <h2>Multimedia, PDF i wtyczki</h2>
+        <p>Zdjęcia, wideo, audio, narzędzia PDF, konwersja, archiwizacja, wyodrębnianie i przeglądanie plików są przetwarzane lokalnie na urządzeniu. Przekazanie plików innym aplikacjom, urządzeniom lub opcjonalnym wtyczkom wymaga działania użytkownika.</p>
+        <p>Po uruchomieniu Przesyłaj na TV wybrane wideo lub jego adres sieciowy trafia do wskazanego urządzenia Google Cast. Lokalne wideo może używać tymczasowego strumienia HTTP w sieci lokalnej; to oddzielna funkcja od dostępu HTTPS. Użytkownik wybiera odbiornik i kończy przesyłanie.</p>
+        <p>Wtyczki są oddzielnymi aplikacjami Android. Dla potwierdzonej operacji FastFile udostępnia kopię wybranego pliku tylko do odczytu, na maksymalnie dwie minuty. Plugin API nie udostępnia prywatnych katalogów FastFile ani nieograniczonego przeglądania plików. Obrazy do rozpoznawania tekstu są ponownie kodowane bez oryginalnych metadanych EXIF. Wtyczka może zachować odebrane dane lub przekazać je przez własne usługi, korzystając ze swoich uprawnień Androida. Zapoznaj się z polityką prywatności jej twórcy. Cofnięcie dostępu kończy nowe dostępy przez Plugin API i przesyłanie kontrolowane przez FastFile; nie usuwa danych już odebranych przez wtyczkę.</p>
+        <p>Aby przyspieszyć podgląd, FastFile może wypakowywać pliki z archiwów do wewnętrznej pamięci podręcznej i przechowywać miniatury w pamięci lub lokalnej pamięci podręcznej. Podglądy ukrytych obrazów i filmów powstają po odblokowaniu sejfu; lista ukrytych plików korzysta z oddzielnych tymczasowych odszyfrowanych kopii, które są usuwane po przetworzeniu. Miniatury tej listy są przechowywane wyłącznie w pamięci podczas odblokowanej sesji. Po awarii procesu tymczasowe kopie mogą pozostać do czasu wyczyszczenia pamięci podręcznej. Operacje te nie wysyłają plików ani miniatur na serwer programisty.</p>
+        <p>Nieużywane pliki pamięci podręcznej są automatycznie usuwane w ramach wspólnego limitu 20 MiB. Aktywne kopie robocze, pliki przekazane innym aplikacjom i dane potrzebne do odzyskiwania mogą tymczasowo zajmować więcej miejsca. Są chronione podczas używania; zbędne pliki tymczasowe są usuwane po zwolnieniu, a kopie do odzyskiwania pozostają do bezpiecznego zakończenia odzyskiwania.</p>
+      </section>
+      <section>
+        <h2>Blokada uruchamiania i dane biometryczne</h2>
+        <p>Blokada uruchamiania przechowuje swoje ustawienia lokalnie. Weryfikację biometryczną przeprowadza komponent systemu Android; FastFile nie odbiera ani nie przechowuje odcisków palców, danych twarzy ani innych szablonów biometrycznych.</p>
+      </section>
+      <section>
+        <h2>Użytkowanie i diagnostyka</h2>
+        <p>Użytkowanie i diagnostyka są domyślnie wyłączone i można je włączyć dobrowolnie. Ustawienie na ekranie Zgłoś błąd steruje Firebase Analytics, Crashlytics i Performance Monitoring. Wyłączenie zatrzymuje zbieranie przez te usługi, resetuje lokalne dane Analytics i usuwa niewysłane raporty Crashlytics. Nie usuwa już przekazanych danych.</p>
+        <p>Crashlytics może otrzymywać wersję aplikacji i Androida, model urządzenia, identyfikatory instalacji i raportu, stan aplikacji, komunikaty wyjątków i ślady stosu błędów. FastFile ustawia również klucze techniczne wersji API Androida i modelu urządzenia.</p>
+        <p>Performance Monitoring może zbierać czas uruchomienia, czas działania na pierwszym planie i w tle, wskaźniki wolnych i zawieszonych klatek przy obsługiwanym renderowaniu oraz informacje o wersji aplikacji, systemie i urządzeniu. Automatyczne pomiary zależą od SDK i urządzenia. FastFile dodaje techniczne pomiary czasu otwierania sekcji, wyszukiwania i sprawdzania duplikatów, odczytu katalogów i liczenia elementów, kopiowania, przenoszenia, usuwania, zmiany nazw, tworzenia folderów, pobierania właściwości, tworzenia i rozpakowywania archiwów oraz wyodrębniania wybranych wpisów. Pomiary mogą obejmować liczbę przetworzonych elementów i bajtów, użycie pamięci podręcznej, kategorię pamięci i format archiwum, niepowodzenia, anulowania, przekroczenia czasu, ponowne próby i długie operacje. Dla operacji sieciowych mierzone są czas, opóźnienie połączenia, liczba przesłanych bajtów i szybkość transferu. Automatyczny monitoring HTTP/S dotyczy obsługiwanych klientów; lokalny dostęp do plików i strumienie multimediów, których adresy URL mogą zawierać nazwy lub ścieżki plików użytkownika, są wyłączone z tej instrumentacji i nie przekazują swoich adresów URL do Performance Monitoring. Własne pomiary nie zawierają nazw, ścieżek ani zawartości plików, zapytań wyszukiwania, adresów urządzeń, haseł ani danych kontaktowych. Zbieranie danych podlega istniejącemu ustawieniu użycia i diagnostyki.</p>
+        <p>Analytics może otrzymywać techniczne zdarzenia sesji i zdarzenie section_open z nazwą otwartego działu, a także identyfikatory i informacje o użyciu generowane przez SDK.</p>
+        <p>Remote Config pobiera parametry przy włączonej diagnostyce: usage_diagnostics_enabled_default (domyślny stan diagnostyki), show_storage_warning (ostrzeżenie o pamięci) i disable_experimental_features (wyłączenie funkcji eksperymentalnych). SDK zapisuje pobrane wartości; nie zastępują one zapisanego wyboru użytkownika. FastFile nie rozpoczyna nowego pobierania przy wyłączonej diagnostyce. Żądania Firebase mogą zawierać identyfikator instalacji, wersję aplikacji, język i techniczne informacje sieciowe, w tym adres IP.</p>
+        <p>FastFile nie dodaje zawartości plików, ich nazw, pełnych lokalnych ścieżek ani książki adresowej do własnych zdarzeń i kluczy Firebase. Automatyczne komunikaty wyjątków i informacje SDK mogą jednak zawierać dodatkowe dane, jeśli pojawiły się w błędzie lub żądaniu.</p>
+      </section>
+      <section>
+        <h2>Cele przetwarzania</h2>
+        <p>Diagnostyka techniczna pomaga ustalać przyczyny awarii; analiza wydajności wykrywa powolny start i renderowanie; dane o błędach wspierają poprawki. Remote Config służy do odbierania zdalnej konfiguracji aplikacji. Dobrowolne raporty służą rozpatrywaniu problemów lub sugestii i odpowiedzi na podany e-mail. Techniczne zdarzenia użycia pomagają ustalić dział, w którym wystąpił problem.</p>
+      </section>
+      <section>
+        <h2>Zewnętrzne usługi techniczne</h2>
+        <p>Google Firebase jest zewnętrznym dostawcą Analytics, Crashlytics, Performance Monitoring i Remote Config. Google przetwarza dane techniczne zgodnie z własnymi zasadami. Przesyłanie na TV wybrane przez użytkownika korzysta z Google Cast. Oficjalne dokumenty:<br>
+          Firebase Privacy and Security: <a href="https://firebase.google.com/support/privacy">https://firebase.google.com/support/privacy</a><br>
+          Google Privacy Policy: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+      </section>
+      <section>
+        <h2>Dobrowolne zgłoszenia błędów</h2>
+        <p>Raport zawiera wymagany opis, datę i godzinę; typ zgłoszenia; kategorię i e-mail do odpowiedzi, jeśli podano; wersję i pakiet FastFile, wersję Androida, producenta, model, informacje o płycie i czas utworzenia. Użytkownik może dołączyć oczyszczony dziennik diagnostyczny i wybrane zrzuty ekranu lub pliki z oryginalnymi danymi i nazwami. Najpierw pojawia się podgląd, potem Gmail lub systemowy wybór aplikacji; użytkownik potwierdza wysyłanie w wybranej aplikacji. Deweloper otrzymuje te informacje i dane wiadomości, w tym adres nadawcy. Nie dodawaj zbędnych danych osobowych; oczyszczenie dziennika nie gwarantuje usunięcia wszystkich poufnych informacji z dowolnego tekstu i załączników.</p>
+      </section>
+      <section>
+        <h2>Przechowywanie i ochrona</h2>
+        <p>Lokalne dane aplikacji są przechowywane na urządzeniu. Operacje archiwizowania i konwersja przebiegają lokalnie z plikami wybranymi przez użytkownika. Chroniony lokalny dostęp HTTPS działa dopiero po jego uruchomieniu przez użytkownika i tylko w obrębie dostępnej sieci. Dane diagnostyczne Firebase przesyłane są w formie zaszyfrowanej. Blokada uruchamiania chroni dostęp do interfejsu FastFile, ale nie zastępuje blokady ekranu Androida, szyfrowania urządzenia ani kopii zapasowych ważnych plików.</p>
+        <p>Lokalne ustawienia, prywatny dziennik i pliki tymczasowe znajdują się w pamięci aplikacji. Odinstalowanie FastFile usuwa jej prywatne dane Androida; pliki użytkownika i kosz we wspólnej pamięci nie są automatycznie usuwane. Część ustawień może być zapisywana i przywracana przez kopie systemowe Androida, jeśli są włączone. Reguły kopii wykluczają dzienniki diagnostyczne, chronione ustawienia i ukryty sejf.</p>
+        <p>Przekazane dane techniczne mogą być przechowywane przez Firebase, a dobrowolne raporty przez dewelopera i dostawców poczty. Okres zależy od zasad Firebase, ustawień usług i obsługi raportu; nie wskazujemy tu stałego terminu. Odinstalowanie aplikacji lub wyłączenie diagnostyki nie usuwa wysłanych danych. Pytania o przetwarzanie lub usunięcie można wysłać na <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>; dostępne działania zależą od usługi i możliwości odnalezienia odpowiednich danych.</p>
+        <p>FastFile używa mechanizmów systemowych Androida do dostępu do plików; użytkownik zarządza uprawnieniami. Ochrona zmniejsza ryzyko, lecz nie zapewnia absolutnego bezpieczeństwa.</p>
+        <p>HiddenVault przechowuje zaszyfrowane pliki i zaszyfrowany indeks w wewnętrznym katalogu aplikacji. Przeglądanie i przywracanie tworzą tymczasowe odszyfrowane kopie w pamięci podręcznej; przerwane operacje mogą pozostawić zaszyfrowane kopie zapasowe i dzienniki odzyskiwania. Czyszczenie pamięci podręcznej musi zachować zaszyfrowane dane przy błędzie indeksu. Hasło nie jest wysyłane do twórcy. Odinstalowanie usuwa wewnętrzny sejf; jego systemowa kopia zapasowa jest wyłączona. Zapisz ważne pliki poza sejfem przed odinstalowaniem. Twórca nie może odzyskać zapomnianego hasła.</p>
+        <p>FastFile sprawdza swój zainstalowany pakiet i podpisy lokalnie, bez serwera twórcy. Wyniki i lokalne zdarzenia bezpieczeństwa nie są wysyłane automatycznie. Potwierdzona modyfikacja może blokować zwykłe funkcje; nieukończone sprawdzenie może wymagać ponownej próby. Sam dostęp Root nie dowodzi modyfikacji FastFile. Dane identyfikacyjne wtyczek i dozwolone operacje są przechowywane lokalnie w zaszyfrowanej pamięci aplikacji, wyłączonej z kopii zapasowych Androida. Lokalne dzienniki zawierają techniczne nazwy zdarzeń i oczyszczone ślady błędów; pomijają zawartość plików, hasła, tokeny i dowolne szczegóły działań.</p>
+      </section>
+      <section>
+        <h2>Wybory użytkownika i pytania o prywatność</h2>
+        <p>Można wyłączyć opcjonalną automatyczną diagnostykę na ekranie Zgłoś błąd, oddzielnie wybrać dziennik i załączniki dobrowolnego raportu, zarządzać uprawnieniami Androida i zakończyć dostęp sieciowy lub przesyłanie. Aplikacja nie ma funkcji usuwania danych już wysłanych do Firebase. Pytania o prywatność, przetwarzanie lub usunięcie można kierować na <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a>.</p>
+        <p>Lokalne dzienniki można wyłączyć w Ustawieniach niezależnie od diagnostyki Firebase. Wyłączenie kończy lokalne zapisywanie i eksport dzienników, ale nie usuwa automatycznie istniejących plików. Na ekranie wtyczki można cofnąć jej dostęp, wyłączyć ją lub lokalnie zablokować. Nie cofa to jej własnych uprawnień Androida ani nie usuwa już odebranych kopii. Ustawienia Androida pozwalają zarządzać tymi uprawnieniami i odinstalować wtyczkę.</p>
+      </section>
+      <section>
+        <h2>Dzieci</h2>
+        <p>FastFile nie jest przeznaczony specjalnie do zbierania danych osobowych dzieci. Dobrowolne raporty i załączniki nie powinny zawierać zbędnych informacji o dzieciach. W sprawie takich danych można napisać do dewelopera na podany e-mail.</p>
+      </section>
+      <section>
+        <h2>Zmiany zasad</h2>
+        <p>Ta polityka może być aktualizowana w przypadku zmian funkcji, uprawnień, diagnostyki Firebase, narzędzi plikowych lub wymagań Google Play. Aktualna wersja jest wyświetlana w FastFile i może być opublikowana na stronie programisty.</p>
+      </section>
+      <section>
+        <h2>Kontakty</h2>
+        <p>Deweloper: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+  </main>
 </body>
 </html>
