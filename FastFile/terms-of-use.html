@@ -1,59 +1,452 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Условия использования FastFile</title>
-<style>
-:root { color-scheme: light; }
-* { box-sizing: border-box; }
-body { margin:0; padding:0; background:#fff; color:#1a1a1a; font-family:Arial,Helvetica,sans-serif; line-height:1.65; }
-main { max-width:860px; margin:0 auto; padding:40px 24px 64px; }
-h1 { font-size:38px; line-height:1.2; margin:0 0 28px; }
-h2 { font-size:27px; line-height:1.3; margin:36px 0 14px; }
-h3 { font-size:21px; margin:28px 0 12px; }
-p, li { font-size:18px; }
-p { margin:0 0 18px; }
-ul,ol { margin:0 0 22px 26px; padding:0; }
-li { margin:8px 0; }
-a { color:#075fc5; overflow-wrap:anywhere; }
-code { overflow-wrap:anywhere; }
-@media(max-width:600px) { main { padding:30px 19px 48px; } h1 {font-size:32px;} h2 {font-size:24px;} p,li {font-size:17px;} }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>FastFile — Terms of use</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.6; }
+    body { margin: 0; background: #f4f5f7; color: #202124; }
+    header, main { max-width: 880px; margin: auto; padding: 24px 20px; }
+    header { position: relative; }
+    nav { display: flex; flex-wrap: wrap; gap: 10px 16px; }
+    a { color: #1468c5; overflow-wrap: anywhere; }
+    article { background: #fff; border-radius: 18px; padding: 24px; margin-bottom: 28px; scroll-margin-top: 18px; }
+    h1 { line-height: 1.3; margin-top: 0; }
+    h2 { font-size: 1.15rem; line-height: 1.4; margin-top: 26px; }
+    p { overflow-wrap: anywhere; }
+    .date { color: #5f6368; }
+    .language { font-size: 0.95rem; font-weight: 600; margin-bottom: 12px; }
+    @media (max-width: 480px) { header, main { padding: 16px 12px; } article { padding: 18px; } }
+    @media (prefers-color-scheme: dark) {
+      body { background: #101216; color: #eceff4; }
+      article { background: #1b1e24; }
+      a { color: #83b8ff; }
+      .date { color: #a8afb9; }
+    }
+  </style>
 </head>
 <body>
-<main>
-<h1 id="условия-использования-fastfile">Условия использования FastFile</h1>
-<p>Дата редакции: 2026-11-08</p>
-<h2 id="назначение-приложения">1. Назначение приложения</h2>
-<p>FastFile предназначен для локального просмотра файлов, управления папками, поиска, открытия, копирования, перемещения, переименования, удаления, упаковки, распаковки, конвертации, установки APK/APKS/XAPK/APKM и локального доступа к файлам через Wi‑Fi по команде пользователя.</p>
-<h2 id="использование-приложения">2. Использование приложения</h2>
-<p>Пользователь обязуется использовать FastFile законным способом и самостоятельно отвечает за файлы, которые хранит, открывает, копирует, перемещает, архивирует, распаковывает, удаляет или передает через системные функции Android.</p>
-<h2 id="разрешения-и-ограничения-устройства">3. Разрешения и ограничения устройства</h2>
-<p>Работа FastFile зависит от версии Android, системных разрешений, состояния памяти, файловой системы, прошивки производителя и ограничений безопасности устройства. Для полноценного файлового менеджера может требоваться MANAGE_EXTERNAL_STORAGE. Для APK-инструментов может требоваться REQUEST_INSTALL_PACKAGES и просмотр установленных приложений.</p>
-<p>Совместимость и доступность отдельных функций также зависят от производителя, конкретной модели, версии Android, прошивки, файловой системы и системных ограничений. На некоторых устройствах отдельные функции могут работать с ограничениями или быть недоступны.</p>
-<h2 id="файловые-операции">4. Файловые операции</h2>
-<p>Перед копированием, перемещением, переименованием, упаковкой, распаковкой, конвертацией или удалением файлов пользователь должен убедиться, что выбраны правильные элементы и есть резервные копии важных данных.</p>
-<p>Пользователь отвечает за правильность выбора файлов и папок, наличие резервных копий важных данных и последствия удаления, перемещения, переименования, конвертации и других операций. Подтверждение операции не заменяет проверку выбора и резервное копирование.</p>
-<p>Открытие конкретного изображения или видео зависит от доступного декодера Android, кодека и состояния файла. Расширение файла само по себе не гарантирует успешное открытие. Сжатие видео и аудио архиватором сохраняет исходные байты и может почти не уменьшить размер; для воспроизведения сжатый файл нужно извлечь. Для HiddenVault храните пароль и независимые резервные копии: удаление приложения удаляет внутреннее хранилище, а забытый пароль разработчик восстановить не может.</p>
-<h2 id="корзина">5. Корзина</h2>
-<p>Если корзина включена, FastFile может перемещать удаляемые файлы в FastFileTrash. Если корзина выключена, очищена или файл удален окончательно, восстановление средствами приложения может быть невозможно.</p>
-<h2 id="открытие-и-передача-файлов">6. Открытие и передача файлов</h2>
-<p>Когда пользователь выбирает «Открыть в другом приложении», «Поделиться», установку APK или защищённый локальный HTTPS-доступ, дальнейшая обработка файла выполняется выбранным пользователем приложением, системным компонентом Android или устройством в локальной сети. FastFile не управляет действиями сторонних приложений после передачи данных.</p>
-<p>Локальный сетевой доступ пользователь запускает самостоятельно и контролирует его использование. Доступ следует предоставлять только доверенным устройствам в доверенной сети и отключать после использования. То же относится к выбранной трансляции на TV; локальный HTTP-поток этой функции не равнозначен HTTPS-доступу.</p>
-<p>После передачи через системные функции Android FastFile не отвечает за дальнейшую обработку файлов сторонними приложениями; она зависит от правил и разрешений этих приложений. Пользователь самостоятельно выбирает получателя и способ передачи.</p>
-<h2 id="ограничение-ответственности">7. Ограничение ответственности</h2>
-<p>FastFile предоставляется как инструмент для работы с локальными файлами. Пользователь несет ответственность за сохранность своих данных, резервное копирование и последствия выбранных файловых операций.</p>
-<p>Приложение не обеспечивает резервное копирование всех пользовательских данных и не гарантирует восстановление после каждой операции или системного сбоя. Пользователь отвечает за свои данные и резервные копии; системные ограничения могут влиять на результат работы инструмента.</p>
-<p>Эти условия не ограничивают права потребителя и ответственность разработчика, которые нельзя исключить или ограничить по применимому законодательству.</p>
-<h2 id="обновления-и-изменения-условий">8. Обновления и изменения условий</h2>
-<p>FastFile может проверять обновления через Google Play. Если доступна новая версия, приложение может показать экран обязательного обновления со ссылкой на Google Play. Условия могут изменяться вместе с функциями приложения, диагностикой Firebase, файловыми инструментами или требованиями Google Play. Продолжение использования после обновления означает согласие с актуальной версией условий в приложении или на сайте разработчика.</p>
-<h2 id="диагностика-и-сторонние-службы">9. Диагностика и сторонние службы</h2>
-<p>FastFile может использовать Firebase Crashlytics, Firebase Performance Monitoring и Firebase Remote Config для технической диагностики, анализа производительности и удалённой конфигурации. Firebase может обрабатывать технические данные согласно политике конфиденциальности. Настройку «Использование и диагностика» можно изменить на экране отчёта об ошибке.</p>
-<p>Поставщик этих технических сервисов — Google Firebase; приложение также использует Firebase Analytics при включённой диагностике. Подробности о данных, целях, выборе пользователя и хранении приведены в политике конфиденциальности. Выключение диагностики не удаляет данные, уже переданные сервисам.</p>
-<h2 id="контакты">10. Контакты</h2>
-<p>Разработчик: SoloDeveloperHelp Email: solo.developer.help@gmail.com</p>
-
-</main>
+  <header>
+    <strong>FastFile</strong>
+    <nav aria-label="Language">
+      <a href="#en" hreflang="en">English</a>
+      <a href="#uk" hreflang="uk">Українська</a>
+      <a href="#ru" hreflang="ru">Русский</a>
+      <a href="#de" hreflang="de">Deutsch</a>
+      <a href="#es" hreflang="es">Español</a>
+      <a href="#fr" hreflang="fr">Français</a>
+      <a href="#pl" hreflang="pl">Polski</a>
+    </nav>
+  </header>
+  <main>
+    <article id="en" lang="en">
+      <div class="language">English</div>
+      <h1>Terms of use</h1>
+      <p class="date">Revision date: 2026-11-13</p>
+      <section>
+        <h2>1. App purpose</h2>
+        <p>FastFile is intended for local file viewing, folder management, search, opening, copying, moving, renaming, deleting, packaging, extraction, conversion, APK/APKS/XAPK/APKM installation, and file access on the local network when started by the user.</p>
+      </section>
+      <section>
+        <h2>2. App use</h2>
+        <p>The user agrees to use FastFile lawfully and is responsible for the files they store, open, copy, move, archive, extract, delete, or transfer through Android system functions.</p>
+      </section>
+      <section>
+        <h2>3. Permissions and device limits</h2>
+        <p>FastFile operation depends on Android version, system permissions, storage state, file system, manufacturer firmware, and device security restrictions. A full file manager may require MANAGE_EXTERNAL_STORAGE. APK tools may require REQUEST_INSTALL_PACKAGES and installed-app visibility.</p>
+        <p>Compatibility and feature availability also depend on the manufacturer, device model, Android version, firmware, file system, and system restrictions. Some features may be limited or unavailable on particular devices.</p>
+        <p>Local integrity checks may block normal functions after a confirmed modification of FastFile; an incomplete check may request a retry. These checks do not require a developer server. Root access alone is not treated as proof of modification. No protective measure guarantees the safety of every file, plugin or device.</p>
+      </section>
+      <section>
+        <h2>4. File operations</h2>
+        <p>Before copying, moving, renaming, packaging, extracting, converting, or deleting files, the user should make sure the correct items are selected and important data is backed up.</p>
+        <p>Users are responsible for selecting the correct files and folders, backing up important data, and the consequences of deletion, moving, renaming, conversion, and other operations. Confirming an operation does not replace checking the selection or making backups.</p>
+        <p>Opening an image or video depends on the available Android decoder, codec and file condition. A file extension alone does not guarantee that it can be opened. Archiving video and audio preserves the original bytes and may barely reduce size; extract a compressed file before playback. Keep the HiddenVault password and independent backups: uninstalling removes the internal vault and the developer cannot recover a forgotten password.</p>
+        <p>Faster packing modes may produce a larger archive while preserving the original bytes. Actual speed and compression ratio depend on the format, file type and device.</p>
+        <p>Unused cached files have a shared budget of 20 MiB and are cleaned automatically. Active working copies, files handed to other apps, and data needed for recovery may temporarily use more space. They are protected while in use; unnecessary temporary files are removed after release, and recovery copies are kept until recovery can safely finish.</p>
+      </section>
+      <section>
+        <h2>5. Trash</h2>
+        <p>When trash is enabled, FastFile may move deleted files to .fastfile_trash. If trash is disabled, emptied, or a file is permanently deleted, recovery through the app may be impossible.</p>
+      </section>
+      <section>
+        <h2>6. Opening and sharing files</h2>
+        <p>When the user chooses Open in another app, Share, APK installation, or protected local HTTPS access, the file is handled by the app, Android system component, or local-network device selected by the user. FastFile does not control third-party app actions after data is transferred.</p>
+        <p>Users start local network access themselves and control its use. Grant access only to trusted devices on a trusted network and stop it after use. The same applies to selected casting to TV; its local HTTP stream is not equivalent to HTTPS access.</p>
+        <p>After a file is passed through Android system functions, FastFile is not responsible for its further processing by third-party apps, which depends on their policies and permissions. Users choose the recipient and transfer method.</p>
+        <p>Optional plugins are separate apps. Enable only the capabilities you need after reviewing the declared developer, package, version, signing certificates and requested permissions. Every selected-file operation requires confirmation. Unknown plugins are not official and have limited FastFile capabilities. Review the recipient’s privacy policy and verify its results before relying on them. Revoking FastFile access stops new API access and FastFile transfers, but does not erase already delivered data or revoke the plugin’s Android permissions. A valid signature or trust label is not a guarantee of safe or correct processing.</p>
+      </section>
+      <section>
+        <h2>7. Liability limits</h2>
+        <p>FastFile is provided as a tool for local file work. The user is responsible for data safety, backups, and the consequences of selected file operations.</p>
+        <p>The app does not back up all user data or guarantee recovery after every operation or system failure. Users are responsible for their data and backups; system restrictions can affect the tool’s results.</p>
+        <p>These terms do not limit consumer rights or developer liability that cannot be excluded or limited under applicable law.</p>
+      </section>
+      <section>
+        <h2>8. Updates and terms changes</h2>
+        <p>FastFile may check for updates through Google Play. If a new version is available, the app may show a required update screen with a link to Google Play. These terms may change with app features, Firebase diagnostics, file tools, or Google Play requirements. Continuing to use FastFile after an update means accepting the current terms shown in the app or on the developer website.</p>
+      </section>
+      <section>
+        <h2>9. Diagnostics and third-party services</h2>
+        <p>FastFile may use Firebase Crashlytics, Firebase Performance Monitoring and Firebase Remote Config for technical diagnostics, performance analysis and remote configuration. Firebase may process technical data as described in the privacy policy. The Usage and diagnostics setting can be changed on the Bug report screen.</p>
+        <p>Google Firebase provides these technical services; Firebase Analytics is also used when diagnostics are enabled. Data, purposes, user choices, and storage are explained in the privacy policy. Disabling diagnostics does not delete data already sent to the services.</p>
+      </section>
+      <section>
+        <h2>10. Contacts</h2>
+        <p>Developer: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="uk" lang="uk">
+      <div class="language">Українська</div>
+      <h1>Умови використання</h1>
+      <p class="date">Дата редакції: 2026-11-13</p>
+      <section>
+        <h2>1. Призначення застосунку</h2>
+        <p>FastFile призначений для локального перегляду файлів, керування папками, пошуку, відкриття, копіювання, переміщення, перейменування, видалення, пакування, розпакування, конвертації, встановлення APK/APKS/XAPK/APKM і доступу до файлів у локальній мережі за командою користувача.</p>
+      </section>
+      <section>
+        <h2>2. Використання застосунку</h2>
+        <p>Користувач зобовязується використовувати FastFile законним способом і самостійно відповідає за файли, які зберігає, відкриває, копіює, переміщує, архівує, розпаковує, видаляє або передає через системні функції Android.</p>
+      </section>
+      <section>
+        <h2>3. Дозволи та обмеження пристрою</h2>
+        <p>Робота FastFile залежить від версії Android, системних дозволів, стану пам’яті, файлової системи, прошивки виробника та обмежень безпеки пристрою. Для повного файлового менеджера може знадобитися MANAGE_EXTERNAL_STORAGE. Для APK-інструментів може знадобитися REQUEST_INSTALL_PACKAGES і перегляд встановлених застосунків.</p>
+        <p>Сумісність і доступність окремих функцій також залежать від виробника, моделі пристрою, версії Android, прошивки, файлової системи та системних обмежень. На деяких пристроях окремі функції можуть бути обмежені або недоступні.</p>
+        <p>Локальна перевірка цілісності може блокувати звичайні функції за підтвердженої модифікації FastFile; незавершена перевірка може потребувати повторної спроби. Для неї не потрібен сервер розробника. Сама наявність Root не вважається доказом модифікації. Захисні заходи не гарантують безпечність кожного файла, плагіна або пристрою.</p>
+      </section>
+      <section>
+        <h2>4. Файлові операції</h2>
+        <p>Перед копіюванням, переміщенням, перейменуванням, пакуванням, розпакуванням, конвертацією або видаленням файлів користувач має переконатися, що вибрано правильні елементи і є резервні копії важливих даних.</p>
+        <p>Користувач відповідає за правильність вибору файлів і папок, резервні копії важливих даних та наслідки видалення, переміщення, перейменування, конвертації й інших операцій. Підтвердження операції не замінює перевірку вибору та резервне копіювання.</p>
+        <p>Відкриття зображення чи відео залежить від доступного декодера Android, кодека та стану файлу. Розширення саме по собі не гарантує відкриття. Архівування відео й аудіо зберігає початкові байти та може майже не зменшити розмір; перед відтворенням стиснутий файл потрібно витягти. Зберігайте пароль HiddenVault і незалежні резервні копії: видалення застосунку видаляє внутрішнє сховище, а розробник не може відновити забутий пароль.</p>
+        <p>Швидші режими пакування можуть створювати більший архів зі збереженням початкових байтів. Фактичні швидкість і ступінь стиснення залежать від формату, типу файлу й пристрою.</p>
+        <p>Для невикористовуваного кешу діє спільний бюджет 20 МіБ та автоматичне очищення. Активні робочі копії, файли, передані іншим застосункам, і дані для відновлення можуть тимчасово займати більше місця. Вони захищені під час використання; непотрібні тимчасові файли видаляються після звільнення, а резервні копії зберігаються до безпечного завершення відновлення.</p>
+      </section>
+      <section>
+        <h2>5. Кошик</h2>
+        <p>Якщо кошик увімкнено, FastFile може переміщувати файли, що видаляються, до .fastfile_trash. Якщо кошик вимкнено, очищено або файл видалено остаточно, відновлення засобами застосунку може бути неможливим.</p>
+      </section>
+      <section>
+        <h2>6. Відкриття та передавання файлів</h2>
+        <p>Коли користувач вибирає «Відкрити в іншому застосунку», «Поділитися», установку APK або захищений локальний HTTPS-доступ, подальша обробка файлу виконується вибраним користувачем застосунком, системним компонентом Android або пристроєм у локальній мережі. FastFile не керує діями сторонніх застосунків після передавання даних.</p>
+        <p>Локальний мережевий доступ користувач запускає самостійно й контролює його використання. Доступ слід надавати лише довіреним пристроям у довіреній мережі та вимикати після використання. Це також стосується вибраної трансляції на TV; локальний HTTP-потік цієї функції не рівнозначний HTTPS-доступу.</p>
+        <p>Після передавання через системні функції Android FastFile не відповідає за подальшу обробку файлів сторонніми застосунками; вона залежить від їхніх правил і дозволів. Користувач самостійно вибирає одержувача та спосіб передавання.</p>
+        <p>Додаткові плагіни — окремі програми. Дозволяйте лише потрібні операції після перевірки заявленого розробника, назви пакета, версії, сертифікатів підпису та запитаних дозволів. Кожна операція з вибраним файлом потребує підтвердження. Невідомі плагіни не вважаються офіційними, і їхній доступ до операцій FastFile обмежено. Ознайомтеся з політикою отримувача та перевіряйте результати перед використанням. Відкликання доступу FastFile припиняє новий доступ через API та передавання з боку FastFile, але не видаляє вже передані дані й не відкликає дозволи Android плагіна. Коректний підпис або статус довіри не гарантують безпечну й правильну обробку.</p>
+      </section>
+      <section>
+        <h2>7. Обмеження відповідальності</h2>
+        <p>FastFile надається як інструмент для роботи з локальними файлами. Користувач відповідає за збереження своїх даних, резервне копіювання та наслідки вибраних файлових операцій.</p>
+        <p>Застосунок не забезпечує резервне копіювання всіх даних користувача й не гарантує відновлення після кожної операції чи системного збою. Користувач відповідає за свої дані та резервні копії; системні обмеження можуть впливати на результат роботи інструмента.</p>
+        <p>Ці умови не обмежують права споживача та відповідальність розробника, які не можна виключити чи обмежити за застосовним законодавством.</p>
+      </section>
+      <section>
+        <h2>8. Оновлення та зміни умов</h2>
+        <p>FastFile може перевіряти оновлення через Google Play. Якщо доступна нова версія, застосунок може показати екран обов’язкового оновлення з посиланням на Google Play. Умови можуть змінюватися разом із функціями застосунку, діагностикою Firebase, файловими інструментами або вимогами Google Play. Продовження використання після оновлення означає згоду з актуальною версією умов у застосунку або на сайті розробника.</p>
+      </section>
+      <section>
+        <h2>9. Діагностика та сторонні служби</h2>
+        <p>FastFile може використовувати Firebase Crashlytics, Firebase Performance Monitoring і Firebase Remote Config для технічної діагностики, аналізу продуктивності та віддаленої конфігурації. Firebase може обробляти технічні дані згідно з політикою конфіденційності. Налаштування «Використання та діагностика» можна змінити на екрані звіту про помилку.</p>
+        <p>Постачальник цих технічних сервісів — Google Firebase; застосунок також використовує Firebase Analytics при ввімкненій діагностиці. Подробиці щодо даних, цілей, вибору користувача й зберігання наведені в політиці конфіденційності. Вимкнення діагностики не видаляє дані, вже передані сервісам.</p>
+      </section>
+      <section>
+        <h2>10. Контакти</h2>
+        <p>Розробник: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="ru" lang="ru">
+      <div class="language">Русский</div>
+      <h1>Условия использования</h1>
+      <p class="date">Дата редакции: 2026-11-13</p>
+      <section>
+        <h2>1. Назначение приложения</h2>
+        <p>FastFile предназначен для локального просмотра файлов, управления папками, поиска, открытия, копирования, перемещения, переименования, удаления, упаковки, распаковки, конвертации, установки APK/APKS/XAPK/APKM и доступа к файлам в локальной сети по команде пользователя.</p>
+      </section>
+      <section>
+        <h2>2. Использование приложения</h2>
+        <p>Пользователь обязуется использовать FastFile законным способом и самостоятельно отвечает за файлы, которые хранит, открывает, копирует, перемещает, архивирует, распаковывает, удаляет или передает через системные функции Android.</p>
+      </section>
+      <section>
+        <h2>3. Разрешения и ограничения устройства</h2>
+        <p>Работа FastFile зависит от версии Android, системных разрешений, состояния памяти, файловой системы, прошивки производителя и ограничений безопасности устройства. Для полноценного файлового менеджера может требоваться MANAGE_EXTERNAL_STORAGE. Для APK-инструментов может требоваться REQUEST_INSTALL_PACKAGES и просмотр установленных приложений.</p>
+        <p>Совместимость и доступность отдельных функций также зависят от производителя, конкретной модели, версии Android, прошивки, файловой системы и системных ограничений. На некоторых устройствах отдельные функции могут работать с ограничениями или быть недоступны.</p>
+        <p>Локальная проверка целостности может блокировать обычные функции при подтверждённой модификации FastFile; незавершённая проверка может потребовать повторной попытки. Для неё не нужен сервер разработчика. Само наличие Root не считается доказательством модификации. Защитные меры не гарантируют безопасность каждого файла, плагина или устройства.</p>
+      </section>
+      <section>
+        <h2>4. Файловые операции</h2>
+        <p>Перед копированием, перемещением, переименованием, упаковкой, распаковкой, конвертацией или удалением файлов пользователь должен убедиться, что выбраны правильные элементы и есть резервные копии важных данных.</p>
+        <p>Пользователь отвечает за правильность выбора файлов и папок, наличие резервных копий важных данных и последствия удаления, перемещения, переименования, конвертации и других операций. Подтверждение операции не заменяет проверку выбора и резервное копирование.</p>
+        <p>Открытие конкретного изображения или видео зависит от доступного декодера Android, кодека и состояния файла. Расширение файла само по себе не гарантирует успешное открытие. Сжатие видео и аудио архиватором сохраняет исходные байты и может почти не уменьшить размер; для воспроизведения сжатый файл нужно извлечь. Для HiddenVault храните пароль и независимые резервные копии: удаление приложения удаляет внутреннее хранилище, а забытый пароль разработчик восстановить не может.</p>
+        <p>Более быстрые режимы упаковки могут создавать более крупный архив при сохранении исходных байтов. Фактические скорость и степень сжатия зависят от формата, типа файла и устройства.</p>
+        <p>Для неиспользуемого кеша действует общий бюджет 20 МиБ и автоматическая очистка. Активные рабочие копии, файлы, переданные другим приложениям, и данные для восстановления могут временно занимать больше места. Они защищены во время использования; ненужные временные файлы удаляются после освобождения, а резервные копии сохраняются до безопасного завершения восстановления.</p>
+      </section>
+      <section>
+        <h2>5. Корзина</h2>
+        <p>Если корзина включена, FastFile может перемещать удаляемые файлы в .fastfile_trash. Если корзина выключена, очищена или файл удален окончательно, восстановление средствами приложения может быть невозможно.</p>
+      </section>
+      <section>
+        <h2>6. Открытие и передача файлов</h2>
+        <p>Когда пользователь выбирает «Открыть в другом приложении», «Поделиться», установку APK или защищённый локальный HTTPS-доступ, дальнейшая обработка файла выполняется выбранным пользователем приложением, системным компонентом Android или устройством в локальной сети. FastFile не управляет действиями сторонних приложений после передачи данных.</p>
+        <p>Локальный сетевой доступ пользователь запускает самостоятельно и контролирует его использование. Доступ следует предоставлять только доверенным устройствам в доверенной сети и отключать после использования. То же относится к выбранной трансляции на TV; локальный HTTP-поток этой функции не равнозначен HTTPS-доступу.</p>
+        <p>После передачи через системные функции Android FastFile не отвечает за дальнейшую обработку файлов сторонними приложениями; она зависит от правил и разрешений этих приложений. Пользователь самостоятельно выбирает получателя и способ передачи.</p>
+        <p>Дополнительные плагины — отдельные приложения. Разрешайте только нужные операции после проверки заявленного разработчика, имени пакета, версии, сертификатов подписи и запрошенных разрешений. Каждая операция с выбранным файлом требует подтверждения. Неизвестные плагины не считаются официальными, и их доступ к операциям FastFile ограничен. Изучите политику получателя и проверяйте результаты перед использованием. Отзыв доступа FastFile прекращает новый доступ через API и передачу со стороны FastFile, но не удаляет уже переданные данные и не отзывает разрешения Android плагина. Корректная подпись или статус доверия не гарантируют безопасную и правильную обработку.</p>
+      </section>
+      <section>
+        <h2>7. Ограничение ответственности</h2>
+        <p>FastFile предоставляется как инструмент для работы с локальными файлами. Пользователь несет ответственность за сохранность своих данных, резервное копирование и последствия выбранных файловых операций.</p>
+        <p>Приложение не обеспечивает резервное копирование всех пользовательских данных и не гарантирует восстановление после каждой операции или системного сбоя. Пользователь отвечает за свои данные и резервные копии; системные ограничения могут влиять на результат работы инструмента.</p>
+        <p>Эти условия не ограничивают права потребителя и ответственность разработчика, которые нельзя исключить или ограничить по применимому законодательству.</p>
+      </section>
+      <section>
+        <h2>8. Обновления и изменения условий</h2>
+        <p>FastFile может проверять обновления через Google Play. Если доступна новая версия, приложение может показать экран обязательного обновления со ссылкой на Google Play. Условия могут изменяться вместе с функциями приложения, диагностикой Firebase, файловыми инструментами или требованиями Google Play. Продолжение использования после обновления означает согласие с актуальной версией условий в приложении или на сайте разработчика.</p>
+      </section>
+      <section>
+        <h2>9. Диагностика и сторонние службы</h2>
+        <p>FastFile может использовать Firebase Crashlytics, Firebase Performance Monitoring и Firebase Remote Config для технической диагностики, анализа производительности и удалённой конфигурации. Firebase может обрабатывать технические данные согласно политике конфиденциальности. Настройку «Использование и диагностика» можно изменить на экране отчёта об ошибке.</p>
+        <p>Поставщик этих технических сервисов — Google Firebase; приложение также использует Firebase Analytics при включённой диагностике. Подробности о данных, целях, выборе пользователя и хранении приведены в политике конфиденциальности. Выключение диагностики не удаляет данные, уже переданные сервисам.</p>
+      </section>
+      <section>
+        <h2>10. Контакты</h2>
+        <p>Разработчик: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="de" lang="de">
+      <div class="language">Deutsch</div>
+      <h1>Nutzungsbedingungen</h1>
+      <p class="date">Stand: 2026-11-13</p>
+      <section>
+        <h2>1. App-Zweck</h2>
+        <p>FastFile ist für die lokale Dateianzeige, Ordnerverwaltung, Suche, Öffnung, Kopieren, Verschieben, Umbenennen, Löschen, Packen, Extrahieren, Konvertieren, APK/APKS/XAPK/APKM-Installation und Dateizugriff im lokalen Netzwerk vorgesehen, wenn der Benutzer diese Funktion startet.</p>
+      </section>
+      <section>
+        <h2>2. App-Nutzung</h2>
+        <p>Der Benutzer stimmt der rechtmäßigen Nutzung von FastFile zu und ist für die Dateien verantwortlich, die er über Android-Systemfunktionen speichert, öffnet, kopiert, verschiebt, archiviert, extrahiert, löscht oder überträgt.</p>
+      </section>
+      <section>
+        <h2>3. Berechtigungen und Gerätebeschränkungen</h2>
+        <p>Der FastFile-Betrieb hängt von der Android-Version, den Systemberechtigungen, dem Speicherstatus, dem Dateisystem, der Hersteller-Firmware und den Sicherheitsbeschränkungen des Geräts ab. Ein vollständiger Dateimanager erfordert möglicherweise MANAGE_EXTERNAL_STORAGE. Für APK-Tools sind möglicherweise REQUEST_INSTALL_PACKAGES und die Sichtbarkeit der installierten Apps erforderlich.</p>
+        <p>Kompatibilität und Verfügbarkeit einzelner Funktionen hängen auch von Hersteller, Gerätemodell, Android-Version, Firmware, Dateisystem und Systembeschränkungen ab. Funktionen können auf bestimmten Geräten eingeschränkt oder nicht verfügbar sein.</p>
+        <p>Lokale Integritätsprüfungen können reguläre Funktionen bei einer bestätigten Änderung von FastFile blockieren; eine unvollständige Prüfung kann einen erneuten Versuch erfordern. Die Prüfungen benötigen keinen Entwicklerserver. Root-Zugriff allein gilt nicht als Nachweis einer Änderung. Keine Schutzmaßnahme garantiert die Sicherheit jeder Datei, jedes Plugins oder Geräts.</p>
+      </section>
+      <section>
+        <h2>4. Dateioperationen</h2>
+        <p>Vor dem Kopieren, Verschieben, Umbenennen, Packen, Extrahieren, Konvertieren oder Löschen von Dateien sollte der Benutzer sicherstellen, dass die richtigen Elemente ausgewählt und wichtige Daten gesichert sind.</p>
+        <p>Benutzer sind für die richtige Auswahl von Dateien und Ordnern, Sicherung wichtiger Daten und Folgen von Löschen, Verschieben, Umbenennen, Konvertieren und anderen Vorgängen verantwortlich. Eine Bestätigung ersetzt weder die Prüfung der Auswahl noch ein Backup.</p>
+        <p>Das Öffnen eines Bildes oder Videos hängt vom verfügbaren Android-Decoder, Codec und Dateizustand ab. Eine Dateiendung allein garantiert kein erfolgreiches Öffnen. Das Archivieren von Video und Audio erhält die Originalbytes und verkleinert Dateien möglicherweise kaum; vor der Wiedergabe müssen sie entpackt werden. Bewahren Sie das HiddenVault-Passwort und unabhängige Sicherungen auf: Die Deinstallation entfernt den internen Tresor, und der Entwickler kann vergessene Passwörter nicht wiederherstellen.</p>
+        <p>Schnellere Archivierungsmodi können bei unveränderten Originalbytes größere Archive erzeugen. Die tatsächliche Geschwindigkeit und Kompressionsrate hängen vom Format, Dateityp und Gerät ab.</p>
+        <p>Nicht verwendete Cache-Dateien werden automatisch bereinigt und unterliegen einem gemeinsamen Budget von 20 MiB. Aktive Arbeitskopien, an andere Apps übergebene Dateien und für die Wiederherstellung benötigte Daten können vorübergehend mehr Speicherplatz beanspruchen. Sie sind während der Nutzung vor der Bereinigung geschützt. Nicht mehr benötigte temporäre Dateien werden nach ihrer Freigabe entfernt; Wiederherstellungskopien bleiben bis zum sicheren Abschluss der Wiederherstellung erhalten.</p>
+      </section>
+      <section>
+        <h2>5. Papierkorb</h2>
+        <p>Wenn der Papierkorb aktiviert ist, verschiebt FastFile gelöschte Dateien möglicherweise in den .fastfile_trash. Wenn der Papierkorb deaktiviert oder geleert oder eine Datei dauerhaft gelöscht wird, ist eine Wiederherstellung über die App möglicherweise nicht möglich.</p>
+      </section>
+      <section>
+        <h2>6. Dateien öffnen und teilen</h2>
+        <p>Wenn der Benutzer „In einer anderen App öffnen“, „Freigeben“, „APK-Installation“ oder „geschützten lokalen HTTPS-Zugriff“ wählt, wird die Datei von der vom Benutzer ausgewählten App, Android-Systemkomponente oder dem lokalen Netzwerkgerät verarbeitet. FastFile kontrolliert keine App-Aktionen von Drittanbietern, nachdem Daten übertragen wurden.</p>
+        <p>Benutzer starten den lokalen Netzwerkzugriff selbst und kontrollieren seine Nutzung. Gewähren Sie Zugriff nur vertrauenswürdigen Geräten in einem vertrauenswürdigen Netzwerk und beenden Sie ihn danach. Dies gilt auch für eine gewählte TV-Übertragung; ihr lokaler HTTP-Stream entspricht keinem HTTPS-Zugriff.</p>
+        <p>Nach der Übergabe über Android-Systemfunktionen ist FastFile nicht für die weitere Dateiverarbeitung durch Drittanbieter-Apps verantwortlich; diese richtet sich nach deren Regeln und Berechtigungen. Benutzer wählen Empfänger und Übertragungsweg.</p>
+        <p>Optionale Plugins sind separate Apps. Erlauben Sie nur benötigte Aktionen, nachdem Sie den angegebenen Entwickler, Paketnamen, die Version, Signaturzertifikate und angeforderten Berechtigungen geprüft haben. Jede Aktion mit der ausgewählten Datei erfordert eine Bestätigung. Unbekannte Plugins sind nicht offiziell und erhalten nur eingeschränkte FastFile-Aktionen. Lesen Sie die Datenschutzerklärung des Empfängers und prüfen Sie seine Ergebnisse vor der Nutzung. Ein Widerruf des FastFile-Zugriffs beendet neue API-Zugriffe und FastFile-Übertragungen, löscht aber bereits übergebene Daten nicht und widerruft keine Android-Berechtigungen des Plugins. Eine gültige Signatur oder Vertrauensstufe garantiert keine sichere und korrekte Verarbeitung.</p>
+      </section>
+      <section>
+        <h2>7. Haftungsgrenzen</h2>
+        <p>FastFile wird als Tool für die lokale Dateiarbeit bereitgestellt. Der Benutzer ist für die Datensicherheit, Backups und die Folgen ausgewählter Dateivorgänge verantwortlich.</p>
+        <p>Die App sichert nicht sämtliche Benutzerdaten und garantiert keine Wiederherstellung nach jedem Vorgang oder Systemfehler. Benutzer sind für ihre Daten und Backups verantwortlich; Systembeschränkungen können das Ergebnis beeinflussen.</p>
+        <p>Diese Bedingungen beschränken keine Verbraucherrechte oder Haftung des Entwicklers, die nach geltendem Recht nicht ausgeschlossen oder beschränkt werden dürfen.</p>
+      </section>
+      <section>
+        <h2>8. Aktualisierungen und Änderungen der Bedingungen</h2>
+        <p>FastFile kann über Google Play nach Updates suchen. Wenn eine neue Version verfügbar ist, zeigt die App möglicherweise einen erforderlichen Aktualisierungsbildschirm mit einem Link zu Google Play an. Diese Bedingungen können sich mit App-Funktionen, Firebase-Diagnosen, Dateiwerkzeugen oder Google Play-Anforderungen ändern. Die weitere Nutzung nach einem Update bedeutet, dass Sie die aktuellen Bedingungen in der App oder auf der Entwickler-Website akzeptieren.</p>
+      </section>
+      <section>
+        <h2>9. Diagnosen und Drittanbieterdienste</h2>
+        <p>FastFile kann Firebase Crashlytics, Firebase Performance Monitoring und Firebase Remote Config für Diagnosen, Leistungsanalysen und Remote-Konfiguration verwenden. Firebase kann technische Daten gemäß der Datenschutzrichtlinie verarbeiten. Die Einstellung „Nutzung und Diagnose“ kann im Fehlerberichtsbildschirm geändert werden.</p>
+        <p>Anbieter dieser technischen Dienste ist Google Firebase; bei eingeschalteter Diagnose wird auch Firebase Analytics verwendet. Daten, Zwecke, Benutzerentscheidungen und Speicherung sind in der Datenschutzerklärung beschrieben. Das Ausschalten der Diagnose löscht keine bereits übertragenen Daten.</p>
+      </section>
+      <section>
+        <h2>10. Kontakte</h2>
+        <p>Entwickler: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="es" lang="es">
+      <div class="language">Español</div>
+      <h1>Condiciones de uso</h1>
+      <p class="date">Fecha de revisión: 2026-11-13</p>
+      <section>
+        <h2>1. Propósito de la aplicación</h2>
+        <p>FastFile está diseñado para visualización de archivos locales, administración de carpetas, búsqueda, apertura, copia, movimiento, cambio de nombre, eliminación, empaquetado, extracción, conversión, instalación de APK/APKS/XAPK/APKM y acceso a archivos en la red local cuando el usuario activa esta función.</p>
+      </section>
+      <section>
+        <h2>2. Uso de la aplicación</h2>
+        <p>El usuario acepta utilizar FastFile de forma legal y es responsable de los archivos que almacena, abre, copia, mueve, archiva, extrae, elimina o transfiere a través de las funciones del sistema Android.</p>
+      </section>
+      <section>
+        <h2>3. Permisos y límites del dispositivo</h2>
+        <p>El funcionamiento de FastFile depende de la versión de Android, los permisos del sistema, el estado de almacenamiento, el sistema de archivos, el firmware del fabricante y las restricciones de seguridad del dispositivo. Un administrador de archivos completo puede requerir MANAGE_EXTERNAL_STORAGE. Las herramientas APK pueden requerir REQUEST_INSTALL_PACKAGES y visibilidad de las aplicaciones instaladas.</p>
+        <p>La compatibilidad y disponibilidad de funciones también dependen del fabricante, modelo, versión de Android, firmware, sistema de archivos y restricciones del sistema. Algunas funciones pueden estar limitadas o no disponibles en determinados dispositivos.</p>
+        <p>Las comprobaciones locales de integridad pueden bloquear las funciones normales si se confirma una modificación de FastFile; una comprobación incompleta puede requerir un nuevo intento. Estas comprobaciones no necesitan un servidor del desarrollador. El acceso Root por sí solo no se considera prueba de modificación. Ninguna medida de protección garantiza la seguridad de todos los archivos, plugins o dispositivos.</p>
+      </section>
+      <section>
+        <h2>4. Operaciones de archivos</h2>
+        <p>Antes de copiar, mover, cambiar el nombre, empaquetar, extraer, convertir o eliminar archivos, el usuario debe asegurarse de seleccionar los elementos correctos y de realizar una copia de seguridad de los datos importantes.</p>
+        <p>El usuario responde de elegir correctamente archivos y carpetas, hacer copias de los datos importantes y de las consecuencias de eliminar, mover, renombrar, convertir y otras operaciones. Confirmar una operación no sustituye revisar la selección ni hacer copias.</p>
+        <p>Abrir una imagen o vídeo depende del decodificador Android disponible, del códec y del estado del archivo. La extensión por sí sola no garantiza la apertura. Archivar vídeo y audio conserva los bytes originales y puede reducir poco el tamaño; extraiga el archivo antes de reproducirlo. Conserve la contraseña de HiddenVault y copias independientes: desinstalar elimina la bóveda interna y el desarrollador no puede recuperar una contraseña olvidada.</p>
+        <p>Los modos de compresión más rápidos pueden generar un archivo comprimido de mayor tamaño sin cambiar los bytes originales. La velocidad y el grado de compresión reales dependen del formato, del tipo de archivo y del dispositivo.</p>
+        <p>Los archivos de caché que no están en uso tienen un presupuesto total de 20 MiB y se limpian automáticamente. Las copias de trabajo activas, los archivos entregados a otras aplicaciones y los datos necesarios para la recuperación pueden ocupar temporalmente más espacio. Se protegen mientras están en uso; los archivos temporales innecesarios se eliminan al dejar de utilizarse y las copias de recuperación se conservan hasta que la recuperación pueda finalizar de forma segura.</p>
+      </section>
+      <section>
+        <h2>5. Papelera</h2>
+        <p>Cuando la papelera está habilitada, FastFile puede mover archivos eliminados a .fastfile_trash. Si la papelera se desactiva, se vacía o se elimina permanentemente un archivo, la recuperación a través de la aplicación puede resultar imposible.</p>
+      </section>
+      <section>
+        <h2>6. Abrir y compartir archivos</h2>
+        <p>Cuando el usuario elige Abrir en otra aplicación, Compartir, instalación de APK o acceso HTTPS local protegido, el archivo lo maneja la aplicación, el componente del sistema Android o el dispositivo de red local seleccionado por el usuario. FastFile no controla las acciones de aplicaciones de terceros después de que se transfieren los datos.</p>
+        <p>El usuario inicia el acceso de red local y controla su uso. Concede acceso solo a dispositivos de confianza en una red de confianza y detén la función al terminar. Lo mismo se aplica a la transmisión a TV seleccionada; su flujo HTTP local no equivale al acceso HTTPS.</p>
+        <p>Tras transferir archivos mediante funciones del sistema Android, FastFile no responde de su posterior tratamiento por aplicaciones externas, que depende de sus políticas y permisos. El usuario elige el destinatario y el método de transferencia.</p>
+        <p>Los plugins opcionales son aplicaciones independientes. Concede solo las operaciones necesarias tras revisar el desarrollador declarado, el paquete, la versión, los certificados de firma y los permisos solicitados. Cada operación con el archivo elegido requiere confirmación. Los plugins desconocidos no son oficiales y tienen acceso limitado a las operaciones de FastFile. Consulta la política del destinatario y comprueba los resultados antes de usarlos. Revocar el acceso a FastFile impide nuevos accesos por API y detiene las transferencias de FastFile, pero no borra los datos ya entregados ni revoca los permisos Android del plugin. Una firma válida o un nivel de confianza no garantizan un procesamiento seguro y correcto.</p>
+      </section>
+      <section>
+        <h2>7. Límites de responsabilidad</h2>
+        <p>FastFile se proporciona como una herramienta para el trabajo con archivos locales. El usuario es responsable de la seguridad de los datos, las copias de seguridad y las consecuencias de las operaciones de archivos seleccionados.</p>
+        <p>La aplicación no hace copias de todos los datos del usuario ni garantiza su recuperación tras cualquier operación o fallo del sistema. El usuario responde de sus datos y copias; las restricciones del sistema pueden afectar al resultado.</p>
+        <p>Estas condiciones no limitan los derechos del consumidor ni la responsabilidad del desarrollador que no se puedan excluir o limitar según la legislación aplicable.</p>
+      </section>
+      <section>
+        <h2>8. Actualizaciones y cambios de términos</h2>
+        <p>FastFile puede buscar actualizaciones mediante Google Play. Si hay una nueva versión, la aplicación puede mostrar una pantalla de actualización obligatoria con un enlace a Google Play. Estas condiciones pueden cambiar con las funciones, los diagnósticos de Firebase, las herramientas de archivos o los requisitos de Google Play. Continuar usando FastFile tras una actualización significa aceptar las condiciones actuales de la aplicación o del sitio del desarrollador.</p>
+      </section>
+      <section>
+        <h2>9. Diagnósticos y servicios de terceros</h2>
+        <p>FastFile puede utilizar Firebase Crashlytics, Firebase Performance Monitoring y Firebase Remote Config para diagnósticos, análisis del rendimiento y configuración remota. Firebase puede procesar datos técnicos según la política de privacidad. La opción Uso y diagnósticos se puede cambiar en la pantalla de informe de errores.</p>
+        <p>Google Firebase proporciona estos servicios técnicos; también se usa Firebase Analytics con el diagnóstico activado. La política de privacidad explica los datos, finalidades, opciones y almacenamiento. Desactivar el diagnóstico no elimina datos ya enviados a los servicios.</p>
+      </section>
+      <section>
+        <h2>10. Contactos</h2>
+        <p>Desarrollador: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="fr" lang="fr">
+      <div class="language">Français</div>
+      <h1>Conditions d&#39;utilisation</h1>
+      <p class="date">Date de révision : 2026-11-13</p>
+      <section>
+        <h2>1. Objectif de l&#39;application</h2>
+        <p>FastFile est destiné à l&#39;affichage de fichiers locaux, à la gestion de dossiers, à la recherche, à l&#39;ouverture, à la copie, au déplacement, au renommage, à la suppression, à l&#39;empaquetage, à l&#39;extraction, à la conversion, à l&#39;installation d&#39;APK/APKS/XAPK/APKM et à l&#39;accès aux fichiers sur le réseau local lorsque l’utilisateur active cette fonction.</p>
+      </section>
+      <section>
+        <h2>2. Utilisation de l&#39;application</h2>
+        <p>L&#39;utilisateur s&#39;engage à utiliser FastFile légalement et est responsable des fichiers qu&#39;il stocke, ouvre, copie, déplace, archive, extrait, supprime ou transfère via les fonctions du système Android.</p>
+      </section>
+      <section>
+        <h2>3. Autorisations et limites des appareils</h2>
+        <p>Le fonctionnement de FastFile dépend de la version d&#39;Android, des autorisations du système, de l&#39;état de stockage, du système de fichiers, du micrologiciel du fabricant et des restrictions de sécurité de l&#39;appareil. Un gestionnaire de fichiers complet peut nécessiter MANAGE_EXTERNAL_STORAGE. Les outils APK peuvent nécessiter REQUEST_INSTALL_PACKAGES et une visibilité sur les applications installées.</p>
+        <p>La compatibilité et la disponibilité des fonctions dépendent aussi du fabricant, du modèle, de la version d’Android, du micrologiciel, du système de fichiers et des restrictions système. Certaines fonctions peuvent être limitées ou indisponibles sur certains appareils.</p>
+        <p>Les contrôles locaux d’intégrité peuvent bloquer les fonctions habituelles lorsqu’une modification de FastFile est confirmée ; un contrôle incomplet peut nécessiter une nouvelle tentative. Ces contrôles ne nécessitent pas de serveur du développeur. L’accès Root seul n’est pas considéré comme une preuve de modification. Aucune mesure de protection ne garantit la sûreté de chaque fichier, plugin ou appareil.</p>
+      </section>
+      <section>
+        <h2>4. Opérations sur les fichiers</h2>
+        <p>Avant de copier, déplacer, renommer, empaqueter, extraire, convertir ou supprimer des fichiers, l&#39;utilisateur doit s&#39;assurer que les éléments corrects sont sélectionnés et que les données importantes sont sauvegardées.</p>
+        <p>L’utilisateur est responsable du choix correct des fichiers et dossiers, des sauvegardes des données importantes et des conséquences de la suppression, du déplacement, du renommage, de la conversion et des autres opérations. Confirmer une opération ne remplace ni la vérification du choix ni les sauvegardes.</p>
+        <p>L’ouverture d’une image ou vidéo dépend du décodeur Android disponible, du codec et de l’état du fichier. L’extension seule ne garantit pas l’ouverture. L’archivage vidéo et audio conserve les octets d’origine et peut peu réduire la taille ; extrayez le fichier avant la lecture. Conservez le mot de passe HiddenVault et des sauvegardes indépendantes : la désinstallation supprime le coffre interne et le développeur ne peut pas récupérer un mot de passe oublié.</p>
+        <p>Les modes d’archivage plus rapides peuvent produire une archive plus volumineuse tout en préservant les octets d’origine. La vitesse et le taux de compression réels dépendent du format, du type de fichier et de l’appareil.</p>
+        <p>Les fichiers de cache inutilisés sont nettoyés automatiquement avec un budget commun de 20 Mio. Les copies de travail actives, les fichiers transmis à d’autres applications et les données nécessaires à la récupération peuvent temporairement occuper plus d’espace. Ils sont protégés pendant leur utilisation ; les fichiers temporaires devenus inutiles sont supprimés après leur libération et les copies de récupération sont conservées jusqu’à la fin de la récupération en toute sécurité.</p>
+      </section>
+      <section>
+        <h2>5. Corbeille</h2>
+        <p>Lorsque la corbeille est activée, FastFile peut déplacer les fichiers supprimés vers .fastfile_trash. Si la corbeille est désactivée, vidée ou si un fichier est définitivement supprimé, la récupération via l&#39;application peut être impossible.</p>
+      </section>
+      <section>
+        <h2>6. Ouverture et partage de fichiers</h2>
+        <p>Lorsque l&#39;utilisateur choisit Ouvrir dans une autre application, Partager, Installation d&#39;APK ou accès HTTPS local protégé, le fichier est géré par l&#39;application, le composant du système Android ou le périphérique de réseau local sélectionné par l&#39;utilisateur. FastFile ne contrôle pas les actions des applications tierces après le transfert des données.</p>
+        <p>L’utilisateur démarre lui-même l’accès réseau local et contrôle son utilisation. Accordez l’accès seulement à des appareils fiables sur un réseau de confiance et arrêtez-le après usage. Cela vaut aussi pour la diffusion sur TV choisie ; son flux HTTP local n’équivaut pas à un accès HTTPS.</p>
+        <p>Après un transfert via les fonctions système Android, FastFile n’est pas responsable du traitement ultérieur des fichiers par les applications tierces, qui dépend de leurs règles et autorisations. L’utilisateur choisit le destinataire et le mode de transfert.</p>
+        <p>Les plugins facultatifs sont des applications distinctes. Autorisez seulement les opérations nécessaires après avoir examiné le développeur déclaré, le paquet, la version, les certificats de signature et les autorisations demandées. Chaque opération sur le fichier choisi nécessite une confirmation. Les plugins inconnus ne sont pas officiels et disposent d’opérations FastFile limitées. Consultez la politique du destinataire et vérifiez ses résultats avant de les utiliser. Révoquer l’accès à FastFile empêche de nouveaux accès par API et arrête les transferts de FastFile, sans effacer les données déjà transmises ni révoquer les autorisations Android du plugin. Une signature valide ou un niveau de confiance ne garantit pas un traitement sûr et correct.</p>
+      </section>
+      <section>
+        <h2>7. Limites de responsabilité</h2>
+        <p>FastFile est fourni comme outil pour le travail sur les fichiers locaux. L&#39;utilisateur est responsable de la sécurité des données, des sauvegardes et des conséquences des opérations sur les fichiers sélectionnés.</p>
+        <p>L’application ne sauvegarde pas toutes les données de l’utilisateur et ne garantit pas leur récupération après chaque opération ou panne système. L’utilisateur reste responsable de ses données et sauvegardes ; les restrictions système peuvent affecter le résultat.</p>
+        <p>Ces conditions ne limitent pas les droits des consommateurs ni la responsabilité du développeur qui ne peuvent être exclus ou limités selon le droit applicable.</p>
+      </section>
+      <section>
+        <h2>8. Mises à jour et modifications des conditions</h2>
+        <p>FastFile peut rechercher des mises à jour via Google Play. Si une nouvelle version est disponible, l’application peut afficher un écran de mise à jour obligatoire avec un lien vers Google Play. Ces conditions peuvent changer avec les fonctions, les diagnostics Firebase, les outils de fichiers ou les exigences Google Play. Continuer à utiliser FastFile après une mise à jour signifie accepter les conditions actuelles affichées dans l’application ou sur le site du développeur.</p>
+      </section>
+      <section>
+        <h2>9. Diagnostics et services tiers</h2>
+        <p>FastFile peut utiliser Firebase Crashlytics, Firebase Performance Monitoring et Firebase Remote Config pour les diagnostics, l’analyse des performances et la configuration à distance. Firebase peut traiter des données techniques selon la politique de confidentialité. Le réglage Utilisation et diagnostics peut être modifié sur l’écran de rapport de bug.</p>
+        <p>Google Firebase fournit ces services techniques ; Firebase Analytics est aussi utilisé lorsque les diagnostics sont activés. La politique de confidentialité décrit les données, finalités, choix et stockage. Désactiver les diagnostics ne supprime pas les données déjà transmises aux services.</p>
+      </section>
+      <section>
+        <h2>10. Contacts</h2>
+        <p>Développeur : SoloDeveloperHelp<br>
+          Email : <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+    <article id="pl" lang="pl">
+      <div class="language">Polski</div>
+      <h1>Warunki użytkowania</h1>
+      <p class="date">Data aktualizacji: 2026-11-13</p>
+      <section>
+        <h2>1. Cel aplikacji</h2>
+        <p>FastFile jest przeznaczony do lokalnego przeglądania plików, zarządzania folderami, wyszukiwania, otwierania, kopiowania, przenoszenia, zmiany nazwy, usuwania, pakowania, wyodrębniania, konwersji, instalacji APK/APKS/XAPK/APKM i dostępu do plików w sieci lokalnej po uruchomieniu przez użytkownika.</p>
+      </section>
+      <section>
+        <h2>2. Korzystanie z aplikacji</h2>
+        <p>Użytkownik zgadza się korzystać z FastFile zgodnie z prawem i jest odpowiedzialny za pliki, które przechowuje, otwiera, kopiuje, przenosi, archiwizuje, wyodrębnia, usuwa lub przesyła za pośrednictwem funkcji systemu Android.</p>
+      </section>
+      <section>
+        <h2>3. Uprawnienia i ograniczenia urządzenia</h2>
+        <p>Działanie FastFile zależy od wersji Androida, uprawnień systemowych, stanu pamięci, systemu plików, oprogramowania producenta i ograniczeń bezpieczeństwa urządzenia. Pełny menedżer plików może wymagać MANAGE_EXTERNAL_STORAGE. Narzędzia APK mogą wymagać REQUEST_INSTALL_PACKAGES i widoczności zainstalowanych aplikacji.</p>
+        <p>Zgodność i dostępność funkcji zależą również od producenta, modelu urządzenia, wersji Androida, oprogramowania układowego, systemu plików i ograniczeń systemowych. Niektóre funkcje mogą być ograniczone lub niedostępne na określonych urządzeniach.</p>
+        <p>Lokalne kontrole integralności mogą blokować zwykłe funkcje po potwierdzeniu modyfikacji FastFile; nieukończona kontrola może wymagać ponownej próby. Te kontrole nie wymagają serwera twórcy. Sam dostęp Root nie jest uznawany za dowód modyfikacji. Żaden środek ochrony nie gwarantuje bezpieczeństwa każdego pliku, wtyczki lub urządzenia.</p>
+      </section>
+      <section>
+        <h2>4. Operacje na plikach</h2>
+        <p>Przed kopiowaniem, przenoszeniem, zmianą nazwy, pakowaniem, wyodrębnianiem, konwertowaniem lub usuwaniem plików użytkownik powinien upewnić się, że wybrano właściwe elementy i utworzono kopię zapasową ważnych danych.</p>
+        <p>Użytkownik odpowiada za prawidłowy wybór plików i folderów, kopie ważnych danych oraz skutki usuwania, przenoszenia, zmiany nazw, konwersji i innych operacji. Potwierdzenie operacji nie zastępuje sprawdzenia wyboru ani wykonania kopii.</p>
+        <p>Otwieranie obrazu lub filmu zależy od dostępnego dekodera Androida, kodeka i stanu pliku. Samo rozszerzenie nie gwarantuje otwarcia. Archiwizacja wideo i audio zachowuje oryginalne bajty i może nieznacznie zmniejszyć rozmiar; wypakuj plik przed odtwarzaniem. Zachowaj hasło HiddenVault i niezależne kopie zapasowe: odinstalowanie usuwa wewnętrzny sejf, a twórca nie może odzyskać zapomnianego hasła.</p>
+        <p>Szybsze tryby pakowania mogą tworzyć większe archiwum z zachowaniem oryginalnych bajtów. Rzeczywista szybkość i stopień kompresji zależą od formatu, typu pliku i urządzenia.</p>
+        <p>Nieużywane pliki pamięci podręcznej są automatycznie usuwane w ramach wspólnego limitu 20 MiB. Aktywne kopie robocze, pliki przekazane innym aplikacjom i dane potrzebne do odzyskiwania mogą tymczasowo zajmować więcej miejsca. Są chronione podczas używania; zbędne pliki tymczasowe są usuwane po zwolnieniu, a kopie do odzyskiwania pozostają do bezpiecznego zakończenia odzyskiwania.</p>
+      </section>
+      <section>
+        <h2>5. Kosz</h2>
+        <p>Po włączeniu kosza FastFile może przenosić usunięte pliki do .fastfile_trash. Jeśli kosz zostanie wyłączony, opróżniony lub plik zostanie trwale usunięty, odzyskanie za pomocą aplikacji może być niemożliwe.</p>
+      </section>
+      <section>
+        <h2>6. Otwieranie i udostępnianie plików</h2>
+        <p>Jeśli użytkownik wybierze opcję Otwórz w innej aplikacji, udostępnij, zainstaluj plik APK lub chroniony lokalny dostęp HTTPS, plik będzie obsługiwany przez wybraną przez użytkownika aplikację, komponent systemu Android lub urządzenie w sieci lokalnej. FastFile nie kontroluje działań aplikacji innych firm po przesłaniu danych.</p>
+        <p>Użytkownik sam uruchamia lokalny dostęp sieciowy i kontroluje jego użycie. Dostęp należy udostępniać tylko zaufanym urządzeniom w zaufanej sieci i kończyć po użyciu. Dotyczy to też wybranego przesyłania na TV; jego lokalny strumień HTTP nie jest równoważny dostępowi HTTPS.</p>
+        <p>Po przekazaniu przez funkcje systemowe Androida FastFile nie odpowiada za dalsze przetwarzanie plików przez inne aplikacje, które zależy od ich zasad i uprawnień. Użytkownik wybiera odbiorcę i sposób przekazania.</p>
+        <p>Opcjonalne wtyczki są oddzielnymi aplikacjami. Zezwalaj tylko na potrzebne operacje po sprawdzeniu zadeklarowanego twórcy, pakietu, wersji, certyfikatów podpisu i żądanych uprawnień. Każda operacja na wybranym pliku wymaga potwierdzenia. Nieznane wtyczki nie są oficjalne i mają ograniczony dostęp do operacji FastFile. Zapoznaj się z polityką odbiorcy i sprawdzaj wyniki przed użyciem. Cofnięcie dostępu do FastFile kończy nowe dostępy przez API i przesyłanie przez FastFile, ale nie usuwa już przekazanych danych ani nie cofa uprawnień Androida wtyczki. Poprawny podpis lub poziom zaufania nie gwarantuje bezpiecznego i prawidłowego przetwarzania.</p>
+      </section>
+      <section>
+        <h2>7. Limity odpowiedzialności</h2>
+        <p>FastFile jest narzędziem do lokalnej pracy z plikami. Użytkownik jest odpowiedzialny za bezpieczeństwo danych, kopie zapasowe i konsekwencje wybranych operacji na plikach.</p>
+        <p>Aplikacja nie wykonuje kopii wszystkich danych użytkownika i nie gwarantuje odzyskania po każdej operacji lub awarii systemu. Użytkownik odpowiada za swoje dane i kopie; ograniczenia systemowe mogą wpływać na wynik działania narzędzia.</p>
+        <p>Warunki te nie ograniczają praw konsumenta ani odpowiedzialności twórcy, których nie można wyłączyć lub ograniczyć na mocy obowiązującego prawa.</p>
+      </section>
+      <section>
+        <h2>8. Aktualizacje i zmiany warunków</h2>
+        <p>FastFile może sprawdzać aktualizacje przez Google Play. Jeśli dostępna jest nowa wersja, aplikacja może wyświetlić ekran wymaganej aktualizacji z linkiem do Google Play. Warunki mogą zmieniać się wraz z funkcjami aplikacji, diagnostyką Firebase, narzędziami plikowymi lub wymaganiami Google Play. Dalsze korzystanie po aktualizacji oznacza akceptację aktualnych warunków w aplikacji lub na stronie programisty.</p>
+      </section>
+      <section>
+        <h2>9. Diagnostyka i usługi zewnętrzne</h2>
+        <p>FastFile może korzystać z Firebase Crashlytics, Firebase Performance Monitoring i Firebase Remote Config do diagnostyki, analizy wydajności i zdalnej konfiguracji. Firebase może przetwarzać dane techniczne zgodnie z polityką prywatności. Ustawienie Użytkowanie i diagnostyka można zmienić na ekranie zgłaszania błędu.</p>
+        <p>Dostawcą tych usług technicznych jest Google Firebase; przy włączonej diagnostyce używany jest również Firebase Analytics. Dane, cele, wybory i przechowywanie opisano w polityce prywatności. Wyłączenie diagnostyki nie usuwa danych już przekazanych usługom.</p>
+      </section>
+      <section>
+        <h2>10. Kontakty</h2>
+        <p>Deweloper: SoloDeveloperHelp<br>
+          Email: <a href="mailto:solo.developer.help@gmail.com">solo.developer.help@gmail.com</a></p>
+      </section>
+    </article>
+  </main>
 </body>
 </html>
